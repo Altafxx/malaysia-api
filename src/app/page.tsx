@@ -62,7 +62,7 @@ export default function Home() {
       <br /> */}
 
       <h2>Issues and Feedback</h2>
-      <p>If you encounter any issues or have feedback, please <b><i><a href='https://github.com/Altafxx/malaysia-api/issues'></a>open an issue</i></b>.</p>
+      <p>If you encounter any issues or have feedback, please <b><i><a href='https://github.com/Altafxx/malaysia-api/issues'>open an issue</a></i></b>.</p>
       <br />
 
       {/* <h2>License</h2>

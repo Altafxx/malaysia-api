@@ -1,113 +1,79 @@
-import Image from 'next/image'
+import Terminal from "./components/terminal"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+      <h1>Malaysia API</h1>
+      <hr />
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <br />
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <h2>Overview</h2>
+      <p>Malaysia API is an open-source project built with Next.js that aims to centralize and provide easy access to various open data from the government of Malaysia. The project combines data from different sources, offering a unified platform for developers, researchers, and the public to access valuable information seamlessly.</p>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <br />
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+      <h2>Features</h2>
+      <ul>
+        <li><b>Consolidated Data:</b> Malaysia API brings together open data from various sectors of the Malaysian government, making it convenient for users to access a wide range of information in one place.</li>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div> */}
+        <li><b>Developer-Friendly:</b> Built with Next.js, the project provides a developer-friendly environment for contributors to enhance and extend its capabilities.</li>
+      </ul>
+
+      <br />
+
+      <h2>NPM Packages Being Used</h2>
+      <ol>
+        <li>
+          <b><a href='https://www.npmjs.com/package/mykad'>mykad:</a></b> A package for working with Malaysian identification card (MyKad) information.</li>
+      </ol>
+
+
+      <br />
+
+      <h2>GitHub Repository</h2>
+      <ol>
+        <li><b><a href='https://github.com/lomotech/jajahan'>jajahan</a></b> by <b><a href='https://github.com/lomotech'>lomotech</a></b> - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.</li>
+      </ol>
+
+      <br />
+
+      <h2>Government Open Data Sources</h2>
+      <ol>
+        <li><b><a href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</a></b> Explore public sector open data from the Malaysian government at <b><i><a href='https://developer.data.gov.my'>developer.data.gov.my.</a></i></b></li>
+        <li><b><a href='https://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</a></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><a href='https://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</a></i></b></li>
+      </ol>
+      <br />
+
+      <h2>Getting Started</h2>
+      <ol>
+        <li>Clone the repository:</li>
+        <Terminal text={["git clone https://github.com/Altafxx/malaysia-api.git"]} />
+        <li>Install dependencies:</li>
+        <Terminal text={["cd malaysia-api", "npm install"]} />
+        <li>Run the development server:</li>
+        <Terminal text={["npm run dev"]} />
+        <li>Open your browser and visit <b><i><a href='http://localhost:3000'>http://localhost:3000</a></i></b> to explore Malaysia API.</li>
+      </ol>
+      <br />
+
+      {/* <h2>Contribution Guidelines</h2>
+      <p>We welcome and encourage contributions from the community. If you would like to contribute, please follow our <b><i><a href='https://github.com/Altafxx/malaysia-api/blob/main/CONTRIBUTING.md'>contribution guidelines</a></i></b>.</p>
+      <br /> */}
+
+      <h2>Issues and Feedback</h2>
+      <p>If you encounter any issues or have feedback, please <b><i><a href='https://github.com/Altafxx/malaysia-api/issues'></a>open an issue</i></b>.</p>
+      <br />
+
+      {/* <h2>License</h2>
+      <p>This project is licensed under the <b><i><a href='https://github.com/Altafxx/malaysia-api/blob/main/LICENSE'></a></i></b>MIT License.</p>
+      <br /> */}
+
+      <hr />
+      <br />
+
+      <p>Thank you for your interest in Malaysia API! We hope this project serves as a valuable resource for accessing Malaysian government data.</p>
+
     </main>
   )
 }

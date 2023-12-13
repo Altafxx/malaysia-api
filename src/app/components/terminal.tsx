@@ -20,10 +20,10 @@ export default function Terminal(props: any) {
     }
 
     return (
-        <div className={`relative container rounded-md p-2 mb-5 ${isCopied ? 'bg-gray-800' : 'bg-purple-100/10'} flex col-auto content-between`}>
-            <div>
+        <div className={`relative container rounded-md p-2 mb-5 mt-2 ${isCopied ? 'bg-gray-800' : 'bg-purple-100/10'} flex col-auto content-between`}>
+            <div className="max-w-full overflow-x-auto">
                 {props.text.map((line: string, index: number) => (
-                    <div className={isCopied ? 'text-transparent' : textFont.className} key={index}>{line}</div>
+                    <div className={`${isCopied ? 'text-transparent' : textFont.className} whitespace-pre-wrap mb-1`} key={index}>{line}</div>
                 ))}
             </div>
             {isCopied && (

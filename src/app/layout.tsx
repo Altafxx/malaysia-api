@@ -6,7 +6,7 @@ const textFont = Sansita({ weight: ["400", "700", "900"], subsets: ['latin'], di
 
 export const metadata: Metadata = {
   title: 'Malaysia API',
-  description: 'Centralize open data from the government of Malaysia',
+  description: 'Centralize open data of Malaysia',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${textFont.className}, min-h-screen p-24`}>{children}</body>
+      <body className={`${textFont.className}, min-h-screen text-justify py-12 px-8 md:px-12 xl:px-24`}>{children}</body>
     </html>
   )
 }

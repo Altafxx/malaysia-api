@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Nova_Square } from 'next/font/google';
 
 const textFont = Nova_Square({
@@ -23,6 +23,18 @@ export default function Navbar() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    useEffect(() => {
+        const handleBodyOverflow = () => {
+            document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
+        };
+
+        handleBodyOverflow();
+
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [isMenuOpen]);
 
     return (
         <header className="min-w-max bg-white h-12 text-center">
@@ -63,7 +75,7 @@ export default function Navbar() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="absolute top-2 right-7 cursor-pointer" onClick={toggleMenu}>
+                        <div className="absolute top-2 right-7 cursor-pointer h-full" onClick={toggleMenu}>
                             {cross}
                         </div>
                     </div>

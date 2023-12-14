@@ -21,7 +21,6 @@ export default function Footer() {
                     <div className="ml-2">GitHub</div>
                 </a>
             </div>
-            {/* <div className='flex justify-between text-start px-8 md:px-12 xl:px-24 mt-5'> */}
             <div className='grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-2 sm:md:grid-cols-1 text-start gap-4 px-8 md:px-12 xl:px-24 mt-5'>
                 <div>
                     <h3>Realtime</h3>

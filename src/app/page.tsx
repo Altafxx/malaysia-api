@@ -4,22 +4,17 @@ export default function Home() {
   return (
     <main>
       <h1>Malaysia API</h1>
-      <hr />
-
-      <br />
+      <hr /><br />
 
       <h2>Overview</h2>
       <p>Malaysia API is an open-source project built with Next.js that aims to centralize and provide easy access to various open data from the government of Malaysia. The project combines data from different sources, offering a unified platform for developers, researchers, and the public to access valuable information seamlessly.</p>
-
       <br />
 
       <h2>Features</h2>
       <ul>
         <li><b>Consolidated Data:</b> Malaysia API brings together open data from various sectors of the Malaysian government, making it convenient for users to access a wide range of information in one place.</li>
-
         <li><b>Developer-Friendly:</b> Built with Next.js, the project provides a developer-friendly environment for contributors to enhance and extend its capabilities.</li>
       </ul>
-
       <br />
 
       <h2>NPM Packages Being Used</h2>
@@ -27,15 +22,12 @@ export default function Home() {
         <li>
           <b><a href='https://www.npmjs.com/package/mykad'>mykad:</a></b> A package for working with Malaysian identification card (MyKad) information.</li>
       </ol>
-
-
       <br />
 
       <h2>GitHub Repository</h2>
       <ol>
         <li><b><a href='https://github.com/lomotech/jajahan'>jajahan</a></b> by <b><a href='https://github.com/lomotech'>lomotech</a></b> - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.</li>
       </ol>
-
       <br />
 
       <h2>Government Open Data Sources</h2>
@@ -68,12 +60,9 @@ export default function Home() {
       {/* <h2>License</h2>
       <p>This project is licensed under the <b><i><a href='https://github.com/Altafxx/malaysia-api/blob/main/LICENSE'></a></i></b>MIT License.</p>
       <br /> */}
-
-      <hr />
-      <br />
+      <hr /><br />
 
       <p>Thank you for your interest in Malaysia API! We hope this project serves as a valuable resource for accessing Malaysian government data.</p>
-
     </main>
   )
 }

@@ -1,7 +1,9 @@
-export async function GET(req: any, res: any) {
+export async function GET(req: Request, res: Response) {
+    const { searchParams } = new URL(req.url)
+
     try {
         const mykad = require('mykad');
-        const id = req.nextUrl.searchParams.get('id')
+        const id = searchParams.get('id')
 
         if (!mykad.isValid(id)) {
             return Response.json({ message: "Invalid MyKad format" })

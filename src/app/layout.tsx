@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from './components/navbar'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Malaysia API',
@@ -19,6 +20,7 @@ export default function RootLayout({
         <main className='py-12 px-8 md:px-12 xl:px-24'>
           {children}
         </main>
+        <SpeedInsights />
       </body>
     </html>
   )

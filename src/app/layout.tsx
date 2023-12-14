@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { Sansita } from 'next/font/google'
 import './globals.css'
-
-const textFont = Sansita({ weight: ["400", "700", "900"], subsets: ['latin'], display: "swap" })
+import Navbar from './components/navbar'
 
 export const metadata: Metadata = {
   title: 'Malaysia API',
@@ -16,7 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${textFont.className}, min-h-screen text-justify py-12 px-8 md:px-12 xl:px-24`}>{children}</body>
+      <body className={`min-h-screen text-justify`}>
+        <Navbar />
+        <main className='py-12 px-8 md:px-12 xl:px-24'>
+          {children}
+        </main>
+      </body>
     </html>
   )
 }

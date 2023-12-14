@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
     "axios": "^1.6.2",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.2.0",

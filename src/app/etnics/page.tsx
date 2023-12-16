@@ -1,13 +1,18 @@
-async function getData() {
-    const res = await fetch('http://localhost:3000/api/etnics')
+import { NextRequest } from "next/server";
+
+async function getData(req: NextRequest) {
+    const url = req.url
+    console.log(url)
+    const res = await fetch(`${process.env.URL}/api/etnics`)
 
     if (!res.ok) throw new Error('Failed to fetch data')
 
     return res.json()
 }
 
-export default async function Etnics() {
-    const data = await getData();
+export default async function Etnics(req: NextRequest) {
+    const data = await getData(req);
+    console.log(req.nextUrl)
 
     if (!Array.isArray(data.etnics)) {
         return <div className="text-center">Invalid data format</div>;

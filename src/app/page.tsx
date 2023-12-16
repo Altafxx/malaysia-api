@@ -1,8 +1,8 @@
-import Terminal from "./components/terminal"
+import Terminal from "../components/terminal"
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <h1>Malaysia API</h1>
       <hr /><br />
 
@@ -63,6 +63,6 @@ export default function Home() {
       <hr /><br />
 
       <p>Thank you for your interest in Malaysia API! We hope this project serves as a valuable resource for accessing Malaysian government data.</p>
-    </main>
+    </div>
   )
 }

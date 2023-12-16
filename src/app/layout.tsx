@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import Navbar from './components/navbar'
-import Footer from './components/footer'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -31,9 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen text-justify`}>
+      <body className={`min-h-screen flex flex-col text-justify`}>
         <Navbar />
-        <main className='py-12 px-8 md:px-12 xl:px-24'>
+        <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto'>
           {children}
         </main>
         <Analytics />

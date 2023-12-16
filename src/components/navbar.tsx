@@ -79,7 +79,6 @@ export default function Navbar() {
                             {cross}
                         </div>
                     </div>
-
                 )}
             </div>
         </header>

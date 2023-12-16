@@ -1,5 +1,4 @@
 "use client"
-import Terminal from "@/components/terminal"
 
 const handleSubmit = async (event: any) => {
     event.preventDefault();
@@ -44,8 +43,6 @@ const handleSubmit = async (event: any) => {
 
     return null;
 };
-
-
 
 export default function MyKadChecker() {
     return (

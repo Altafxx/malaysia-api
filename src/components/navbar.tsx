@@ -71,7 +71,7 @@ export default function Navbar() {
                             <div>
                                 <h3>Generic</h3>
                                 <ul>
-                                    <li><a href='/api/ethnics' className='block hover:font-bold'>ethnics</a></li>
+                                    <li><a href='/api/ethnics' className='block hover:font-bold'>Ethnics</a></li>
                                 </ul>
                             </div>
                         </div>

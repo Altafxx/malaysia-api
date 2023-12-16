@@ -1,5 +1,5 @@
 async function getData() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_VERCEL_URL}/api/ethnics`)
+    const res = await fetch(`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/api/ethnics`)
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

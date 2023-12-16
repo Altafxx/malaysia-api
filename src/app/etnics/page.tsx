@@ -1,13 +1,7 @@
-async function getData() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/etnics`)
+import etnics from '@/dataset/etnics.json';
 
-    if (!res.ok) throw new Error('Failed to fetch data')
-
-    return res.json()
-}
-
-export default async function Etnics() {
-    const data = await getData();
+export default function Etnics() {
+    const data = etnics;
 
     if (!Array.isArray(data.etnics)) {
         return <div className="text-center">Invalid data format</div>;

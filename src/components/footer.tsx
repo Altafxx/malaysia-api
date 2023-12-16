@@ -44,12 +44,6 @@ export default function Footer() {
                         <li>Ethnics</li>
                     </ul>
                 </div>
-                <div>
-                    <h3>Generic</h3>
-                    <ul>
-                        <li>Ethnics</li>
-                    </ul>
-                </div>
             </div>
         </footer>
     );

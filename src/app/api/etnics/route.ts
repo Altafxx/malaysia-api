@@ -1,4 +1,4 @@
-import data from '@/app/dataset/races.json';
+import data from '@/dataset/etnics.json';
 
 export async function GET(req: any, res: any) {
     try {

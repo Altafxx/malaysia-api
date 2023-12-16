@@ -31,9 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen text-justify`}>
+      <body className={`min-h-screen flex flex-col text-justify`}>
         <Navbar />
-        <main className='py-12 px-8 md:px-12 xl:px-24'>
+        <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto'>
           {children}
         </main>
         <Analytics />

@@ -41,7 +41,7 @@ export default function Footer() {
                 <div>
                     <h3>Generic</h3>
                     <ul>
-                        <li>Ethnics</li>
+                        <li>ethnics</li>
                     </ul>
                 </div>
             </div>

@@ -1,8 +1,4 @@
-import { NextRequest } from "next/server";
-
-async function getData(req: NextRequest) {
-    const url = req.url
-    console.log(url)
+async function getData() {
     const res = await fetch(`${process.env.URL}/api/etnics`)
 
     if (!res.ok) throw new Error('Failed to fetch data')
@@ -10,9 +6,8 @@ async function getData(req: NextRequest) {
     return res.json()
 }
 
-export default async function Etnics(req: NextRequest) {
-    const data = await getData(req);
-    console.log(req.nextUrl)
+export default async function Etnics() {
+    const data = await getData();
 
     if (!Array.isArray(data.etnics)) {
         return <div className="text-center">Invalid data format</div>;

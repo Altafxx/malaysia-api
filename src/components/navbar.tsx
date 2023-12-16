@@ -47,7 +47,7 @@ export default function Navbar() {
                 </div>
                 <div className={`hidden sm:block text-black ml-4 ${isMenuOpen ? 'hidden' : 'block'}`}>
                     <a href='/api/mykad-checker?id=451214-03-6557' className='hover:font-bold'>MyKad Parser</a>
-                    <a href='/api/races' className='ml-4 hover:font-bold'>ethnics</a>
+                    <a href='/api/races' className='ml-4 hover:font-bold'>Ethnics</a>
                 </div>
                 {isMenuOpen && (
                     <div className="sm:hidden text-black absolute top-0 left-0 right-0 bottom-0 bg-white z-10">

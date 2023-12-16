@@ -1,7 +1,13 @@
-import ethnic from '@/dataset/ethnics.json'
+async function getData() {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_VERCEL_URL}/api/etnics`)
 
-export default function ethnics() {
-    const data = ethnic;
+    if (!res.ok) throw new Error('Failed to fetch data')
+
+    return res.json()
+}
+
+export default async function ethnics() {
+    const data = await getData()
 
     if (!Array.isArray(data.ethnics)) {
         return <div className="text-center">Invalid data format</div>;

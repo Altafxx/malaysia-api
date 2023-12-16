@@ -1,5 +1,5 @@
 async function getData() {
-    const res = await fetch(`${process.env.URL}/api/etnics`)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/etnics`)
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

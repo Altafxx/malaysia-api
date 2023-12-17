@@ -33,7 +33,7 @@ export default function Home() {
       <h2>Government Open Data Sources</h2>
       <ol>
         <li><b><a href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</a></b> Explore public sector open data from the Malaysian government at <b><i><a href='https://developer.data.gov.my'>developer.data.gov.my.</a></i></b></li>
-        <li><b><a href='https://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</a></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><a href='https://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</a></i></b></li>
+        <li><b><a href='http://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</a></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><a href='http://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</a></i></b></li>
       </ol>
       <br />
 

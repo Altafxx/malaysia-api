@@ -1,6 +1,6 @@
 import ethnic from '@/dataset/ethnics.json'
 
-export default function ethnics() {
+export default function Ethnics() {
     const data = ethnic;
 
     if (!Array.isArray(data.ethnics)) {

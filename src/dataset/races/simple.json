@@ -1,0 +1,44 @@
+{
+    "ethnics": [
+        {
+            "id": "0100",
+            "name": "melayu",
+            "translations": [
+                "melayu",
+                "malay",
+                "மலாய்",
+                "马来语"
+            ]
+        },
+        {
+            "id": "0200",
+            "name": "cina",
+            "translations": [
+                "cina",
+                "chinese",
+                "சீன",
+                "中国人"
+            ]
+        },
+        {
+            "id": "0300",
+            "name": "india",
+            "translations": [
+                "india",
+                "indian",
+                "இந்தியன்",
+                "印度人"
+            ]
+        },
+        {
+            "id": "0400",
+            "name": "lain-lain",
+            "translations": [
+                "lain-lain",
+                "others",
+                "மற்றவைகள்",
+                "印度人"
+            ]
+        }
+    ]
+}

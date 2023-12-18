@@ -51,7 +51,7 @@ export default async function KTMB() {
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
                         <p><b>{item.vehicle.vehicle.label}</b></p>
                         <p>Last Updated: {date(item.vehicle.timestamp).toString()}</p>
-                        <p>Last Updated: { }</p>
+                        <p>Last Updated: {temp(item.vehicle.timestamp).toString()}</p>
                         <div className="relative">
                             <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
                                 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />

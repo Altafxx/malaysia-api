@@ -1,4 +1,5 @@
 import Terminal from "../components/terminal"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -20,20 +21,20 @@ export default function Home() {
       <h2>NPM Packages Being Used</h2>
       <ol>
         <li>
-          <b><a href='https://www.npmjs.com/package/mykad'>mykad:</a></b> A package for working with Malaysian identification card (MyKad) information.</li>
+          <b><Link href='https://www.npmjs.com/package/mykad'>mykad:</Link></b> A package for working with Malaysian identification card (MyKad) information.</li>
       </ol>
       <br />
 
       <h2>GitHub Repository</h2>
       <ol>
-        <li><b><a href='https://github.com/lomotech/jajahan'>jajahan</a></b> by <b><a href='https://github.com/lomotech'>lomotech</a></b> - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.</li>
+        <li><b><Link href='https://github.com/lomotech/jajahan'>jajahan</Link></b> by <b><Link href='https://github.com/lomotech'>lomotech</Link></b> - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.</li>
       </ol>
       <br />
 
       <h2>Government Open Data Sources</h2>
       <ol>
-        <li><b><a href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</a></b> Explore public sector open data from the Malaysian government at <b><i><a href='https://developer.data.gov.my'>developer.data.gov.my.</a></i></b></li>
-        <li><b><a href='https://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</a></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><a href='https://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</a></i></b></li>
+        <li><b><Link href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</Link></b> Explore public sector open data from the Malaysian government at <b><i><Link href='https://developer.data.gov.my'>developer.data.gov.my.</Link></i></b></li>
+        <li><b><Link href='http://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</Link></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><Link href='http://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</Link></i></b></li>
       </ol>
       <br />
 
@@ -45,20 +46,20 @@ export default function Home() {
         <Terminal text={["cd malaysia-api", "npm install"]} />
         <li>Run the development server:</li>
         <Terminal text={["npm run dev"]} />
-        <li>Open your browser and visit <b><i><a href='http://localhost:3000'>http://localhost:3000</a></i></b> to explore Malaysia API.</li>
+        <li>Open your browser and visit <b><i><Link href='http://localhost:3000'>http://localhost:3000</Link></i></b> to explore Malaysia API.</li>
       </ol>
       <br />
 
       {/* <h2>Contribution Guidelines</h2>
-      <p>We welcome and encourage contributions from the community. If you would like to contribute, please follow our <b><i><a href='https://github.com/Altafxx/malaysia-api/blob/main/CONTRIBUTING.md'>contribution guidelines</a></i></b>.</p>
+      <p>We welcome and encourage contributions from the community. If you would like to contribute, please follow our <b><i><Link href='https://github.com/Altafxx/malaysia-api/blob/main/CONTRIBUTING.md'>contribution guidelines</Link></i></b>.</p>
       <br /> */}
 
       <h2>Issues and Feedback</h2>
-      <p>If you encounter any issues or have feedback, please <b><i><a href='https://github.com/Altafxx/malaysia-api/issues'>open an issue</a></i></b>.</p>
+      <p>If you encounter any issues or have feedback, please <b><i><Link href='https://github.com/Altafxx/malaysia-api/issues'>open an issue</Link></i></b>.</p>
       <br />
 
       {/* <h2>License</h2>
-      <p>This project is licensed under the <b><i><a href='https://github.com/Altafxx/malaysia-api/blob/main/LICENSE'></a></i></b>MIT License.</p>
+      <p>This project is licensed under the <b><i><Link href='https://github.com/Altafxx/malaysia-api/blob/main/LICENSE'></Link></i></b>MIT License.</p>
       <br /> */}
       <hr /><br />
 

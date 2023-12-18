@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import { Nova_Square } from 'next/font/google';
+import Link from 'next/link';
 
 const textFont = Nova_Square({
     weight: '400',
@@ -40,14 +41,14 @@ export default function Navbar() {
         <header className="min-w-max bg-white h-12 text-center">
             <div className="flex justify-between items-center px-8 md:px-12 xl:px-24 h-full">
                 <div className={`${textFont.className} text-black text-lg hover:text-purple-800`}>
-                    <b><a href='/'>Malaysia API</a></b>
+                    <b><Link href={'/'}>Malaysia API</Link></b>
                 </div>
                 <div className='sm:invisible text-black cursor-pointer' onClick={toggleMenu}>
                     {menu}
                 </div>
                 <div className={`hidden sm:block text-black ml-4 ${isMenuOpen ? 'hidden' : 'block'}`}>
-                    <a href='/api/mykad-checker?id=451214-03-6557' className='hover:font-bold'>MyKad Parser</a>
-                    <a href='/api/races' className='ml-4 hover:font-bold'>Ethnics</a>
+                    <Link href='/mykad-checker' className='hover:font-bold'>MyKad Parser</Link>
+                    <Link href='/ethnics' className='ml-4 hover:font-bold'>Ethnics</Link>
                 </div>
                 {isMenuOpen && (
                     <div className="sm:hidden text-black absolute top-0 left-0 right-0 bottom-0 bg-white z-10">
@@ -55,23 +56,24 @@ export default function Navbar() {
                             <div>
                                 <h3>Realtime</h3>
                                 <ul>
-                                    <li><a href='/api/public-transports/realtime/ktmb' className='block hover:font-bold'>KTMB</a></li>
-                                    <li><a href='/api/public-transports/realtime/mybas-johor' className='block hover:font-bold'>MyBas Johor</a></li>
-                                    <li><a href='/api/public-transports/realtime/rapid-bus-kl' className='block hover:font-bold'>Rapid Bus KL</a></li>
-                                    <li><a href='/api/public-transports/realtime/rapid-bus-kuantan' className='block hover:font-bold'>Rapid Bus Kuantan</a></li>
-                                    <li><a href='/api/public-transports/realtime/rapid-bus-penang' className='block hover:font-bold'>Rapid Bus Penang</a></li>
+                                    <li>
+                                        <Link href='/public-transports/ktmb' className='block hover:font-bold'>KTMB</Link></li>
+                                    <li><Link href='/public-transports/mybas-johor' className='block hover:font-bold'>MyBas Johor</Link></li>
+                                    <li><Link href='/public-transports/rapid-bus-kl' className='block hover:font-bold'>Rapid Bus KL</Link></li>
+                                    <li><Link href='/public-transports/rapid-bus-kuantan' className='block hover:font-bold'>Rapid Bus Kuantan</Link></li>
+                                    <li><Link href='/public-transports/rapid-bus-penang' className='block hover:font-bold'>Rapid Bus Penang</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <h3>Tools</h3>
                                 <ul>
-                                    <li><a href='/api/mykad-checker?id=451214-03-6557' className='block hover:font-bold'>MyKad Parser</a></li>
+                                    <li><Link href='/mykad-checker' className='block hover:font-bold'>MyKad Parser</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <h3>Generic</h3>
                                 <ul>
-                                    <li><a href='/api/ethnics' className='block hover:font-bold'>Ethnics</a></li>
+                                    <li><Link href='/ethnics' className='block hover:font-bold'>Ethnics</Link></li>
                                 </ul>
                             </div>
                         </div>

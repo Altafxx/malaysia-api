@@ -1,7 +1,7 @@
 import getGeocode from "@/lib/googlemaps"
 
 async function getData() {
-    const res = await fetch(`${process.env.URL}/api/public-transports/realtime/ktmb`, { next: { revalidate: 3 } })
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/public-transports/realtime/ktmb`, { next: { revalidate: 3 } })
 
     if (!res.ok) throw new Error('Failed to fetch data')
 
@@ -20,32 +20,15 @@ export default async function KTMB() {
     const map = (lat: number, lng: number) => `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=18&size=600x300&maptype=roadmap&markers=color:red%7C${lat},${lng}&key=${apiKey}`;
 
     const date = (ts: number) => {
-        const time = new Date(ts * 1000);
+        const time = new Date(ts * 1000)
 
-        const timezoneOffset = 8 * 60;
-        time.setMinutes(time.getMinutes() + timezoneOffset);
+        var hours = time.getHours();
+        var minutes = "0" + time.getMinutes();
+        var seconds = "0" + time.getSeconds();
+        var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
 
-        const months = [
-            'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
-        ];
-
-        const year = time.getUTCFullYear();
-        const month = months[time.getUTCMonth()];
-        const day = time.getUTCDate();
-        const hours = time.getUTCHours();
-        const minutes = time.getUTCMinutes();
-
-        const timezoneAbbreviation = `(GMT${timezoneOffset >= 0 ? '+' : ''}${timezoneOffset / 60})`;
-
-        const formattedDate = `${month} ${day}, ${year} ${hours}:${minutes < 10 ? '0' : ''}${minutes} ${timezoneAbbreviation}`;
-
-        return formattedDate;
+        return formattedTime
     };
-
-
-
-    const temp = (ts: number) => new Date(ts * 1000)
 
     if (!Array.isArray(data.tripUpdates)) {
         return <div className="text-center">Invalid data format</div>;
@@ -66,7 +49,6 @@ export default async function KTMB() {
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
                         <p><b>{item.vehicle.vehicle.label}</b></p>
                         <p>Last Updated: {date(item.vehicle.timestamp).toString()}</p>
-                        <p>Last Updated: {temp(item.vehicle.timestamp).toString()}</p>
                         <div className="relative">
                             <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
                                 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />

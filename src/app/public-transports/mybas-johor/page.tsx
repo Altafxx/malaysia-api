@@ -20,14 +20,27 @@ export default async function MyBasJohor() {
     const map = (lat: number, lng: number) => `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=18&size=600x300&maptype=roadmap&markers=color:red%7C${lat},${lng}&key=${apiKey}`;
 
     const date = (ts: number) => {
-        const time = new Date(ts * 1000)
+        const time = new Date(ts * 1000);
 
-        var hours = time.getHours();
-        var minutes = "0" + time.getMinutes();
-        var seconds = "0" + time.getSeconds();
-        var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+        const timezoneOffset = 8 * 60;
+        time.setMinutes(time.getMinutes() + timezoneOffset);
 
-        return formattedTime
+        const months = [
+            'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+        ];
+
+        const year = time.getUTCFullYear();
+        const month = months[time.getUTCMonth()];
+        const day = time.getUTCDate();
+        const hours = time.getUTCHours();
+        const minutes = time.getUTCMinutes();
+
+        const timezoneAbbreviation = `(GMT${timezoneOffset >= 0 ? '+' : ''}${timezoneOffset / 60})`;
+
+        const formattedDate = `${month} ${day}, ${year} ${hours}:${minutes < 10 ? '0' : ''}${minutes} ${timezoneAbbreviation}`;
+
+        return formattedDate;
     };
 
     if (!Array.isArray(data.tripUpdates)) {
@@ -48,7 +61,7 @@ export default async function MyBasJohor() {
                 {data?.tripUpdates.sort((a: any, b: any) => a.vehicle.trip.routeId.localeCompare(b.vehicle.trip.routeId)).map((item: any, index: any) => (
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
                         <p><b>{item.vehicle.vehicle.id}</b></p>
-                        <p>Last Updated: {date(item.vehicle.timestamp).toString()}</p>
+                        <p>{date(item.vehicle.timestamp).toString()}</p>
                         <div className="relative">
                             <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
                                 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />

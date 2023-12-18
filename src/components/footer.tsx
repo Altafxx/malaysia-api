@@ -1,4 +1,5 @@
 import { Nova_Square } from 'next/font/google';
+import Link from 'next/link';
 
 const textFont = Nova_Square({
     weight: '400',
@@ -12,36 +13,36 @@ export default function Footer() {
         <footer className="min-w-max bg-black py-6 text-center ">
             <div className="flex justify-between items-center px-8 md:px-12 xl:px-24 h-full">
                 <div className={`${textFont.className} text-lg text-white hover:text-purple-800`}>
-                    <b><a href='/'>Malaysia API</a></b>
+                    <b><Link href={"/"}>Malaysia API</Link></b>
                 </div>
-                <a href='https://github.com/Altafxx/malaysia-api' className='flex items-center text-white ml-4 px-3 py-1 outline outline-2 outline-white rounded-lg'>
+                <Link href={'https://github.com/Altafxx/malaysia-api'} className='flex items-center text-white ml-4 px-3 py-1 outline outline-2 outline-white rounded-lg'>
                     <div>
                         {github}
                     </div>
                     <div className="ml-2">GitHub</div>
-                </a>
+                </Link>
             </div>
             <div className='grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-2 sm:md:grid-cols-1 text-start gap-4 px-8 md:px-12 xl:px-24 mt-5'>
                 <div>
                     <h3>Realtime</h3>
                     <ul>
-                        <li>KTMB</li>
-                        <li>MyBas Johor</li>
-                        <li>Rapid Bus KL</li>
-                        <li>Rapid Bus Kuantan</li>
-                        <li>Rapid Bus Penang</li>
+                        <li><Link href={"/public-transports/ktmb"}>KTMB</Link></li>
+                        <li><Link href={"/public-transports/mybas-johor"}>MyBas Johor</Link></li>
+                        <li><Link href={"/public-transports/rapid-bus-kl"}>Rapid Bus KL</Link></li>
+                        <li><Link href={"/public-transports/rapid-bus-kuantan"}>Rapid Bus Kuantan</Link></li>
+                        <li><Link href={"/public-transports/rapid-bus-penang"}>Rapid Bus Penang</Link></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Tools</h3>
                     <ul>
-                        <li>MyKad Parser</li>
+                        <li><Link href={"/mykad-checker"}>MyKad Parser</Link></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Generic</h3>
                     <ul>
-                        <li>Ethnics</li>
+                        <li><Link href={"/ethnics"}>Ethnics</Link></li>
                     </ul>
                 </div>
             </div>

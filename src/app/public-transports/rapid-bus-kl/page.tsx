@@ -1,7 +1,7 @@
 import getGeocode from "@/lib/googlemaps"
 
 async function getData() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_VERCEL_URL}/api/public-transports/realtime/rapid-bus-kl`, { next: { revalidate: 3 } })
+    const res = await fetch(`${process.env.URL}/api/public-transports/realtime/rapid-bus-kl`, { next: { revalidate: 3 } })
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

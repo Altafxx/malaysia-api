@@ -20,7 +20,10 @@ export default async function KTMB() {
     const map = (lat: number, lng: number) => `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=18&size=600x300&maptype=roadmap&markers=color:red%7C${lat},${lng}&key=${apiKey}`;
 
     const date = (ts: number) => {
-        const time = new Date(ts * 1000 + 8 * 60 * 60 * 1000);
+        const time = new Date(ts * 1000);
+
+        const timezoneOffset = 8 * 60;
+        time.setMinutes(time.getMinutes() + timezoneOffset);
 
         const months = [
             'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
@@ -33,10 +36,13 @@ export default async function KTMB() {
         const hours = time.getUTCHours();
         const minutes = time.getUTCMinutes();
 
-        const formattedDate = `${month} ${day}, ${year} ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
+        const timezoneAbbreviation = `(GMT${timezoneOffset >= 0 ? '+' : ''}${timezoneOffset / 60})`;
+
+        const formattedDate = `${month} ${day}, ${year} ${hours}:${minutes < 10 ? '0' : ''}${minutes} ${timezoneAbbreviation}`;
 
         return formattedDate;
     };
+
 
 
     const temp = (ts: number) => new Date(ts * 1000)

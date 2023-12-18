@@ -30,6 +30,8 @@ export default async function KTMB() {
         return formattedTime
     };
 
+    const temp = (ts: number) => new Date(ts * 1000)
+
     if (!Array.isArray(data.tripUpdates)) {
         return <div className="text-center">Invalid data format</div>;
     }
@@ -49,7 +51,7 @@ export default async function KTMB() {
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
                         <p><b>{item.vehicle.vehicle.label}</b></p>
                         <p>Last Updated: {date(item.vehicle.timestamp).toString()}</p>
-                        <p>Last Updated: {item.vehicle.timestamp}</p>
+                        <p>Last Updated: { }</p>
                         <div className="relative">
                             <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
                                 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />

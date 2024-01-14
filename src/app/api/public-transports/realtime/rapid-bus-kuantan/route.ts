@@ -1,4 +1,5 @@
 import GTFSRealtimeBindings from 'gtfs-realtime-bindings';
+import { NextResponse } from 'next/server';
 
 export async function GET(req: any, res: any) {
     try {
@@ -7,18 +8,18 @@ export async function GET(req: any, res: any) {
             'https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-kuantan';
 
         // Fetch GTFS Realtime feed
-        const response = await fetch(URL)
+        const response = await fetch(URL, { next: { revalidate: 1 } })
 
-        if (!response.ok) return Response.json({ message: "API Limit" })
+        if (!response.ok) return NextResponse.json({ message: "API Limit" })
         const buffer = await response.arrayBuffer();
 
         const feed = GTFSRealtimeBindings.transit_realtime.FeedMessage.decode(new Uint8Array(buffer));
         const tripUpdates = feed.entity.filter((entity) => entity);
 
-        return Response.json({ tripUpdates })
+        return NextResponse.json({ tripUpdates })
     }
     catch (error) {
-        return Response.json({ error })
+        return NextResponse.json({ error })
 
     }
 }

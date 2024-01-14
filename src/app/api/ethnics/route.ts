@@ -1,11 +1,12 @@
 import data from '@/dataset/ethnics.json';
+import { NextResponse } from 'next/server';
 
-export async function GET(req: any, res: any) {
+export async function GET() {
     try {
-        return Response.json(data)
+        return NextResponse.json(data)
     }
     catch (error) {
-        return Response.json({ error })
+        return NextResponse.json({ error })
 
     }
 }

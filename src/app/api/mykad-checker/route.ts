@@ -1,4 +1,6 @@
-export async function GET(req: Request, res: Response) {
+import { NextRequest, NextResponse } from "next/server";
+
+export async function GET(req: NextRequest) {
     const { searchParams } = new URL(req.url)
 
     try {
@@ -6,15 +8,15 @@ export async function GET(req: Request, res: Response) {
         const id = searchParams.get('id')
 
         if (!mykad.isValid(id)) {
-            return Response.json({ message: "Invalid MyKad format" })
+            return NextResponse.json({ message: "Invalid MyKad format" })
         }
 
         const response = mykad.parse(id)
 
-        return Response.json(response)
+        return NextResponse.json(response)
     }
     catch (error) {
-        return Response.json({ error })
+        return NextResponse.json({ error })
 
     }
 }

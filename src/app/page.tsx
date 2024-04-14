@@ -31,10 +31,11 @@ export default function Home() {
       </ol>
       <br />
 
-      <h2>Government Open Data Sources</h2>
+      <h2>Open Data Sources</h2>
       <ol>
         <li><b><Link href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</Link></b> Explore public sector open data from the Malaysian government at <b><i><Link href='https://developer.data.gov.my'>developer.data.gov.my.</Link></i></b></li>
         <li><b><Link href='http://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</Link></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><Link href='http://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</Link></i></b></li>
+        <li><b><Link href='https://malaysiapostcode.com/'>Malaysia Postcode:</Link></b> Provides Malaysia postcode lookup and free database download at <b><i><Link href='https://malaysiapostcode.com/'>malaysiapostcode.com.</Link></i></b></li>
       </ol>
       <br />
 

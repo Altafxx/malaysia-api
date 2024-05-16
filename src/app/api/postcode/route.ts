@@ -8,6 +8,7 @@ export async function GET(req: NextRequest) {
         const area = params.get('area')
         const city = params.get('city')
         const state = params.get('state')
+        const filter = params.getAll('filter')
 
         if (postcode || area || state || city) {
             let filteredData;
@@ -18,8 +19,18 @@ export async function GET(req: NextRequest) {
                     (city ? item.city.toUpperCase().includes(city.toUpperCase()) : true) &&
                     (state ? item.state.toUpperCase() === state.toUpperCase() : true)
                 );
+
+                if (filter.length > 0) {
+                    filteredData = filteredData.map((item) => {
+                        const filteredItem = {} as any
+                        filter.forEach((key) => {
+                            filteredItem[key] = item[key]
+                        })
+                        return filteredItem
+                    })
+                }
+
             } else {
-                // Handle case where data is not an array (optional)
                 console.error("Data is not an expected array format");
             }
             return NextResponse.json(filteredData);

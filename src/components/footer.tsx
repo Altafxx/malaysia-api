@@ -43,6 +43,7 @@ export default function Footer() {
                     <h3>Generic</h3>
                     <ul>
                         <li><Link href={"/ethnics"}>Ethnics</Link></li>
+                        <li><Link href={"/postcode"}>Postcode</Link></li>
                     </ul>
                 </div>
             </div>

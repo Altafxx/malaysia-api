@@ -1,0 +1,130 @@
+{
+    "states": [
+        {
+            "name": "Kuala Lumpur",
+            "fullname": "Wilayah Persekutuan Kuala Lumpur",
+            "shortname": "KUL",
+            "lat": "3.139003",
+            "lng": "101.686855",
+            "code": "14",
+            "postcode": []
+        },
+        {
+            "name": "Labuan",
+            "fullname": "Wilayah Persekutuan Labuan",
+            "shortname": "LBN",
+            "lat": "5.283118",
+            "lng": "115.247118",
+            "code": "15",
+            "postcode": []
+        },
+        {
+            "name": "Putrajaya",
+            "fullname": "Wilayah Persekutuan Putrajaya",
+            "shortname": "PJY",
+            "lat": "2.9264",
+            "lng": "101.696445",
+            "code": "16",
+            "postcode": []
+        },
+        {
+            "name": "Johor",
+            "fullname": "Johor Darul Ta'zim",
+            "shortname": "JHR",
+            "lat": "1.492659",
+            "lng": "103.741359",
+            "code": "01",
+            "postcode": []
+        },
+        {
+            "name": "Kedah",
+            "fullname": "Kedah Darul Aman",
+            "shortname": "KDH",
+            "lat": "6.126548",
+            "lng": "100.368459",
+            "code": "02",
+            "postcode": []
+        },
+        {
+            "name": "Kelantan",
+            "fullname": "Kelantan Darul Naim",
+            "shortname": "KTN",
+            "lat": "6.125397",
+            "lng": "102.238071",
+            "code": "03",
+            "postcode": []
+        },
+        {
+            "name": "Melaka",
+            "fullname": "Melaka Bandaraya Bersejarah",
+            "shortname": "MLK",
+            "lat": "2.189594",
+            "lng": "102.250086",
+            "code": "04",
+            "postcode": []
+        },
+        {
+            "name": "Negeri Sembilan",
+            "fullname": "Negeri Sembilan Darul Khusus",
+            "shortname": "NSN",
+            "lat": "2.725483",
+            "lng": "101.942559",
+            "code": "05",
+            "postcode": []
+        },
+        {
+            "name": "Pahang",
+            "fullname": "Pahang Darul Makmur",
+            "shortname": "PHG",
+            "lat": "3.923298",
+            "lng": "102.330037",
+            "code": "06",
+            "postcode": []
+        },
+        {
+            "name": "Perak",
+            "fullname": "Perak Darul Ridzuan",
+            "shortname": "PRK",
+            "lat": "4.597479",
+            "lng": "101.090102",
+            "code": "08",
+            "postcode": []
+        },
+        {
+            "name": "Perlis",
+            "fullname": "Perlis Indera Kayangan",
+            "shortname": "PLS",
+            "lat": "6.441323",
+            "lng": "100.198746",
+            "code": "09",
+            "postcode": []
+        },
+        {
+            "name": "Pulau Pinang",
+            "fullname": "Pulau Pinang",
+            "shortname": "PNG",
+            "lat": "5.416393",
+            "lng": "100.332691",
+            "code": "07",
+            "postcode": []
+        },
+        {
+            "name": "Sabah",
+            "fullname": "Sabah",
+            "shortname": "SBH",
+            "lat": "5.980408",
+            "lng": "116.073457",
+            "code": "12",
+            "postcode": []
+        },
+        {
+            "name": "Sarawak",
+            "fullname": "Sarawak",
+            "shortname": "SWK",
+            "lat": "1.553278",
+            "lng": "110.359212",
+            "code": "13",
+            "postcode": []
+        }
+    ]
+}

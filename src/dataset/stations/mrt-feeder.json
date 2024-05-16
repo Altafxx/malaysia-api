@@ -1,0 +1,55 @@
+{
+    "T100": {
+        "name": "MRT Sg Buloh to Hospital Sg Buloh",
+        "start": "MRT Sungai Buloh",
+        "end": "Hospital Sungai Buloh",
+        "routes": [
+            "MRT Sungai Buloh (Sa995)",
+            "Stellar's Grocer (Sl552)",
+            "Sekolah Menengah Kebangsaan Sierramas (Opp) (Sl553)",
+            "Hospital Sungai Buloh, Pintu D (Opp) (Sl554)",
+            "Hospital Sungai Buloh, Pintu B (Opp) (Sl555)",
+            "Kolej Sains Kesihatan Bersekutu Sungai Buloh (Opp) (Sl556)",
+            "Pusat Kusta Negara (Sl614)",
+            "UITM Sungai Buloh (Sl557)",
+            "Masjid Hospital Sungai Buloh (Sl558)",
+            "UITM Sungai Buloh (Opp) (Sl559)",
+            "Kolej Sains Kesihatan Bersekutu Sungai Buloh (Sl560)",
+            "Hospital Sungai Buloh, Pintu B (Sl561)",
+            "Hospital Sungai Buloh, Pintu D (Sl562)",
+            "Sekolah Menengah Kebangsaan Sierramas (Sl563)",
+            "Stellar's Grocer (Opp) (Sl564)",
+            "MRT Sungai Buloh (Sa995)"
+        ]
+    },
+    "T101": {
+        "name": "MRT Sg Buloh to ",
+        "start": "MRT Sungai Buloh",
+        "end": "Hospital ",
+        "routes": [
+            "MRT Sungai Buloh (Sa995)",
+            "Stellar's Grocer (Sl552)",
+            "Sekolah Kebangsaan Sungai Buloh (Opp) (Sl565)",
+            "Kampung Melayu Batu 13 Sungai Buloh (1) (Sl566)",
+            "Kampung Melayu Batu 13 Sungai Buloh (2) (Sl567)",
+            "Kampung Melayu Batu 13 Sungai Buloh (3) (Sl568)",
+            "Kampung Melayu Batu 13 Sungai Buloh (4) (Sl569)",
+            "Dataran Villa Putra (Sl570)",
+            "Perindustrian Brp 8 (Sl571)",
+            "Perumahan Brp 7 (Sl572)",
+            "Perumahan Brp 6 (Sa996)",
+            "Ascot Hill (Sa1072)",
+            "Perumahan Brp 5 (Sa1056)",
+            "Brp 4 Putra Utama (Sa1057)",
+            "Brp 4 Putra Jati (Sa1058)",
+            "Taman Tasik Bandar Baru Sungai Buloh (Sa1073)",
+            "Dewan Meranti (Sa1074)",
+            "Perumahan 1c/4 (Sa1002)",
+            "Perumahan 1d/1 (Sa1003)",
+            "Surau Al-Ikhwan (Sa1004)",
+            "Pasar & Bazar Bandar Baru Sungai Buloh (Sa1005)",
+            "Komersial Tsb (Sa896)",
+            "MRT Sungai Buloh (Sa995)"
+        ]
+    }
+}

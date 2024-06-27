@@ -9,6 +9,7 @@ export default function Postcode() {
     const state = params.get('state');
     const area = params.get('area');
     const postcodeParams = params.get('postcode');
+    const render = params.get('render');
     const data = postcode;
 
     function filteredData() {
@@ -69,6 +70,17 @@ export default function Postcode() {
             ));
         }
 
+        if (render == "all") {
+            return data.map((item, index) => (
+                <div key={index} className="rounded bg-white/5 py-2 m-1">
+                    <div>State: {item.state}</div>
+                    <div>City: {item.city}</div>
+                    <div>Area: {item.area}</div>
+                    <div>Postcode: {item.postcode}</div>
+                </div>
+            ));
+        }
+
         const stateNames = new Set(data.map((item) => item.state));
         const uniqueStateNames = Array.from(stateNames).sort()
 
@@ -82,6 +94,7 @@ export default function Postcode() {
     return (
         <div className="text-center">
             <h1>Postcode</h1>
+            <div className="rounded bg-white/5 py-2 m-1">Total loaded data: {(filteredData() as any).length}</div>
             <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-2 sm:md:grid-cols-1 gap-1 mt-4">
                 {filteredData()}
             </div>

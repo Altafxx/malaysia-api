@@ -8,8 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
+      - uses: actions/checkout@v4
       - name: Create .env file
         run: |
           echo "NEXT_PUBLIC_URL=${{ secrets.NEXT_PUBLIC_URL }}" >> .env
@@ -24,7 +23,6 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - uses: actions/checkout@v4
       - name: copy file via ssh key
         uses: appleboy/scp-action@v0.1.7
         with:

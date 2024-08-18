@@ -1,0 +1,38 @@
+name: Deploy Next.js App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create .env file
+        run: |
+          echo "NEXT_PUBLIC_URL=${{ secrets.NEXT_PUBLIC_URL }}" >> .env
+          echo "NEXT_PUBLIC_VERCEL_URL=${{ secrets.NEXT_PUBLIC_VERCEL_URL }}" >> .env
+          echo "NEXT_PUBLIC_GOOGLE_MAP=${{ secrets.NEXT_PUBLIC_GOOGLE_MAP }}" >> .env
+          echo "VERCEL_URL=${{ secrets.VERCEL_URL }}" >> .env
+          echo "URL=${{ secrets.URL }}" >> .env
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Copy files to server
+        run: |
+          scp -r .next ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/altaf/project/malaysia-api
+
+      - name: Restart PM2 process
+        run: |
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "pm2 restart all"

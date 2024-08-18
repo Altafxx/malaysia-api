@@ -16,6 +16,9 @@ interface GeocodeResult {
 }
 
 const getGeocode = async (location: Location, apiKey: string): Promise<string | null> => {
+    //FIXME: Migrate to open source soon
+    return null;
+
     try {
         const response = await fetch(
             `https://maps.googleapis.com/maps/api/geocode/json?latlng=${location.lat},${location.lng}&key=${apiKey}`

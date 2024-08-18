@@ -1,6 +1,8 @@
 import data from '@/dataset/states/states.json';
 import { NextRequest, NextResponse } from 'next/server';
 
+
+// TODO: https://nominatim.openstreetmap.org/reverse?lat=3.0099800&lon=101.6758100&format=json
 export async function GET(req: NextRequest) {
     try {
         // Example usage

@@ -1,6 +1,8 @@
 import data from '@/dataset/states/postcode.json';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic'
+
 export async function GET(req: NextRequest) {
     try {
         const params = req.nextUrl.searchParams

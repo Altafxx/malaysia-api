@@ -38,4 +38,5 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: "pm2 restart all"
+          script: |
+            pm2 restart all

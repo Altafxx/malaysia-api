@@ -24,15 +24,16 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Set up SSH
-        uses: webfactory/ssh-agent@v0.5.1
+      - uses: actions/checkout@v4
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@v0.1.7
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Copy files to server
-        run: |
-          scp -r .next ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/altaf/project/malaysia-api
-
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: ".next"
+          target: "/home/altaf/project/malaysia-api"
+    
       - name: Restart PM2 process
         run: |
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "pm2 restart all"

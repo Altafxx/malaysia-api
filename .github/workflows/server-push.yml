@@ -39,4 +39,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            pm2 restart all
+            /home/altaf/sh/restart_pm2.sh

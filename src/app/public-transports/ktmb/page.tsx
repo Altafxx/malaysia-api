@@ -1,5 +1,8 @@
-import getGeocode from "@/lib/googlemaps"
-
+// import getGeocode from "@/lib/googlemaps"
+import TestMap from "@/components/test-map"
+import getGeocode from "@/lib/osm-location"
+import dynamic from "next/dynamic"
+import { useMemo } from "react"
 async function getData() {
     const res = await fetch(`${process.env.URL}/api/public-transports/realtime/ktmb`, { next: { revalidate: 3 } })
 
@@ -54,23 +57,27 @@ export default async function KTMB() {
         </div>
     }
 
+
+
     return (
         <div className="text-center">
             <h1>KTMB</h1>
+            <TestMap location={[0, 0]} />
             <div className="grid 2xl:grid-cols-6 xl:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-1 mt-4">
-                {data?.tripUpdates.map((item: any, index: any) => (
+                {data && data?.tripUpdates.map((item: any, index: any) => (
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
                         <p><b>{item.vehicle.vehicle.label}</b></p>
-                        <p>{date(item.vehicle.timestamp).toString()}</p>
+                        <p suppressHydrationWarning>{date(item.vehicle.timestamp).toString()}</p>
                         <div className="relative">
-                            <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
-                                <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />
-                            </div>
-                            <div className="absolute top-1 right-1 inline-flex items-center rounded-full bg-purple-700 px-3 py-1">
+
+                            {/* <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
+<img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />
+</div> */}
+                            <div className="inline-flex items-center rounded-full bg-purple-700 px-3 py-1">
                                 <img src="/tachometer.svg" height={20} width={20} className="mr-2" />
                                 <p>{Math.round(item.vehicle.position.speed)} KM/H</p>
                             </div>
-                            <div className="absolute bottom-0 left-0 right-0 bg-black/75 rounded-bl-md rounded-br-md py-1">
+                            <div className="bg-black/75 rounded-bl-md rounded-br-md py-1">
                                 <p className="truncate mx-5">{location(item.vehicle.position.latitude, item.vehicle.position.longitude)}</p>
                             </div>
                         </div>

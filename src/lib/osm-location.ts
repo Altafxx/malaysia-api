@@ -22,16 +22,15 @@ const getGeocode = async (location: Location, apiKey: string): Promise<string | 
         );
 
         if (!response.ok) {
-            console.error(`Geocoding failed with status: ${response.status}`);
-            return null;
+            return location.lat.toFixed(4) + ',' + location.lng.toFixed(4);
         }
 
         const data = await response.json();
-
         return data.display_name;
     } catch (error) {
-
-        return null;
+        console.error('Failed to fetch geocode data');
+        console.dir(error);
+        return location.lat.toFixed(4) + ',' + location.lng.toFixed(4);
     }
 };
 

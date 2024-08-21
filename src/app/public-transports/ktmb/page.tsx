@@ -69,7 +69,10 @@ export default async function KTMB() {
                         <p><b>{item.vehicle.vehicle.label}</b></p>
                         <p suppressHydrationWarning>{date(item.vehicle.timestamp).toString()}</p>
                         <div className="relative">
-
+                            <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
+                                {/* <TestMap location={[item.vehicle.position.latitude, item.vehicle.position.longitude]} zoom={15} /> */}
+                                {/* <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" /> */}
+                            </div>
                             {/* <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />
 </div> */}

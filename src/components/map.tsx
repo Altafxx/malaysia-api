@@ -12,12 +12,8 @@ interface MapProps {
     zoom?: number,
 }
 
-const defaults = {
-    zoom: 19,
-}
-
 const Map = (Map: MapProps) => {
-    const { zoom = defaults.zoom, posix } = Map
+    const { zoom, posix } = Map
 
     return (
         <MapContainer

@@ -1,9 +1,15 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import Navbar from '../../components/navbar'
-import Footer from '../../components/footer'
 import '@/styles/globals.css'
+import { Inter as FontSans } from "next/font/google"
+import { cn } from "@/lib/utils"
+import { ThemeProvider } from '@/components/providers/theme'
+
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
 
 export const metadata: Metadata = {
   title: 'Malaysia API - Centralize Open Data of Malaysia',
@@ -30,14 +36,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
-        {/* <Navbar /> */}
-        {children}
-        <Analytics />
-        <SpeedInsights />
-        {/* <Footer /> */}
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn(
+        "min-h-screen bg-background font-sans antialiased",
+        fontSans.variable
+      )}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
+
     </html>
   )
 }

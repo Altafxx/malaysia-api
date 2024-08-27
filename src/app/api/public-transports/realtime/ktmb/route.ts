@@ -16,7 +16,18 @@ export async function GET() {
         const feed = GTFSRealtimeBindings.transit_realtime.FeedMessage.decode(new Uint8Array(buffer));
         const tripUpdates = feed.entity.filter((entity) => entity);
 
-        return NextResponse.json({ tripUpdates })
+        const map = tripUpdates.flatMap((entity) => {
+            return {
+                tripId: entity.vehicle?.trip?.tripId,
+                routeId: entity.vehicle?.trip?.routeId,
+                label: entity.vehicle?.vehicle?.label,
+                lat: entity.vehicle?.position?.latitude,
+                lng: entity.vehicle?.position?.longitude
+            }
+        });
+
+
+        return NextResponse.json({ tripUpdates, map })
     }
     catch (error) {
         return NextResponse.json({ error })

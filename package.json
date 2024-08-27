@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/mdx": "^2.0.13",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
     "axios": "^1.6.2",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.2.0",
+    "fumadocs-core": "^13.3.2",
+    "fumadocs-mdx": "^9.0.2",
+    "fumadocs-ui": "^13.3.2",
     "gtfs-realtime-bindings": "^1.1.1",
     "mykad": "^1.3.3",
     "next": "^14.2.6",

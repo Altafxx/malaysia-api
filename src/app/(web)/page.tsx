@@ -1,4 +1,4 @@
-import Terminal from "../components/terminal"
+import Terminal from "@/components/terminal"
 import Link from "next/link"
 
 export default function Home() {

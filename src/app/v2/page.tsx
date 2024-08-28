@@ -1,5 +1,10 @@
+"use client"
 import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Nova_Square } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Link as LinkScroll } from 'react-scroll';
 
 
 const textFont = Nova_Square({
@@ -9,20 +14,93 @@ const textFont = Nova_Square({
 
 export default function Page() {
     return (
-        <main className="flex flex-col min-h-screen justify-center bg-background items-center space-y-8">
-            <div className="text-center bg-primary/5 p-12 space-y-4 h-fit w-full">
-                <h1 className={`text-6xl ${textFont.className}`}>Malaysia API</h1>
-                <p className="text-foreground/50 text-lg italic">Centralize and access to Malaysia's open data.</p>
+        <main className="flex flex-col min-h-screen justify-center bg-background/80 items-center">
+            <Image src="/hero.jpg" alt="hero" width={1920} height={1080} layout="responsive" className='flex fixed top-0 -z-10 min-h-screen min-w-screen object-fill' />
+            <div className="flex flex-col text-center justify-center min-h-screen space-y-8 w-full">
+                <div className='space-y-4'>
+                    <h1 className={`text-7xl line-clamp-2 md:text-9xl ${textFont.className}`}>Nakhoda API</h1>
+                    <p className="text-foreground/50 text-md md:text-lg italic">Centralize access to Malaysia's open data</p>
+                </div>
+                <div className="space-x-4 select-none">
+                    <Button asChild className="p-4 w-28 rounded-full transition-all hover:cursor-pointer">
+                        <LinkScroll to="feature" smooth={true} duration={500}> Explore </LinkScroll>
+                    </Button>
+                    <Button asChild variant="outline" className="p-4 w-28 rounded-full">
+                        <Link href="/docs">Docs</Link>
+                    </Button>
+                </div>
             </div>
-            <div className="space-x-4">
-                <Button className="p-4 w-fit rounded-full">Get Started</Button>
-                <Button variant="outline" className="p-4 w-fit rounded-full">Docs</Button>
-            </div>
-            <div className="text-center">
-                <h2 className="text-2xl font-medium">Features</h2>
+            <div id="feature" className="min-h-screen text-center space-y-8 flex flex-col justify-center py-12">
+                <h2 className="text-4xl font-medium">Features</h2>
+                <div className='grid grid-cols-1 md:grid-cols-3 px-4 md:px-48 gap-8'>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>
+                                Realtime Transportation
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <CardDescription>Realtime update for KTMB, MyBas Johor, Rapid Bus KL, Rapid Bus Kuantan and Rapid Bus Penang</CardDescription>
+                        </CardContent>
+                    </Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>
+                                MyKad Parser
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <CardDescription>Validate, parse, generate, and format Malaysian Identity Card (MyKad) numbers</CardDescription>
+                        </CardContent>
+                    </Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>
+                                Ethnic
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <CardDescription>Long list of ethnic diversity in Malaysia</CardDescription>
+                        </CardContent>
+                    </Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>
+                                Postcode
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <CardDescription>Detailed list of Malaysia's postcode, street name, district, area and state</CardDescription>
+                        </CardContent>
+                    </Card>
+                    <Card className='relative overflow-clip'>
+                        <div className='absolute bg-white/20 min-w-full min-h-full top-0 left-0 text-center content-center'>
+                            <div>Coming Soon!</div>
+                        </div>
+                        <CardHeader className='blur-sm select-none'>
+                            <CardTitle>
+                                Stations
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className='blur-sm select-none'>
+                            <CardDescription>Listing of airports, bus stop, MRT stations, LRT stations, Monorel stations, KTM stations and Beam station</CardDescription>
+                        </CardContent>
+                    </Card>
+                    <Card className='relative overflow-clip'>
+                        <div className='absolute bg-white/20 min-w-full min-h-full top-0 left-0 text-center content-center'>
+                            <div>Coming Soon!</div>
+                        </div>
+                        <CardHeader className='blur-sm select-none'>
+                            <CardTitle>
+                                Public Holidays
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className='blur-sm select-none'>
+                            <CardDescription>Public holidays listing in Malaysia on state and national level</CardDescription>
+                        </CardContent>
+                    </Card>
+                </div>
                 <ul className="text-md">
-                    <li>Centralize and provide easy access to various open data from the government of Malaysia</li>
-                    <li>Combine data from different sources, offering a unified platform for developers, researchers, and the public to access valuable information seamlessly</li>
                 </ul>
             </div>
         </main>

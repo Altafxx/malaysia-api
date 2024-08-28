@@ -8,7 +8,7 @@ export async function GET() {
             'https://api.data.gov.my/gtfs-realtime/vehicle-position/ktmb';
 
         // Fetch GTFS Realtime feed
-        const response = await fetch(URL, { next: { revalidate: 1 } })
+        const response = await fetch(URL, { next: { revalidate: 10 } })
 
         if (!response.ok) return NextResponse.json({ message: "API Limit" })
         const buffer = await response.arrayBuffer();
@@ -27,9 +27,11 @@ export async function GET() {
         });
 
 
+
         return NextResponse.json({ tripUpdates, map })
     }
     catch (error) {
+        console.error("Error")
         return NextResponse.json({ error })
 
     }

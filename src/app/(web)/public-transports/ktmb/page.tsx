@@ -4,7 +4,7 @@ import getGeocode from "@/lib/osm-location"
 import dynamic from "next/dynamic"
 import { useMemo } from "react"
 async function getData() {
-    const res = await fetch(`${process.env.URL}/api/public-transports/realtime/ktmb`, { next: { revalidate: 3 } })
+    const res = await fetch(`${process.env.URL}/api/public-transports/realtime/ktmb`, { next: { revalidate: 10 } })
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

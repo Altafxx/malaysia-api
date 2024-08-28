@@ -22,10 +22,10 @@ export default function Page() {
                     <p className="text-foreground/50 text-md md:text-lg italic">Centralize access to Malaysia's open data</p>
                 </div>
                 <div className="space-x-4 select-none">
-                    <Button asChild className="p-4 w-28 rounded-full transition-all hover:cursor-pointer">
+                    <Button asChild className="py-6 w-40 rounded-full bg-blue-800 transition-all hover:bg-blue-800/80 hover:cursor-pointer">
                         <LinkScroll to="feature" smooth={true} duration={500}> Explore </LinkScroll>
                     </Button>
-                    <Button asChild variant="outline" className="p-4 w-28 rounded-full">
+                    <Button asChild variant="outline" className="py-6 w-40 bg-blue-800/10 outline outline-1 outline-blue-800/50 rounded-full">
                         <Link href="/docs">Docs</Link>
                     </Button>
                 </div>

@@ -57,12 +57,20 @@ export default async function KTMB() {
         </div>
     }
 
+    const markers = await data.tripUpdates.map((item: any) => {
+        return {
+            position: [item.vehicle.position.latitude, item.vehicle.position.longitude],
+            label: item.vehicle.vehicle.label,
+        }
+    });
 
 
     return (
         <div className="text-center">
             <h1>KTMB</h1>
-            <TestMap location={[0, 0]} />
+            {
+                markers.length > 0 && <TestMap marker={markers} />
+            }
             <div className="grid 2xl:grid-cols-6 xl:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-1 mt-4">
                 {data && data?.tripUpdates.map((item: any, index: any) => (
                     <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">

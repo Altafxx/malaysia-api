@@ -15,7 +15,7 @@ const textFont = Nova_Square({
 export default function Page() {
     return (
         <main className="flex flex-col min-h-screen justify-center bg-background/80 items-center">
-            <Image src="/hero.jpg" alt="hero" width={1920} height={1080} layout="responsive" className='flex fixed top-0 -z-10 min-h-screen min-w-screen object-fill' />
+            <Image src="/hero.jpg" alt="hero" width={1920} height={1080} className='flex fixed top-0 -z-10 min-h-screen min-w-screen object-cover' />
             <div className="flex flex-col text-center justify-center min-h-screen space-y-8 w-full">
                 <div className='space-y-4'>
                     <h1 className={`text-7xl line-clamp-2 md:text-9xl ${textFont.className}`}>Nakhoda API</h1>

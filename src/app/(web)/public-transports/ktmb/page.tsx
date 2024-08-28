@@ -66,36 +66,38 @@ export default async function KTMB() {
 
 
     return (
-        <div className="text-center">
-            <h1>KTMB</h1>
-            {
-                markers.length > 0 && <TestMap marker={markers} />
-            }
-            <div className="grid 2xl:grid-cols-6 xl:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-1 mt-4">
-                {data && data?.tripUpdates.map((item: any, index: any) => (
-                    <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
-                        <p><b>{item.vehicle.vehicle.label}</b></p>
-                        <p suppressHydrationWarning>{date(item.vehicle.timestamp).toString()}</p>
-                        <div className="relative">
-                            <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
-                                {/* <TestMap location={[item.vehicle.position.latitude, item.vehicle.position.longitude]} zoom={15} /> */}
-                                {/* <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" /> */}
-                            </div>
-                            {/* <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
+        <main className="flex flex-col min-h-screen justify-center bg-background items-center px-24">
+            <div className="flex-col text-center max-w-7xl">
+                <h1>KTMB</h1>
+                {
+                    markers.length > 0 && <TestMap marker={markers} />
+                }
+                <div className="grid 2xl:grid-cols-6 xl:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-1 mt-4">
+                    {data && data?.tripUpdates.map((item: any, index: any) => (
+                        <div key={index} className="rounded-lg bg-white/5 py-4 m-1 p-4">
+                            <p><b>{item.vehicle.vehicle.label}</b></p>
+                            <p suppressHydrationWarning>{date(item.vehicle.timestamp).toString()}</p>
+                            <div className="relative">
+                                <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
+                                    {/* <TestMap location={[item.vehicle.position.latitude, item.vehicle.position.longitude]} zoom={15} /> */}
+                                    {/* <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" /> */}
+                                </div>
+                                {/* <div className="relative mx-auto rounded-lg overflow-hidden my-2 shadow-md shadow-black">
 <img src={map(item.vehicle.position.latitude, item.vehicle.position.longitude)} className="object-cover" />
 </div> */}
-                            <div className="inline-flex items-center rounded-full bg-purple-700 px-3 py-1">
-                                <img src="/tachometer.svg" height={20} width={20} className="mr-2" />
-                                <p>{Math.round(item.vehicle.position.speed)} KM/H</p>
+                                <div className="inline-flex items-center rounded-full bg-purple-700 px-3 py-1">
+                                    <img src="/tachometer.svg" height={20} width={20} className="mr-2" />
+                                    <p>{Math.round(item.vehicle.position.speed)} KM/H</p>
+                                </div>
+                                <div className="bg-black/75 rounded-bl-md rounded-br-md py-1">
+                                    <p className="truncate mx-5">{location(item.vehicle.position.latitude, item.vehicle.position.longitude)}</p>
+                                </div>
                             </div>
-                            <div className="bg-black/75 rounded-bl-md rounded-br-md py-1">
-                                <p className="truncate mx-5">{location(item.vehicle.position.latitude, item.vehicle.position.longitude)}</p>
-                            </div>
-                        </div>
 
-                    </div>
-                ))}
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
+        </main>
     );
 }

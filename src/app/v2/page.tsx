@@ -22,10 +22,10 @@ export default function Page() {
                     <p className="text-foreground/50 text-md md:text-lg italic">Centralize access to Malaysia's open data</p>
                 </div>
                 <div className="space-x-4 select-none">
-                    <Button asChild className="py-6 w-40 rounded-full bg-blue-800 transition-all hover:bg-blue-800/80 hover:cursor-pointer">
+                    <Button asChild className="py-6 w-40 rounded-full bg-blue-900 transition-all hover:bg-blue-800/80 hover:cursor-pointer">
                         <LinkScroll to="feature" smooth={true} duration={500}> Explore </LinkScroll>
                     </Button>
-                    <Button asChild variant="outline" className="py-6 w-40 bg-blue-800/10 outline outline-1 outline-blue-800/50 rounded-full">
+                    <Button asChild variant="outline" className="py-6 w-40 bg-blue-900/10 hover:bg-black/5 outline outline-1 outline-blue-800/50 rounded-full">
                         <Link href="/docs">Docs</Link>
                     </Button>
                 </div>
@@ -33,7 +33,7 @@ export default function Page() {
             <div id="feature" className="min-h-screen text-center space-y-8 flex flex-col justify-center py-12">
                 <h2 className="text-4xl font-medium">Features</h2>
                 <div className='grid grid-cols-1 md:grid-cols-3 px-4 md:px-48 gap-8'>
-                    <Card>
+                    <Card className='hover:scale-105 transition-all'>
                         <CardHeader>
                             <CardTitle>
                                 Realtime Transportation
@@ -43,7 +43,7 @@ export default function Page() {
                             <CardDescription>Realtime update for KTMB, MyBas Johor, Rapid Bus KL, Rapid Bus Kuantan and Rapid Bus Penang</CardDescription>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='hover:scale-105 transition-all'>
                         <CardHeader>
                             <CardTitle>
                                 MyKad Parser
@@ -53,7 +53,7 @@ export default function Page() {
                             <CardDescription>Validate, parse, generate, and format Malaysian Identity Card (MyKad) numbers</CardDescription>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='hover:scale-105 transition-all'>
                         <CardHeader>
                             <CardTitle>
                                 Ethnic
@@ -63,7 +63,7 @@ export default function Page() {
                             <CardDescription>Long list of ethnic diversity in Malaysia</CardDescription>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='hover:scale-105 transition-all'>
                         <CardHeader>
                             <CardTitle>
                                 Postcode
@@ -73,8 +73,8 @@ export default function Page() {
                             <CardDescription>Detailed list of Malaysia's postcode, street name, district, area and state</CardDescription>
                         </CardContent>
                     </Card>
-                    <Card className='relative overflow-clip'>
-                        <div className='absolute bg-white/20 min-w-full min-h-full top-0 left-0 text-center content-center'>
+                    <Card className='relative overflow-clip hover:scale-105 transition-all'>
+                        <div className='absolute bg-card/70 min-w-full min-h-full top-0 left-0 text-center content-center z-10'>
                             <div>Coming Soon!</div>
                         </div>
                         <CardHeader className='blur-sm select-none'>
@@ -86,8 +86,8 @@ export default function Page() {
                             <CardDescription>Listing of airports, bus stop, MRT stations, LRT stations, Monorel stations, KTM stations and Beam station</CardDescription>
                         </CardContent>
                     </Card>
-                    <Card className='relative overflow-clip'>
-                        <div className='absolute bg-white/20 min-w-full min-h-full top-0 left-0 text-center content-center'>
+                    <Card className='relative overflow-clip hover:scale-105 transition-all'>
+                        <div className='absolute bg-card/70 min-w-full min-h-full top-0 left-0 text-center content-center z-10'>
                             <div>Coming Soon!</div>
                         </div>
                         <CardHeader className='blur-sm select-none'>

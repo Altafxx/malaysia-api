@@ -14,7 +14,7 @@ const textFont = Nova_Square({
 
 export default function Page() {
     return (
-        <main className="flex flex-col min-h-screen justify-center bg-background/80 items-center">
+        <main className="flex flex-col min-h-screen justify-center bg-background/60 dark:bg-background/80 items-center">
             <Image src="/hero.jpg" alt="hero" width={1920} height={1080} className='flex fixed top-0 -z-10 min-h-screen min-w-screen object-cover' />
             <div className="flex flex-col text-center justify-center min-h-screen space-y-8 w-full">
                 <div className='space-y-4'>
@@ -25,7 +25,7 @@ export default function Page() {
                     <Button asChild className="py-6 w-40 rounded-full bg-blue-900 transition-all hover:bg-blue-800/80 hover:cursor-pointer">
                         <LinkScroll to="feature" smooth={true} duration={500}> Explore </LinkScroll>
                     </Button>
-                    <Button asChild variant="outline" className="py-6 w-40 bg-blue-900/10 hover:bg-black/5 outline outline-1 outline-blue-800/50 rounded-full">
+                    <Button asChild variant="outline" className="py-6 w-40 bg-blue-900/20 dark:bg-blue-900/10 hover:bg-black/5 outline outline-1 outline-blue-800/50 rounded-full">
                         <Link href="/docs">Docs</Link>
                     </Button>
                 </div>

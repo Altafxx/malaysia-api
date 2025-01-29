@@ -30,6 +30,8 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
   }
 
   .dark {
@@ -57,6 +59,8 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 65, 65, 65;
   }
 }
 
@@ -68,5 +72,50 @@
 
   body {
     @apply bg-background text-foreground;
+    font-weight: 400;
+    font-size: 1em;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 1.17em;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  h5 {
+    font-weight: 700;
+    font-size: 0.83em;
+  }
+
+  h6 {
+    font-weight: 700;
+    font-size: 0.67em;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  b {
+    font-weight: 900;
   }
 }

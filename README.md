@@ -1,57 +1,36 @@
-# Malaysia API - Open Source Project
-
-## Overview
-
-Malaysia API is an open-source project built with Next.js that aims to centralize and provide easy access to various open data from the government of Malaysia. The project combines data from different sources, offering a unified platform for developers, researchers, and the public to access valuable information seamlessly.
-
-## Features
-
-- **Consolidated Data:** Malaysia API brings together open data from various sectors of the Malaysian government, making it convenient for users to access a wide range of information in one place.
-
-- **Developer-Friendly:** Built with Next.js, the project provides a developer-friendly environment for contributors to enhance and extend its capabilities.
-
-## NPM Packages Being Used
-
-1. [mykad](https://www.npmjs.com/package/mykad): A package for working with Malaysian identification card (MyKad) information.
-
-## GitHub Repository
-
-1. [jajahan](https://github.com/lomotech/jajahan) by [lomotech](https://github.com/lomotech) - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.
-
-## Government Open Data Sources
-
-1. **Data Terbuka Sektor Awam:** Explore public sector open data from the Malaysian government at [developer.data.gov.my](https://developer.data.gov.my).
-
-1. **Data Dictionary MAMPU:** Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at [sddsa.mampu.gov.my](http://sddsa.mampu.gov.my/).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-To get started with Malaysia API, follow these steps:
+First, run the development server:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Altafxx/malaysia-api.git
-1. Install dependencies:
-   ```bash
-   cd malaysia-api
-   npm install
-1. Run the development server:
-   ```bash
-   npm run dev
-1. Open your browser and visit http://localhost:3000 to explore Malaysia API.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<!-- ## Contribution Guidelines
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-We welcome and encourage contributions from the community. If you would like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md). -->
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Issues and Feedback
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-If you encounter any issues or have feedback, please [open an issue](https://github.com/Altafxx/malaysia-api/issues).
+## Learn More
 
-<!-- ## License
+To learn more about Next.js, take a look at the following resources:
 
-This project is licensed under the [MIT License](LICENSE). -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Thank you for your interest in Malaysia API! We hope this project serves as a valuable resource for accessing Malaysian government data.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

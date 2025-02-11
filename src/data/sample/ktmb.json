@@ -1,0 +1,422 @@
+{
+    "tripUpdates": [
+        {
+            "id": "0",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2257"
+                },
+                "position": {
+                    "latitude": 2.97849988937378,
+                    "longitude": 101.790489196777,
+                    "bearing": 0,
+                    "speed": 23
+                },
+                "timestamp": "1738235799",
+                "vehicle": {
+                    "id": "weekday_2257",
+                    "label": "SCS19"
+                }
+            }
+        },
+        {
+            "id": "1",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2367"
+                },
+                "position": {
+                    "latitude": 3.08368706703186,
+                    "longitude": 101.657127380371,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738235798",
+                "vehicle": {
+                    "id": "weekday_2367",
+                    "label": "SCS03"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2259"
+                },
+                "position": {
+                    "latitude": 3.12454509735107,
+                    "longitude": 101.678245544434,
+                    "bearing": 0,
+                    "speed": 30
+                },
+                "timestamp": "1738235796",
+                "vehicle": {
+                    "id": "weekday_2259",
+                    "label": "SCS13"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2978"
+                },
+                "position": {
+                    "latitude": 6.65103483200073,
+                    "longitude": 100.303512573242,
+                    "bearing": 0,
+                    "speed": 77
+                },
+                "timestamp": "1738235794",
+                "vehicle": {
+                    "id": "2978",
+                    "label": "EMU33"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2366"
+                },
+                "position": {
+                    "latitude": 3.21013808250427,
+                    "longitude": 101.57438659668,
+                    "bearing": 0,
+                    "speed": 71
+                },
+                "timestamp": "1738235800",
+                "vehicle": {
+                    "id": "weekday_2366",
+                    "label": "SCS07"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2251"
+                },
+                "position": {
+                    "latitude": 2.68830800056458,
+                    "longitude": 101.972686767578,
+                    "bearing": 0,
+                    "speed": 48
+                },
+                "timestamp": "1738235797",
+                "vehicle": {
+                    "id": "weekday_2251",
+                    "label": "SCS23"
+                }
+            }
+        },
+        {
+            "id": "6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2982"
+                },
+                "position": {
+                    "latitude": 5.99476289749146,
+                    "longitude": 100.427780151367,
+                    "bearing": 0,
+                    "speed": 90
+                },
+                "timestamp": "1738235790",
+                "vehicle": {
+                    "id": "2982",
+                    "label": "EMU29"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2248"
+                },
+                "position": {
+                    "latitude": 3.18156695365906,
+                    "longitude": 101.688255310059,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738235787",
+                "vehicle": {
+                    "id": "weekday_2248",
+                    "label": "SCS28"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2370"
+                },
+                "position": {
+                    "latitude": 3.14166808128357,
+                    "longitude": 101.694000244141,
+                    "bearing": 0,
+                    "speed": 21
+                },
+                "timestamp": "1738235814",
+                "vehicle": {
+                    "id": "weekday_2370",
+                    "label": "SCS11"
+                }
+            }
+        },
+        {
+            "id": "10",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2981"
+                },
+                "position": {
+                    "latitude": 5.0382981300354,
+                    "longitude": 100.697052001953,
+                    "bearing": 0,
+                    "speed": 124
+                },
+                "timestamp": "1738235813",
+                "vehicle": {
+                    "id": "2981",
+                    "label": "EMU39"
+                }
+            }
+        },
+        {
+            "id": "11",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2254"
+                },
+                "position": {
+                    "latitude": 3.03710508346558,
+                    "longitude": 101.708686828613,
+                    "bearing": 0,
+                    "speed": 80
+                },
+                "timestamp": "1738235813",
+                "vehicle": {
+                    "id": "weekday_2254",
+                    "label": "SCS38"
+                }
+            }
+        },
+        {
+            "id": "12",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2915"
+                },
+                "position": {
+                    "latitude": 4.84171485900879,
+                    "longitude": 101.008735656738,
+                    "bearing": 0,
+                    "speed": 128
+                },
+                "timestamp": "1738235813",
+                "vehicle": {
+                    "id": "2915",
+                    "label": "EMU26"
+                }
+            }
+        },
+        {
+            "id": "13",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2363"
+                },
+                "position": {
+                    "latitude": 3.05251789093018,
+                    "longitude": 101.486000061035,
+                    "bearing": 0,
+                    "speed": 47
+                },
+                "timestamp": "1738235813",
+                "vehicle": {
+                    "id": "weekday_2363",
+                    "label": "SCS24"
+                }
+            }
+        },
+        {
+            "id": "14",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2375"
+                },
+                "position": {
+                    "latitude": 3.33738493919373,
+                    "longitude": 101.572761535645,
+                    "bearing": 0,
+                    "speed": 79
+                },
+                "timestamp": "1738235812",
+                "vehicle": {
+                    "id": "weekday_2375",
+                    "label": "SCS22"
+                }
+            }
+        },
+        {
+            "id": "15",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2362"
+                },
+                "position": {
+                    "latitude": 3.55911493301392,
+                    "longitude": 101.63648223877,
+                    "bearing": 0,
+                    "speed": 27
+                },
+                "timestamp": "1738235812",
+                "vehicle": {
+                    "id": "weekday_2362",
+                    "label": "SCS25"
+                }
+            }
+        },
+        {
+            "id": "16",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2359"
+                },
+                "position": {
+                    "latitude": 3.00146198272705,
+                    "longitude": 101.39086151123,
+                    "bearing": 0,
+                    "speed": 10
+                },
+                "timestamp": "1738235811",
+                "vehicle": {
+                    "id": "weekday_2359",
+                    "label": "SCS26"
+                }
+            }
+        },
+        {
+            "id": "17",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2975"
+                },
+                "position": {
+                    "latitude": 5.53660488128662,
+                    "longitude": 100.503623962402,
+                    "bearing": 0,
+                    "speed": 119
+                },
+                "timestamp": "1738235811",
+                "vehicle": {
+                    "id": "2975",
+                    "label": "SCS27"
+                }
+            }
+        },
+        {
+            "id": "18",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2253"
+                },
+                "position": {
+                    "latitude": 2.81392693519592,
+                    "longitude": 101.810829162598,
+                    "bearing": 0,
+                    "speed": 84
+                },
+                "timestamp": "1738235810",
+                "vehicle": {
+                    "id": "weekday_2253",
+                    "label": "SCS05"
+                }
+            }
+        },
+        {
+            "id": "19",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2979"
+                },
+                "position": {
+                    "latitude": 5.82092189788818,
+                    "longitude": 100.478324890137,
+                    "bearing": 0,
+                    "speed": 26
+                },
+                "timestamp": "1738235810",
+                "vehicle": {
+                    "id": "2979",
+                    "label": "EMU31"
+                }
+            }
+        },
+        {
+            "id": "20",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2247"
+                },
+                "position": {
+                    "latitude": 2.46323990821838,
+                    "longitude": 102.22673034668,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738235806",
+                "vehicle": {
+                    "id": "weekday_2247",
+                    "label": "SCS04"
+                }
+            }
+        },
+        {
+            "id": "21",
+            "vehicle": {
+                "trip": {
+                    "tripId": "2918"
+                },
+                "position": {
+                    "latitude": 4.7792820930481,
+                    "longitude": 100.851097106934,
+                    "bearing": 0,
+                    "speed": 91
+                },
+                "timestamp": "1738235803",
+                "vehicle": {
+                    "id": "2918",
+                    "label": "EMU22"
+                }
+            }
+        },
+        {
+            "id": "22",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_2250"
+                },
+                "position": {
+                    "latitude": 3.18292999267578,
+                    "longitude": 101.689010620117,
+                    "bearing": 0,
+                    "speed": 20
+                },
+                "timestamp": "1738235790",
+                "vehicle": {
+                    "id": "weekday_2250",
+                    "label": "SCS02"
+                }
+            }
+        }
+    ]
+}

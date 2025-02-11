@@ -1,0 +1,4316 @@
+{
+    "tripUpdates": [
+        {
+            "id": "0",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2020_U202001_6",
+                    "startTime": "16:13:34",
+                    "startDate": "20250130",
+                    "routeId": "U2020"
+                },
+                "position": {
+                    "latitude": 3.17918300628662,
+                    "longitude": 101.700325012207,
+                    "bearing": 21,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226284",
+                "vehicle": {
+                    "id": "WUY9570",
+                    "licensePlate": "WUY9570"
+                }
+            }
+        },
+        {
+            "id": "1",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0020_P002002_2",
+                    "startTime": "16:35:42",
+                    "startDate": "20250130",
+                    "routeId": "P0020"
+                },
+                "position": {
+                    "latitude": 3.10118293762207,
+                    "longitude": 101.642333984375,
+                    "bearing": 195,
+                    "speed": 16.6700000762939
+                },
+                "timestamp": "1738226262",
+                "vehicle": {
+                    "id": "WA7449M",
+                    "licensePlate": "WA7449M"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7510_U751001_7",
+                    "startTime": "15:53:06",
+                    "startDate": "20250130",
+                    "routeId": "U7510"
+                },
+                "position": {
+                    "latitude": 3.06261610984802,
+                    "longitude": 101.521842956543,
+                    "bearing": 236.199996948242,
+                    "speed": 17.5900001525879
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "VFJ376",
+                    "licensePlate": "VFJ376"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6050_T605002_2",
+                    "startTime": "16:30:45",
+                    "startDate": "20250130",
+                    "routeId": "T6050"
+                },
+                "position": {
+                    "latitude": 3.00370001792908,
+                    "longitude": 101.627830505371,
+                    "bearing": 332,
+                    "speed": 42.5999984741211
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WSW547",
+                    "licensePlate": "WSW547"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4040_S404002_1",
+                    "startTime": "15:41:38",
+                    "startDate": "20250130",
+                    "routeId": "S4040"
+                },
+                "position": {
+                    "latitude": 3.06112504005432,
+                    "longitude": 101.505889892578,
+                    "bearing": 274,
+                    "speed": 47.7799987792969
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WVH6287",
+                    "licensePlate": "WVH6287"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T4500_T450002_1",
+                    "startTime": "12:19:28",
+                    "startDate": "20250130",
+                    "routeId": "T4500"
+                },
+                "position": {
+                    "latitude": 2.94863796234131,
+                    "longitude": 101.846664428711,
+                    "bearing": 157.100006103516,
+                    "speed": 15.7399997711182
+                },
+                "timestamp": "1738226270",
+                "vehicle": {
+                    "id": "WVB6985",
+                    "licensePlate": "WVB6985"
+                }
+            }
+        },
+        {
+            "id": "6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2020_U202001_6",
+                    "startTime": "16:35:53",
+                    "startDate": "20250130",
+                    "routeId": "U2020"
+                },
+                "position": {
+                    "latitude": 3.14765000343323,
+                    "longitude": 101.696159362793,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WVC4038",
+                    "licensePlate": "WVC4038"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0100_S010002_0",
+                    "startTime": "16:27:40",
+                    "startDate": "20250130",
+                    "routeId": "S0100"
+                },
+                "position": {
+                    "latitude": 3.15116691589355,
+                    "longitude": 101.66300201416,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226280",
+                "vehicle": {
+                    "id": "WVA3151",
+                    "licensePlate": "WVA3151"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1190_S119002_11",
+                    "startTime": "16:09:54",
+                    "startDate": "20250130",
+                    "routeId": "S1190"
+                },
+                "position": {
+                    "latitude": 3.32198309898376,
+                    "longitude": 101.57666015625,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WB7358P",
+                    "licensePlate": "WB7358P"
+                }
+            }
+        },
+        {
+            "id": "9",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T3500_T350002_4",
+                    "startTime": "16:01:23",
+                    "startDate": "20250130",
+                    "routeId": "T3500"
+                },
+                "position": {
+                    "latitude": 3.12463307380676,
+                    "longitude": 101.762664794922,
+                    "bearing": 4,
+                    "speed": 33.3400001525879
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "WVB3764",
+                    "licensePlate": "WVB3764"
+                }
+            }
+        },
+        {
+            "id": "10",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1140_S114002_1",
+                    "startTime": "16:36:09",
+                    "startDate": "20250130",
+                    "routeId": "S1140"
+                },
+                "position": {
+                    "latitude": 3.11218905448914,
+                    "longitude": 101.739875793457,
+                    "bearing": 187.199996948242,
+                    "speed": 0
+                },
+                "timestamp": "1738226229",
+                "vehicle": {
+                    "id": "WVG2380",
+                    "licensePlate": "WVG2380"
+                }
+            }
+        },
+        {
+            "id": "11",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0040_S004002_2",
+                    "startTime": "16:00:53",
+                    "startDate": "20250130",
+                    "routeId": "S0040"
+                },
+                "position": {
+                    "latitude": 3.20598292350769,
+                    "longitude": 101.752166748047,
+                    "bearing": 198,
+                    "speed": 16.6700000762939
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "WVP2531",
+                    "licensePlate": "WVP2531"
+                }
+            }
+        },
+        {
+            "id": "12",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2000_U200002_3",
+                    "startTime": "16:26:27",
+                    "startDate": "20250130",
+                    "routeId": "U2000"
+                },
+                "position": {
+                    "latitude": 3.2459499835968,
+                    "longitude": 101.727005004883,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WVB4105",
+                    "licensePlate": "WVB4105"
+                }
+            }
+        },
+        {
+            "id": "13",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600002_16",
+                    "startTime": "16:35:00",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 3.04361510276794,
+                    "longitude": 101.618782043457,
+                    "bearing": 15.6000003814697,
+                    "speed": 8.89000034332275
+                },
+                "timestamp": "1738226292",
+                "vehicle": {
+                    "id": "VGK8927",
+                    "licensePlate": "VGK8927"
+                }
+            }
+        },
+        {
+            "id": "14",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4500_U450002_9",
+                    "startTime": "16:31:19",
+                    "startDate": "20250130",
+                    "routeId": "U4500"
+                },
+                "position": {
+                    "latitude": 2.97138905525208,
+                    "longitude": 101.789764404297,
+                    "bearing": 0,
+                    "speed": 11.3000001907349
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "VGN2847",
+                    "licensePlate": "VGN2847"
+                }
+            }
+        },
+        {
+            "id": "15",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4080_S408002_7",
+                    "startTime": "16:02:14",
+                    "startDate": "20250130",
+                    "routeId": "S4080"
+                },
+                "position": {
+                    "latitude": 2.99959993362427,
+                    "longitude": 101.52783203125,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WB870L",
+                    "licensePlate": "WB870L"
+                }
+            }
+        },
+        {
+            "id": "16",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2510_U251002_1",
+                    "startTime": "16:00:17",
+                    "startDate": "20250130",
+                    "routeId": "U2510"
+                },
+                "position": {
+                    "latitude": 3.1676619052887,
+                    "longitude": 101.698471069336,
+                    "bearing": 188.300003051758,
+                    "speed": 8.32999992370606
+                },
+                "timestamp": "1738226250",
+                "vehicle": {
+                    "id": "WVE4812",
+                    "licensePlate": "WVE4812"
+                }
+            }
+        },
+        {
+            "id": "17",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173002_5",
+                    "startTime": "16:09:57",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.19445204734802,
+                    "longitude": 101.679832458496,
+                    "bearing": 173.899993896484,
+                    "speed": 8.89000034332275
+                },
+                "timestamp": "1738226284",
+                "vehicle": {
+                    "id": "W479T",
+                    "licensePlate": "W479T"
+                }
+            }
+        },
+        {
+            "id": "18",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7740_T774002_4",
+                    "startTime": "16:01:11",
+                    "startDate": "20250130",
+                    "routeId": "T7740"
+                },
+                "position": {
+                    "latitude": 3.09379410743713,
+                    "longitude": 101.58650970459,
+                    "bearing": 68.6900024414063,
+                    "speed": 41.8600006103516
+                },
+                "timestamp": "1738226289",
+                "vehicle": {
+                    "id": "WUW4133",
+                    "licensePlate": "WUW4133"
+                }
+            }
+        },
+        {
+            "id": "19",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4100_S410002_3",
+                    "startTime": "16:02:27",
+                    "startDate": "20250130",
+                    "routeId": "S4100"
+                },
+                "position": {
+                    "latitude": 3.11375999450684,
+                    "longitude": 101.526481628418,
+                    "bearing": 39.5,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226241",
+                "vehicle": {
+                    "id": "WUY4963",
+                    "licensePlate": "WUY4963"
+                }
+            }
+        },
+        {
+            "id": "20",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4030_S403002_6",
+                    "startTime": "16:22:53",
+                    "startDate": "20250130",
+                    "routeId": "S4030"
+                },
+                "position": {
+                    "latitude": 3.04752588272095,
+                    "longitude": 101.510482788086,
+                    "bearing": 92.6999969482422,
+                    "speed": 50.189998626709
+                },
+                "timestamp": "1738226297",
+                "vehicle": {
+                    "id": "WVA3032",
+                    "licensePlate": "WVA3032"
+                }
+            }
+        },
+        {
+            "id": "21",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5900_U590001_10",
+                    "startTime": "15:52:01",
+                    "startDate": "20250130",
+                    "routeId": "U5900"
+                },
+                "position": {
+                    "latitude": 3.02655005455017,
+                    "longitude": 101.749496459961,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WB6753J",
+                    "licensePlate": "WB6753J"
+                }
+            }
+        },
+        {
+            "id": "22",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250001_18",
+                    "startTime": "16:00:26",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.20531988143921,
+                    "longitude": 101.732078552246,
+                    "bearing": 139.199996948242,
+                    "speed": 25.5599994659424
+                },
+                "timestamp": "1738226243",
+                "vehicle": {
+                    "id": "WQA1912",
+                    "licensePlate": "WQA1912"
+                }
+            }
+        },
+        {
+            "id": "23",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_5",
+                    "startTime": "14:30:58",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.12038493156433,
+                    "longitude": 101.763282775879,
+                    "bearing": 261.399993896484,
+                    "speed": 8.32999992370606
+                },
+                "timestamp": "1738226264",
+                "vehicle": {
+                    "id": "VFJ4933",
+                    "licensePlate": "VFJ4933"
+                }
+            }
+        },
+        {
+            "id": "24",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S3040_S304002_1",
+                    "startTime": "15:30:45",
+                    "startDate": "20250130",
+                    "routeId": "S3040"
+                },
+                "position": {
+                    "latitude": 3.04756307601929,
+                    "longitude": 101.451316833496,
+                    "bearing": 247.100006103516,
+                    "speed": 0
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WVD4700",
+                    "licensePlate": "WVD4700"
+                }
+            }
+        },
+        {
+            "id": "25",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6500_U650002_10",
+                    "startTime": "15:48:50",
+                    "startDate": "20250130",
+                    "routeId": "U6500"
+                },
+                "position": {
+                    "latitude": 3.12813305854797,
+                    "longitude": 101.683494567871,
+                    "bearing": 21,
+                    "speed": 1.85000002384186
+                },
+                "timestamp": "1738226295",
+                "vehicle": {
+                    "id": "WB824L",
+                    "licensePlate": "WB824L"
+                }
+            }
+        },
+        {
+            "id": "26",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4030_S403002_6",
+                    "startTime": "16:05:25",
+                    "startDate": "20250130",
+                    "routeId": "S4030"
+                },
+                "position": {
+                    "latitude": 3.05603289604187,
+                    "longitude": 101.526008605957,
+                    "bearing": 79,
+                    "speed": 22.2199993133545
+                },
+                "timestamp": "1738226245",
+                "vehicle": {
+                    "id": "WUU6042",
+                    "licensePlate": "WUU6042"
+                }
+            }
+        },
+        {
+            "id": "27",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2020_U202002_7",
+                    "startTime": "16:40:00",
+                    "startDate": "20250130",
+                    "routeId": "U2020"
+                },
+                "position": {
+                    "latitude": 3.25001692771912,
+                    "longitude": 101.702995300293,
+                    "bearing": 52,
+                    "speed": 27.7800006866455
+                },
+                "timestamp": "1738226271",
+                "vehicle": {
+                    "id": "WUW8422",
+                    "licensePlate": "WUW8422"
+                }
+            }
+        },
+        {
+            "id": "28",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600001_13",
+                    "startTime": "16:14:48",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 3.08193302154541,
+                    "longitude": 101.668357849121,
+                    "bearing": 239.399993896484,
+                    "speed": 49.2599983215332
+                },
+                "timestamp": "1738226266",
+                "vehicle": {
+                    "id": "WVU6385",
+                    "licensePlate": "WVU6385"
+                }
+            }
+        },
+        {
+            "id": "29",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2220_U222002_1",
+                    "startTime": "16:03:38",
+                    "startDate": "20250130",
+                    "routeId": "U2220"
+                },
+                "position": {
+                    "latitude": 3.20853304862976,
+                    "longitude": 101.742500305176,
+                    "bearing": 31,
+                    "speed": 14.8199996948242
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WVB5889",
+                    "licensePlate": "WVB5889"
+                }
+            }
+        },
+        {
+            "id": "30",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6510_U651002_0",
+                    "startTime": "14:40:52",
+                    "startDate": "20250130",
+                    "routeId": "U6510"
+                },
+                "position": {
+                    "latitude": 3.07933306694031,
+                    "longitude": 101.673500061035,
+                    "bearing": 322,
+                    "speed": 24.0799999237061
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "WVH9704",
+                    "licensePlate": "WVH9704"
+                }
+            }
+        },
+        {
+            "id": "31",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1900_U190002_6",
+                    "startTime": "16:10:37",
+                    "startDate": "20250130",
+                    "routeId": "U1900"
+                },
+                "position": {
+                    "latitude": 3.17059993743897,
+                    "longitude": 101.694175720215,
+                    "bearing": 128,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226287",
+                "vehicle": {
+                    "id": "WUW3416",
+                    "licensePlate": "WUW3416"
+                }
+            }
+        },
+        {
+            "id": "32",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173002_5",
+                    "startTime": "16:30:41",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.25623297691345,
+                    "longitude": 101.672996520996,
+                    "bearing": 194,
+                    "speed": 1.85000002384186
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WVH9625",
+                    "licensePlate": "WVH9625"
+                }
+            }
+        },
+        {
+            "id": "33",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0040_P004002_1",
+                    "startTime": "16:30:33",
+                    "startDate": "20250130",
+                    "routeId": "P0040"
+                },
+                "position": {
+                    "latitude": 3.09138298034668,
+                    "longitude": 101.609504699707,
+                    "bearing": 90,
+                    "speed": 61.1199989318848
+                },
+                "timestamp": "1738226280",
+                "vehicle": {
+                    "id": "WA9453M",
+                    "licensePlate": "WA9453M"
+                }
+            }
+        },
+        {
+            "id": "34",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2200_U220002_5",
+                    "startTime": "16:07:38",
+                    "startDate": "20250130",
+                    "routeId": "U2200"
+                },
+                "position": {
+                    "latitude": 3.17083311080933,
+                    "longitude": 101.717010498047,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WVA4166",
+                    "licensePlate": "WVA4166"
+                }
+            }
+        },
+        {
+            "id": "35",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7860_T786002_1",
+                    "startTime": "16:21:05",
+                    "startDate": "20250130",
+                    "routeId": "T7860"
+                },
+                "position": {
+                    "latitude": 3.12751007080078,
+                    "longitude": 101.630027770996,
+                    "bearing": 186.899993896484,
+                    "speed": 4.63000011444092
+                },
+                "timestamp": "1738226248",
+                "vehicle": {
+                    "id": "BJR8233",
+                    "licensePlate": "BJR8233"
+                }
+            }
+        },
+        {
+            "id": "36",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4000_U400002_1",
+                    "startTime": "15:50:18",
+                    "startDate": "20250130",
+                    "routeId": "U4000"
+                },
+                "position": {
+                    "latitude": 3.1461329460144,
+                    "longitude": 101.699996948242,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226268",
+                "vehicle": {
+                    "id": "WVN5548",
+                    "licensePlate": "WVN5548"
+                }
+            }
+        },
+        {
+            "id": "37",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6500_U650002_10",
+                    "startTime": "16:11:10",
+                    "startDate": "20250130",
+                    "routeId": "U6500"
+                },
+                "position": {
+                    "latitude": 3.10346698760986,
+                    "longitude": 101.687339782715,
+                    "bearing": 242,
+                    "speed": 27.7800006866455
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WNY6805",
+                    "licensePlate": "WNY6805"
+                }
+            }
+        },
+        {
+            "id": "38",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1080_S108002_0",
+                    "startTime": "15:56:45",
+                    "startDate": "20250130",
+                    "routeId": "S1080"
+                },
+                "position": {
+                    "latitude": 3.01866698265076,
+                    "longitude": 101.709991455078,
+                    "bearing": 148,
+                    "speed": 29.6299991607666
+                },
+                "timestamp": "1738226260",
+                "vehicle": {
+                    "id": "WB1872U",
+                    "licensePlate": "WB1872U"
+                }
+            }
+        },
+        {
+            "id": "39",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0010_P001002_13",
+                    "startTime": "16:35:51",
+                    "startDate": "20250130",
+                    "routeId": "P0010"
+                },
+                "position": {
+                    "latitude": 3.07648301124573,
+                    "longitude": 101.627326965332,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226271",
+                "vehicle": {
+                    "id": "WB3960N",
+                    "licensePlate": "WB3960N"
+                }
+            }
+        },
+        {
+            "id": "40",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173001_4",
+                    "startTime": "16:02:22",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.20516490936279,
+                    "longitude": 101.675712585449,
+                    "bearing": 299.899993896484,
+                    "speed": 4.07000017166138
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WVA4813",
+                    "licensePlate": "WVA4813"
+                }
+            }
+        },
+        {
+            "id": "41",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S3020_S302002_7",
+                    "startTime": "16:02:26",
+                    "startDate": "20250130",
+                    "routeId": "S3020"
+                },
+                "position": {
+                    "latitude": 3.04778289794922,
+                    "longitude": 101.451728820801,
+                    "bearing": 241.199996948242,
+                    "speed": 0
+                },
+                "timestamp": "1738226260",
+                "vehicle": {
+                    "id": "WUW9720",
+                    "licensePlate": "WUW9720"
+                }
+            }
+        },
+        {
+            "id": "42",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0070_S007002_2",
+                    "startTime": "14:15:01",
+                    "startDate": "20250130",
+                    "routeId": "S0070"
+                },
+                "position": {
+                    "latitude": 3.2514328956604,
+                    "longitude": 101.667335510254,
+                    "bearing": 239,
+                    "speed": 16.6700000762939
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WB2734T",
+                    "licensePlate": "WB2734T"
+                }
+            }
+        },
+        {
+            "id": "43",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250001_18",
+                    "startTime": "16:37:46",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.15008306503296,
+                    "longitude": 101.69783782959,
+                    "bearing": 345,
+                    "speed": 22.2199993133545
+                },
+                "timestamp": "1738226266",
+                "vehicle": {
+                    "id": "WB7597P",
+                    "licensePlate": "WB7597P"
+                }
+            }
+        },
+        {
+            "id": "44",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7720_U772001_11",
+                    "startTime": "15:43:59",
+                    "startDate": "20250130",
+                    "routeId": "U7720"
+                },
+                "position": {
+                    "latitude": 3.14918303489685,
+                    "longitude": 101.539505004883,
+                    "bearing": 232,
+                    "speed": 57.4099998474121
+                },
+                "timestamp": "1738226279",
+                "vehicle": {
+                    "id": "WC7313H",
+                    "licensePlate": "WC7313H"
+                }
+            }
+        },
+        {
+            "id": "45",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5410_U541002_1",
+                    "startTime": "16:30:41",
+                    "startDate": "20250130",
+                    "routeId": "U5410"
+                },
+                "position": {
+                    "latitude": 3.01148295402527,
+                    "longitude": 101.669822692871,
+                    "bearing": 121,
+                    "speed": 33.3400001525879
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "W3525T",
+                    "licensePlate": "W3525T"
+                }
+            }
+        },
+        {
+            "id": "46",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7800_U780002_6",
+                    "startTime": "15:45:00",
+                    "startDate": "20250130",
+                    "routeId": "U7800"
+                },
+                "position": {
+                    "latitude": 3.11713290214539,
+                    "longitude": 101.667839050293,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "WVE3614",
+                    "licensePlate": "WVE3614"
+                }
+            }
+        },
+        {
+            "id": "47",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250002_19",
+                    "startTime": "16:30:44",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.20896697044373,
+                    "longitude": 101.727668762207,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226294",
+                "vehicle": {
+                    "id": "WB6417S",
+                    "licensePlate": "WB6417S"
+                }
+            }
+        },
+        {
+            "id": "48",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4500_U450002_9",
+                    "startTime": "16:10:00",
+                    "startDate": "20250130",
+                    "routeId": "U4500"
+                },
+                "position": {
+                    "latitude": 3.0666720867157,
+                    "longitude": 101.774612426758,
+                    "bearing": 314.899993896484,
+                    "speed": 51.6699981689453
+                },
+                "timestamp": "1738226280",
+                "vehicle": {
+                    "id": "VHB3371",
+                    "licensePlate": "VHB3371"
+                }
+            }
+        },
+        {
+            "id": "49",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T3030_T303002_0",
+                    "startTime": "16:30:26",
+                    "startDate": "20250130",
+                    "routeId": "T3030"
+                },
+                "position": {
+                    "latitude": 3.14928293228149,
+                    "longitude": 101.750503540039,
+                    "bearing": 176,
+                    "speed": 11.1099996566772
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "SF20004",
+                    "licensePlate": "SF20004"
+                }
+            }
+        },
+        {
+            "id": "50",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0030_S003002_5",
+                    "startTime": "15:43:49",
+                    "startDate": "20250130",
+                    "routeId": "S0030"
+                },
+                "position": {
+                    "latitude": 2.96569991111755,
+                    "longitude": 101.790328979492,
+                    "bearing": 89,
+                    "speed": 5.55999994277954
+                },
+                "timestamp": "1738226299",
+                "vehicle": {
+                    "id": "WB915L",
+                    "licensePlate": "WB915L"
+                }
+            }
+        },
+        {
+            "id": "51",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600002_15",
+                    "startTime": "16:12:47",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 3.08732509613037,
+                    "longitude": 101.673782348633,
+                    "bearing": 15,
+                    "speed": 21.1100006103516
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "BNG4014",
+                    "licensePlate": "BNG4014"
+                }
+            }
+        },
+        {
+            "id": "52",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S2000_S200002_1",
+                    "startTime": "16:00:50",
+                    "startDate": "20250130",
+                    "routeId": "S2000"
+                },
+                "position": {
+                    "latitude": 3.04708290100098,
+                    "longitude": 101.585823059082,
+                    "bearing": 76,
+                    "speed": 42.5999984741211
+                },
+                "timestamp": "1738226270",
+                "vehicle": {
+                    "id": "WB962P",
+                    "licensePlate": "WB962P"
+                }
+            }
+        },
+        {
+            "id": "53",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250002_18",
+                    "startTime": "16:00:38",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.1471860408783,
+                    "longitude": 101.694236755371,
+                    "bearing": 105,
+                    "speed": 21.6700000762939
+                },
+                "timestamp": "1738226271",
+                "vehicle": {
+                    "id": "W9423Q",
+                    "licensePlate": "W9423Q"
+                }
+            }
+        },
+        {
+            "id": "54",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6410_U641002_0",
+                    "startTime": "15:31:40",
+                    "startDate": "20250130",
+                    "routeId": "U6410"
+                },
+                "position": {
+                    "latitude": 3.07431697845459,
+                    "longitude": 101.611831665039,
+                    "bearing": 261,
+                    "speed": 53.7099990844727
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WB807U",
+                    "licensePlate": "WB807U"
+                }
+            }
+        },
+        {
+            "id": "55",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6000_T600002_2",
+                    "startTime": "16:00:50",
+                    "startDate": "20250130",
+                    "routeId": "T6000"
+                },
+                "position": {
+                    "latitude": 3.04765009880066,
+                    "longitude": 101.620330810547,
+                    "bearing": 27,
+                    "speed": 29.6299991607666
+                },
+                "timestamp": "1738226270",
+                "vehicle": {
+                    "id": "WC1784M",
+                    "licensePlate": "WC1784M"
+                }
+            }
+        },
+        {
+            "id": "56",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0030_S003002_5",
+                    "startTime": "16:12:05",
+                    "startDate": "20250130",
+                    "routeId": "S0030"
+                },
+                "position": {
+                    "latitude": 2.99390006065369,
+                    "longitude": 101.786491394043,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WB2148J",
+                    "licensePlate": "WB2148J"
+                }
+            }
+        },
+        {
+            "id": "57",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4200_U420002_4",
+                    "startTime": "15:36:22",
+                    "startDate": "20250130",
+                    "routeId": "U4200"
+                },
+                "position": {
+                    "latitude": 3.12800788879395,
+                    "longitude": 101.732894897461,
+                    "bearing": 152.100006103516,
+                    "speed": 5.55999994277954
+                },
+                "timestamp": "1738226259",
+                "vehicle": {
+                    "id": "WPB3209",
+                    "licensePlate": "WPB3209"
+                }
+            }
+        },
+        {
+            "id": "58",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6020_U602002_0",
+                    "startTime": "15:58:37",
+                    "startDate": "20250130",
+                    "routeId": "U6020"
+                },
+                "position": {
+                    "latitude": 3.00790500640869,
+                    "longitude": 101.603858947754,
+                    "bearing": 87,
+                    "speed": 27.9699993133545
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WVL602",
+                    "licensePlate": "WVL602"
+                }
+            }
+        },
+        {
+            "id": "59",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P1030_P103002_2",
+                    "startTime": "16:03:59",
+                    "startDate": "20250130",
+                    "routeId": "P1030"
+                },
+                "position": {
+                    "latitude": 2.95296692848206,
+                    "longitude": 101.720489501953,
+                    "bearing": 129,
+                    "speed": 46.2999992370606
+                },
+                "timestamp": "1738226279",
+                "vehicle": {
+                    "id": "WC694F",
+                    "licensePlate": "WC694F"
+                }
+            }
+        },
+        {
+            "id": "60",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "15:58:04",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.15936899185181,
+                    "longitude": 101.710777282715,
+                    "bearing": 269.790008544922,
+                    "speed": 5.92999982833862
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "VEW7052",
+                    "licensePlate": "VEW7052"
+                }
+            }
+        },
+        {
+            "id": "61",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2000_U200002_3",
+                    "startTime": "13:47:08",
+                    "startDate": "20250130",
+                    "routeId": "U2000"
+                },
+                "position": {
+                    "latitude": 3.15844988822937,
+                    "longitude": 101.695999145508,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WVA4147",
+                    "licensePlate": "WVA4147"
+                }
+            }
+        },
+        {
+            "id": "62",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0070_S007002_3",
+                    "startTime": "16:15:02",
+                    "startDate": "20250130",
+                    "routeId": "S0070"
+                },
+                "position": {
+                    "latitude": 3.23669695854187,
+                    "longitude": 101.64363861084,
+                    "bearing": 306.5,
+                    "speed": 12.960000038147
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WB6530S",
+                    "licensePlate": "WB6530S"
+                }
+            }
+        },
+        {
+            "id": "63",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6400_U640002_5",
+                    "startTime": "16:31:26",
+                    "startDate": "20250130",
+                    "routeId": "U6400"
+                },
+                "position": {
+                    "latitude": 3.07809209823608,
+                    "longitude": 101.659454345703,
+                    "bearing": 65,
+                    "speed": 8.52000045776367
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "VGK1642",
+                    "licensePlate": "VGK1642"
+                }
+            }
+        },
+        {
+            "id": "64",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1700_U170002_3",
+                    "startTime": "16:20:25",
+                    "startDate": "20250130",
+                    "routeId": "U1700"
+                },
+                "position": {
+                    "latitude": 3.22043299674988,
+                    "longitude": 101.693992614746,
+                    "bearing": 187,
+                    "speed": 44.4500007629395
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WUW1276",
+                    "licensePlate": "WUW1276"
+                }
+            }
+        },
+        {
+            "id": "65",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S2020_S202002_3",
+                    "startTime": "16:20:55",
+                    "startDate": "20250130",
+                    "routeId": "S2020"
+                },
+                "position": {
+                    "latitude": 3.06743311882019,
+                    "longitude": 101.586006164551,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WB856L",
+                    "licensePlate": "WB856L"
+                }
+            }
+        },
+        {
+            "id": "66",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4100_S410002_3",
+                    "startTime": "16:32:39",
+                    "startDate": "20250130",
+                    "routeId": "S4100"
+                },
+                "position": {
+                    "latitude": 3.15920805931091,
+                    "longitude": 101.516891479492,
+                    "bearing": 90.9000015258789,
+                    "speed": 7.03999996185303
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WVA2986",
+                    "licensePlate": "WVA2986"
+                }
+            }
+        },
+        {
+            "id": "67",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7510_U751002_8",
+                    "startTime": "16:00:55",
+                    "startDate": "20250130",
+                    "routeId": "U7510"
+                },
+                "position": {
+                    "latitude": 3.13296508789063,
+                    "longitude": 101.687789916992,
+                    "bearing": 36.7999992370606,
+                    "speed": 0
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "W9762Q",
+                    "licensePlate": "W9762Q"
+                }
+            }
+        },
+        {
+            "id": "68",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7760_T776002_2",
+                    "startTime": "16:23:13",
+                    "startDate": "20250130",
+                    "routeId": "T7760"
+                },
+                "position": {
+                    "latitude": 3.04306697845459,
+                    "longitude": 101.599838256836,
+                    "bearing": 269,
+                    "speed": 53.7099990844727
+                },
+                "timestamp": "1738226293",
+                "vehicle": {
+                    "id": "CDH7756",
+                    "licensePlate": "CDH7756"
+                }
+            }
+        },
+        {
+            "id": "69",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0060_S006002_3",
+                    "startTime": "15:02:21",
+                    "startDate": "20250130",
+                    "routeId": "S0060"
+                },
+                "position": {
+                    "latitude": 2.82625007629395,
+                    "longitude": 101.538993835449,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226270",
+                "vehicle": {
+                    "id": "WB7005V",
+                    "licensePlate": "WB7005V"
+                }
+            }
+        },
+        {
+            "id": "70",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7800_U780001_5",
+                    "startTime": "15:44:13",
+                    "startDate": "20250130",
+                    "routeId": "U7800"
+                },
+                "position": {
+                    "latitude": 3.15408992767334,
+                    "longitude": 101.577964782715,
+                    "bearing": 336.299987792969,
+                    "speed": 30.9300003051758
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WVC6647",
+                    "licensePlate": "WVC6647"
+                }
+            }
+        },
+        {
+            "id": "71",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1800_U180002_8",
+                    "startTime": "16:30:00",
+                    "startDate": "20250130",
+                    "routeId": "U1800"
+                },
+                "position": {
+                    "latitude": 3.18211698532105,
+                    "longitude": 101.693992614746,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WVC4291",
+                    "licensePlate": "WVC4291"
+                }
+            }
+        },
+        {
+            "id": "72",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1700_U170002_3",
+                    "startTime": "15:12:02",
+                    "startDate": "20250130",
+                    "routeId": "U1700"
+                },
+                "position": {
+                    "latitude": 3.25148296356201,
+                    "longitude": 101.687843322754,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WVD4971",
+                    "licensePlate": "WVD4971"
+                }
+            }
+        },
+        {
+            "id": "73",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3020_U302002_3",
+                    "startTime": "16:02:32",
+                    "startDate": "20250130",
+                    "routeId": "U3020"
+                },
+                "position": {
+                    "latitude": 3.16783308982849,
+                    "longitude": 101.713165283203,
+                    "bearing": 343,
+                    "speed": 22.2199993133545
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WVA4371",
+                    "licensePlate": "WVA4371"
+                }
+            }
+        },
+        {
+            "id": "74",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T3510_T351002_1",
+                    "startTime": "16:31:23",
+                    "startDate": "20250130",
+                    "routeId": "T3510"
+                },
+                "position": {
+                    "latitude": 3.1322500705719,
+                    "longitude": 101.762825012207,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WVN5644",
+                    "licensePlate": "WVN5644"
+                }
+            }
+        },
+        {
+            "id": "75",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7800_U780001_5",
+                    "startTime": "16:22:57",
+                    "startDate": "20250130",
+                    "routeId": "U7800"
+                },
+                "position": {
+                    "latitude": 3.11724996566772,
+                    "longitude": 101.672164916992,
+                    "bearing": 195,
+                    "speed": 24.0799999237061
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WVC2034",
+                    "licensePlate": "WVC2034"
+                }
+            }
+        },
+        {
+            "id": "76",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7870_T787002_3",
+                    "startTime": "16:21:09",
+                    "startDate": "20250130",
+                    "routeId": "T7870"
+                },
+                "position": {
+                    "latitude": 3.12646293640137,
+                    "longitude": 101.634063720703,
+                    "bearing": 309.899993896484,
+                    "speed": 9.06999969482422
+                },
+                "timestamp": "1738226297",
+                "vehicle": {
+                    "id": "WVA2965",
+                    "licensePlate": "WVA2965"
+                }
+            }
+        },
+        {
+            "id": "77",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2500_T250002_2",
+                    "startTime": "16:02:09",
+                    "startDate": "20250130",
+                    "routeId": "T2500"
+                },
+                "position": {
+                    "latitude": 3.21331691741943,
+                    "longitude": 101.725830078125,
+                    "bearing": 172,
+                    "speed": 5.55999994277954
+                },
+                "timestamp": "1738226289",
+                "vehicle": {
+                    "id": "WUY9497",
+                    "licensePlate": "WUY9497"
+                }
+            }
+        },
+        {
+            "id": "78",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2000_T200002_0",
+                    "startTime": "16:30:40",
+                    "startDate": "20250130",
+                    "routeId": "T2000"
+                },
+                "position": {
+                    "latitude": 3.2485830783844,
+                    "longitude": 101.73250579834,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WVA5842",
+                    "licensePlate": "WVA5842"
+                }
+            }
+        },
+        {
+            "id": "79",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "15:42:59",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.15548491477966,
+                    "longitude": 101.701805114746,
+                    "bearing": 45.2000007629395,
+                    "speed": 30.7399997711182
+                },
+                "timestamp": "1738226278",
+                "vehicle": {
+                    "id": "VEQ6895",
+                    "licensePlate": "VEQ6895"
+                }
+            }
+        },
+        {
+            "id": "80",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2020_T202002_5",
+                    "startTime": "16:31:09",
+                    "startDate": "20250130",
+                    "routeId": "T2020"
+                },
+                "position": {
+                    "latitude": 3.23340010643005,
+                    "longitude": 101.710174560547,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226289",
+                "vehicle": {
+                    "id": "WB4987K",
+                    "licensePlate": "WB4987K"
+                }
+            }
+        },
+        {
+            "id": "81",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0040_P004002_1",
+                    "startTime": "16:01:52",
+                    "startDate": "20250130",
+                    "routeId": "P0040"
+                },
+                "position": {
+                    "latitude": 3.10995006561279,
+                    "longitude": 101.616340637207,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226252",
+                "vehicle": {
+                    "id": "WA2947M",
+                    "licensePlate": "WA2947M"
+                }
+            }
+        },
+        {
+            "id": "82",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4210_U421002_4",
+                    "startTime": "16:31:14",
+                    "startDate": "20250130",
+                    "routeId": "U4210"
+                },
+                "position": {
+                    "latitude": 3.14588308334351,
+                    "longitude": 101.743782043457,
+                    "bearing": 210.100006103516,
+                    "speed": 32.4099998474121
+                },
+                "timestamp": "1738226297",
+                "vehicle": {
+                    "id": "WVP2522",
+                    "licensePlate": "WVP2522"
+                }
+            }
+        },
+        {
+            "id": "83",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T5800_T580002_1",
+                    "startTime": "16:26:58",
+                    "startDate": "20250130",
+                    "routeId": "T5800"
+                },
+                "position": {
+                    "latitude": 3.05014991760254,
+                    "longitude": 101.67000579834,
+                    "bearing": 149,
+                    "speed": 64.8199996948242
+                },
+                "timestamp": "1738226278",
+                "vehicle": {
+                    "id": "WC3844G",
+                    "licensePlate": "WC3844G"
+                }
+            }
+        },
+        {
+            "id": "84",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173002_5",
+                    "startTime": "15:50:01",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.15575289726257,
+                    "longitude": 101.696113586426,
+                    "bearing": 169.5,
+                    "speed": 8.52000045776367
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "W4986V",
+                    "licensePlate": "W4986V"
+                }
+            }
+        },
+        {
+            "id": "85",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4100_S410002_3",
+                    "startTime": "15:31:42",
+                    "startDate": "20250130",
+                    "routeId": "S4100"
+                },
+                "position": {
+                    "latitude": 3.15253901481628,
+                    "longitude": 101.529197692871,
+                    "bearing": 0.300000011920929,
+                    "speed": 8.14999961853027
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WVC6461",
+                    "licensePlate": "WVC6461"
+                }
+            }
+        },
+        {
+            "id": "86",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7910_T791002_4",
+                    "startTime": "16:33:32",
+                    "startDate": "20250130",
+                    "routeId": "T7910"
+                },
+                "position": {
+                    "latitude": 3.11705899238586,
+                    "longitude": 101.672103881836,
+                    "bearing": 83.6999969482422,
+                    "speed": 12.960000038147
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WVF5584",
+                    "licensePlate": "WVF5584"
+                }
+            }
+        },
+        {
+            "id": "87",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0050_P005002_1",
+                    "startTime": "16:34:23",
+                    "startDate": "20250130",
+                    "routeId": "P0050"
+                },
+                "position": {
+                    "latitude": 3.15315008163452,
+                    "longitude": 101.612174987793,
+                    "bearing": 178,
+                    "speed": 27.7800006866455
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WA7507M",
+                    "licensePlate": "WA7507M"
+                }
+            }
+        },
+        {
+            "id": "88",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6010_T601002_3",
+                    "startTime": "16:15:32",
+                    "startDate": "20250130",
+                    "routeId": "T6010"
+                },
+                "position": {
+                    "latitude": 2.99411702156067,
+                    "longitude": 101.595001220703,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WC5704J",
+                    "licensePlate": "WC5704J"
+                }
+            }
+        },
+        {
+            "id": "89",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6400_U640002_5",
+                    "startTime": "15:51:46",
+                    "startDate": "20250130",
+                    "routeId": "U6400"
+                },
+                "position": {
+                    "latitude": 3.14253997802734,
+                    "longitude": 101.697555541992,
+                    "bearing": 298.600006103516,
+                    "speed": 1.11000001430511
+                },
+                "timestamp": "1738226294",
+                "vehicle": {
+                    "id": "WWC4624",
+                    "licensePlate": "WWC4624"
+                }
+            }
+        },
+        {
+            "id": "90",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T8500_T850002_7",
+                    "startTime": "16:33:12",
+                    "startDate": "20250130",
+                    "routeId": "T8500"
+                },
+                "position": {
+                    "latitude": 3.14240097999573,
+                    "longitude": 101.670021057129,
+                    "bearing": 277.100006103516,
+                    "speed": 37.9700012207031
+                },
+                "timestamp": "1738226270",
+                "vehicle": {
+                    "id": "W7743T",
+                    "licensePlate": "W7743T"
+                }
+            }
+        },
+        {
+            "id": "91",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4060_S406002_2",
+                    "startTime": "16:00:00",
+                    "startDate": "20250130",
+                    "routeId": "S4060"
+                },
+                "position": {
+                    "latitude": 2.9901270866394,
+                    "longitude": 101.546562194824,
+                    "bearing": 118.599998474121,
+                    "speed": 49.2599983215332
+                },
+                "timestamp": "1738226265",
+                "vehicle": {
+                    "id": "WUY4954",
+                    "licensePlate": "WUY4954"
+                }
+            }
+        },
+        {
+            "id": "92",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T4500_T450002_2",
+                    "startTime": "14:30:41",
+                    "startDate": "20250130",
+                    "routeId": "T4500"
+                },
+                "position": {
+                    "latitude": 2.87560200691223,
+                    "longitude": 101.87255859375,
+                    "bearing": 183.199996948242,
+                    "speed": 19.0799999237061
+                },
+                "timestamp": "1738226289",
+                "vehicle": {
+                    "id": "WVG2342",
+                    "licensePlate": "WVG2342"
+                }
+            }
+        },
+        {
+            "id": "93",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1900_U190002_6",
+                    "startTime": "16:33:24",
+                    "startDate": "20250130",
+                    "routeId": "U1900"
+                },
+                "position": {
+                    "latitude": 3.17673301696777,
+                    "longitude": 101.651496887207,
+                    "bearing": 10,
+                    "speed": 22.2199993133545
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WVC6407",
+                    "licensePlate": "WVC6407"
+                }
+            }
+        },
+        {
+            "id": "94",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6020_U602002_0",
+                    "startTime": "15:25:40",
+                    "startDate": "20250130",
+                    "routeId": "U6020"
+                },
+                "position": {
+                    "latitude": 3.03203296661377,
+                    "longitude": 101.615997314453,
+                    "bearing": 206,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WVN5539",
+                    "licensePlate": "WVN5539"
+                }
+            }
+        },
+        {
+            "id": "95",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1060_S106002_1",
+                    "startTime": "08:10:53",
+                    "startDate": "20250130",
+                    "routeId": "S1060"
+                },
+                "position": {
+                    "latitude": 2.88443303108215,
+                    "longitude": 101.792655944824,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226271",
+                "vehicle": {
+                    "id": "WB4788V",
+                    "licensePlate": "WB4788V"
+                }
+            }
+        },
+        {
+            "id": "96",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0010_P001001_11",
+                    "startTime": "16:16:02",
+                    "startDate": "20250130",
+                    "routeId": "P0010"
+                },
+                "position": {
+                    "latitude": 3.07614994049072,
+                    "longitude": 101.629837036133,
+                    "bearing": 100,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WB3634N",
+                    "licensePlate": "WB3634N"
+                }
+            }
+        },
+        {
+            "id": "97",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4000_U400002_2",
+                    "startTime": "16:32:16",
+                    "startDate": "20250130",
+                    "routeId": "U4000"
+                },
+                "position": {
+                    "latitude": 3.04703807830811,
+                    "longitude": 101.748603820801,
+                    "bearing": 94.6999969482422,
+                    "speed": 14.2600002288818
+                },
+                "timestamp": "1738226233",
+                "vehicle": {
+                    "id": "WVC6714",
+                    "licensePlate": "WVC6714"
+                }
+            }
+        },
+        {
+            "id": "98",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S2020_S202002_2",
+                    "startTime": "16:02:52",
+                    "startDate": "20250130",
+                    "routeId": "S2020"
+                },
+                "position": {
+                    "latitude": 3.07098293304443,
+                    "longitude": 101.613670349121,
+                    "bearing": 181,
+                    "speed": 46.2999992370606
+                },
+                "timestamp": "1738226269",
+                "vehicle": {
+                    "id": "WB846U",
+                    "licensePlate": "WB846U"
+                }
+            }
+        },
+        {
+            "id": "99",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7810_T781002_3",
+                    "startTime": "16:21:12",
+                    "startDate": "20250130",
+                    "routeId": "T7810"
+                },
+                "position": {
+                    "latitude": 3.09731698036194,
+                    "longitude": 101.595832824707,
+                    "bearing": 138,
+                    "speed": 29.6299991607666
+                },
+                "timestamp": "1738226262",
+                "vehicle": {
+                    "id": "WQA7103",
+                    "licensePlate": "WQA7103"
+                }
+            }
+        },
+        {
+            "id": "100",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0010_P001002_13",
+                    "startTime": "16:12:47",
+                    "startDate": "20250130",
+                    "routeId": "P0010"
+                },
+                "position": {
+                    "latitude": 3.11751008033752,
+                    "longitude": 101.629898071289,
+                    "bearing": 35.2999992370606,
+                    "speed": 27.2199993133545
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WB5605H",
+                    "licensePlate": "WB5605H"
+                }
+            }
+        },
+        {
+            "id": "101",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1710_U171001_7",
+                    "startTime": "16:15:41",
+                    "startDate": "20250130",
+                    "routeId": "U1710"
+                },
+                "position": {
+                    "latitude": 3.16791701316834,
+                    "longitude": 101.696334838867,
+                    "bearing": 9,
+                    "speed": 25.9300003051758
+                },
+                "timestamp": "1738226261",
+                "vehicle": {
+                    "id": "WVE2825",
+                    "licensePlate": "WVE2825"
+                }
+            }
+        },
+        {
+            "id": "102",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173001_5",
+                    "startTime": "16:34:04",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.15317296981812,
+                    "longitude": 101.698585510254,
+                    "bearing": 339.899993896484,
+                    "speed": 0
+                },
+                "timestamp": "1738226245",
+                "vehicle": {
+                    "id": "WA5036G",
+                    "licensePlate": "WA5036G"
+                }
+            }
+        },
+        {
+            "id": "103",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1510_U151002_5",
+                    "startTime": "15:46:47",
+                    "startDate": "20250130",
+                    "routeId": "U1510"
+                },
+                "position": {
+                    "latitude": 3.14726710319519,
+                    "longitude": 101.693992614746,
+                    "bearing": 141,
+                    "speed": 11.1099996566772
+                },
+                "timestamp": "1738226266",
+                "vehicle": {
+                    "id": "WVH6234",
+                    "licensePlate": "WVH6234"
+                }
+            }
+        },
+        {
+            "id": "104",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7900_T790002_5",
+                    "startTime": "16:23:59",
+                    "startDate": "20250130",
+                    "routeId": "T7900"
+                },
+                "position": {
+                    "latitude": 3.11851692199707,
+                    "longitude": 101.631332397461,
+                    "bearing": 76,
+                    "speed": 27.7800006866455
+                },
+                "timestamp": "1738226279",
+                "vehicle": {
+                    "id": "WC5319A",
+                    "licensePlate": "WC5319A"
+                }
+            }
+        },
+        {
+            "id": "105",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1900_U190001_6",
+                    "startTime": "16:08:23",
+                    "startDate": "20250130",
+                    "routeId": "U1900"
+                },
+                "position": {
+                    "latitude": 3.18598294258118,
+                    "longitude": 101.659324645996,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WVA4269",
+                    "licensePlate": "WVA4269"
+                }
+            }
+        },
+        {
+            "id": "106",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1190_S119002_11",
+                    "startTime": "15:00:52",
+                    "startDate": "20250130",
+                    "routeId": "S1190"
+                },
+                "position": {
+                    "latitude": 3.30898308753967,
+                    "longitude": 101.584342956543,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226271",
+                "vehicle": {
+                    "id": "WB6374S",
+                    "licensePlate": "WB6374S"
+                }
+            }
+        },
+        {
+            "id": "107",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250001_18",
+                    "startTime": "16:16:21",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.19734907150269,
+                    "longitude": 101.714141845703,
+                    "bearing": 46.2999992370606,
+                    "speed": 5.36999988555908
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WPB4394",
+                    "licensePlate": "WPB4394"
+                }
+            }
+        },
+        {
+            "id": "108",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3030_U303002_7",
+                    "startTime": "16:30:13",
+                    "startDate": "20250130",
+                    "routeId": "U3030"
+                },
+                "position": {
+                    "latitude": 3.1432158946991,
+                    "longitude": 101.780174255371,
+                    "bearing": 265.290008544922,
+                    "speed": 0
+                },
+                "timestamp": "1738226264",
+                "vehicle": {
+                    "id": "WVN7754",
+                    "licensePlate": "WVN7754"
+                }
+            }
+        },
+        {
+            "id": "109",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "16:12:15",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.15430998802185,
+                    "longitude": 101.754852294922,
+                    "bearing": 300.200012207031,
+                    "speed": 25.3700008392334
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "VFJ8463",
+                    "licensePlate": "VFJ8463"
+                }
+            }
+        },
+        {
+            "id": "110",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5810_U581002_1",
+                    "startTime": "16:20:57",
+                    "startDate": "20250130",
+                    "routeId": "U5810"
+                },
+                "position": {
+                    "latitude": 3.05894708633423,
+                    "longitude": 101.723602294922,
+                    "bearing": 189.800003051758,
+                    "speed": 27.4099998474121
+                },
+                "timestamp": "1738226268",
+                "vehicle": {
+                    "id": "W5623V",
+                    "licensePlate": "W5623V"
+                }
+            }
+        },
+        {
+            "id": "111",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6410_U641002_0",
+                    "startTime": "16:31:43",
+                    "startDate": "20250130",
+                    "routeId": "U6410"
+                },
+                "position": {
+                    "latitude": 3.07349991798401,
+                    "longitude": 101.594169616699,
+                    "bearing": 74,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226293",
+                "vehicle": {
+                    "id": "WB836U",
+                    "licensePlate": "WB836U"
+                }
+            }
+        },
+        {
+            "id": "112",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "15:30:29",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.15228199958801,
+                    "longitude": 101.699447631836,
+                    "bearing": 278.790008544922,
+                    "speed": 0
+                },
+                "timestamp": "1738226278",
+                "vehicle": {
+                    "id": "WVE4800",
+                    "licensePlate": "WVE4800"
+                }
+            }
+        },
+        {
+            "id": "113",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2010_T201002_10",
+                    "startTime": "16:16:13",
+                    "startDate": "20250130",
+                    "routeId": "T2010"
+                },
+                "position": {
+                    "latitude": 3.22659993171692,
+                    "longitude": 101.727828979492,
+                    "bearing": 214,
+                    "speed": 14.8199996948242
+                },
+                "timestamp": "1738226292",
+                "vehicle": {
+                    "id": "WUY1449",
+                    "licensePlate": "WUY1449"
+                }
+            }
+        },
+        {
+            "id": "114",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5900_U590002_11",
+                    "startTime": "16:05:16",
+                    "startDate": "20250130",
+                    "routeId": "U5900"
+                },
+                "position": {
+                    "latitude": 3.09294605255127,
+                    "longitude": 101.701217651367,
+                    "bearing": 21.6000003814697,
+                    "speed": 7.59000015258789
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "SF2113531",
+                    "licensePlate": "SF2113531"
+                }
+            }
+        },
+        {
+            "id": "115",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1390_S139002_4",
+                    "startTime": "15:11:17",
+                    "startDate": "20250130",
+                    "routeId": "S1390"
+                },
+                "position": {
+                    "latitude": 3.22951698303223,
+                    "longitude": 101.550827026367,
+                    "bearing": 132,
+                    "speed": 46.2999992370606
+                },
+                "timestamp": "1738226297",
+                "vehicle": {
+                    "id": "WB7284P",
+                    "licensePlate": "WB7284P"
+                }
+            }
+        },
+        {
+            "id": "116",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1140_S114002_1",
+                    "startTime": "16:01:44",
+                    "startDate": "20250130",
+                    "routeId": "S1140"
+                },
+                "position": {
+                    "latitude": 3.13307690620422,
+                    "longitude": 101.751365661621,
+                    "bearing": 252.399993896484,
+                    "speed": 27.4099998474121
+                },
+                "timestamp": "1738226289",
+                "vehicle": {
+                    "id": "WVP2456",
+                    "licensePlate": "WVP2456"
+                }
+            }
+        },
+        {
+            "id": "117",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7800_U780002_6",
+                    "startTime": "16:21:46",
+                    "startDate": "20250130",
+                    "routeId": "U7800"
+                },
+                "position": {
+                    "latitude": 3.15089988708496,
+                    "longitude": 101.578659057617,
+                    "bearing": 146,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226296",
+                "vehicle": {
+                    "id": "WVH9685",
+                    "licensePlate": "WVH9685"
+                }
+            }
+        },
+        {
+            "id": "118",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0030_P003002_1",
+                    "startTime": "16:36:35",
+                    "startDate": "20250130",
+                    "routeId": "P0030"
+                },
+                "position": {
+                    "latitude": 3.10616707801819,
+                    "longitude": 101.610496520996,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WB4377E",
+                    "licensePlate": "WB4377E"
+                }
+            }
+        },
+        {
+            "id": "119",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T8500_T850002_7",
+                    "startTime": "16:07:39",
+                    "startDate": "20250130",
+                    "routeId": "T8500"
+                },
+                "position": {
+                    "latitude": 3.12593293190002,
+                    "longitude": 101.677833557129,
+                    "bearing": 56,
+                    "speed": 9.26000022888184
+                },
+                "timestamp": "1738226276",
+                "vehicle": {
+                    "id": "WUT8479",
+                    "licensePlate": "WUT8479"
+                }
+            }
+        },
+        {
+            "id": "120",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600002_14",
+                    "startTime": "15:59:39",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 3.12739706039429,
+                    "longitude": 101.683204650879,
+                    "bearing": 27.7999992370605,
+                    "speed": 5.55999994277954
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WVL634",
+                    "licensePlate": "WVL634"
+                }
+            }
+        },
+        {
+            "id": "121",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600002_14",
+                    "startTime": "15:50:00",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 3.13813090324402,
+                    "longitude": 101.693405151367,
+                    "bearing": 49.0999984741211,
+                    "speed": 18.1499996185303
+                },
+                "timestamp": "1738226295",
+                "vehicle": {
+                    "id": "VEY4750",
+                    "licensePlate": "VEY4750"
+                }
+            }
+        },
+        {
+            "id": "122",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5900_U590002_11",
+                    "startTime": "16:20:25",
+                    "startDate": "20250130",
+                    "routeId": "U5900"
+                },
+                "position": {
+                    "latitude": 3.02488303184509,
+                    "longitude": 101.734001159668,
+                    "bearing": 249,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WB1938U",
+                    "licensePlate": "WB1938U"
+                }
+            }
+        },
+        {
+            "id": "123",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2000_U200002_3",
+                    "startTime": "16:02:28",
+                    "startDate": "20250130",
+                    "routeId": "U2000"
+                },
+                "position": {
+                    "latitude": 3.20799994468689,
+                    "longitude": 101.703155517578,
+                    "bearing": 217,
+                    "speed": 38.8899993896484
+                },
+                "timestamp": "1738226278",
+                "vehicle": {
+                    "id": "WVA4152",
+                    "licensePlate": "WVA4152"
+                }
+            }
+        },
+        {
+            "id": "124",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6510_U651002_0",
+                    "startTime": "16:32:03",
+                    "startDate": "20250130",
+                    "routeId": "U6510"
+                },
+                "position": {
+                    "latitude": 3.06095004081726,
+                    "longitude": 101.659828186035,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226283",
+                "vehicle": {
+                    "id": "WVL592",
+                    "licensePlate": "WVL592"
+                }
+            }
+        },
+        {
+            "id": "125",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600001_13",
+                    "startTime": "15:46:40",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 2.99138689041138,
+                    "longitude": 101.613639831543,
+                    "bearing": 144.600006103516,
+                    "speed": 22.5900001525879
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "VGH4668",
+                    "licensePlate": "VGH4668"
+                }
+            }
+        },
+        {
+            "id": "126",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6040_T604002_7",
+                    "startTime": "16:12:16",
+                    "startDate": "20250130",
+                    "routeId": "T6040"
+                },
+                "position": {
+                    "latitude": 3.06293201446533,
+                    "longitude": 101.648635864258,
+                    "bearing": 68.8000030517578,
+                    "speed": 8.14999961853027
+                },
+                "timestamp": "1738226253",
+                "vehicle": {
+                    "id": "WQA1063",
+                    "licensePlate": "WQA1063"
+                }
+            }
+        },
+        {
+            "id": "127",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0131_S013102_3",
+                    "startTime": "15:42:50",
+                    "startDate": "20250130",
+                    "routeId": "S0131"
+                },
+                "position": {
+                    "latitude": 3.13430094718933,
+                    "longitude": 101.474609375,
+                    "bearing": 266.700012207031,
+                    "speed": 21.8500003814697
+                },
+                "timestamp": "1738226242",
+                "vehicle": {
+                    "id": "WQE2148",
+                    "licensePlate": "WQE2148"
+                }
+            }
+        },
+        {
+            "id": "128",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4200_U420002_4",
+                    "startTime": "16:36:55",
+                    "startDate": "20250130",
+                    "routeId": "U4200"
+                },
+                "position": {
+                    "latitude": 3.13488507270813,
+                    "longitude": 101.753349304199,
+                    "bearing": 183.300003051758,
+                    "speed": 11.4799995422363
+                },
+                "timestamp": "1738226229",
+                "vehicle": {
+                    "id": "VFH1693",
+                    "licensePlate": "VFH1693"
+                }
+            }
+        },
+        {
+            "id": "129",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0060_P006002_2",
+                    "startTime": "16:17:55",
+                    "startDate": "20250130",
+                    "routeId": "P0060"
+                },
+                "position": {
+                    "latitude": 3.19729995727539,
+                    "longitude": 101.61083984375,
+                    "bearing": 338,
+                    "speed": 33.3400001525879
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WA3262L",
+                    "licensePlate": "WA3262L"
+                }
+            }
+        },
+        {
+            "id": "130",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7510_U751001_8",
+                    "startTime": "16:12:07",
+                    "startDate": "20250130",
+                    "routeId": "U7510"
+                },
+                "position": {
+                    "latitude": 3.10031199455261,
+                    "longitude": 101.646453857422,
+                    "bearing": 262.899993896484,
+                    "speed": 41.1100006103516
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "W3372R",
+                    "licensePlate": "W3372R"
+                }
+            }
+        },
+        {
+            "id": "131",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250002_19",
+                    "startTime": "16:15:32",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.17785406112671,
+                    "longitude": 101.700393676758,
+                    "bearing": 184.5,
+                    "speed": 14.2600002288818
+                },
+                "timestamp": "1738226280",
+                "vehicle": {
+                    "id": "WQE2164",
+                    "licensePlate": "WQE2164"
+                }
+            }
+        },
+        {
+            "id": "132",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3020_U302002_3",
+                    "startTime": "16:32:10",
+                    "startDate": "20250130",
+                    "routeId": "U3020"
+                },
+                "position": {
+                    "latitude": 3.16801691055298,
+                    "longitude": 101.707664489746,
+                    "bearing": 84,
+                    "speed": 24.0799999237061
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "WUY9534",
+                    "licensePlate": "WUY9534"
+                }
+            }
+        },
+        {
+            "id": "133",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2240_T224002_0",
+                    "startTime": "16:32:09",
+                    "startDate": "20250130",
+                    "routeId": "T2240"
+                },
+                "position": {
+                    "latitude": 3.16146111488342,
+                    "longitude": 101.735664367676,
+                    "bearing": 157.300003051758,
+                    "speed": 33.8699989318848
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "W3354R",
+                    "licensePlate": "W3354R"
+                }
+            }
+        },
+        {
+            "id": "134",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5800_U580002_3",
+                    "startTime": "15:29:21",
+                    "startDate": "20250130",
+                    "routeId": "U5800"
+                },
+                "position": {
+                    "latitude": 3.14618301391602,
+                    "longitude": 101.69815826416,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226268",
+                "vehicle": {
+                    "id": "WVB3741",
+                    "licensePlate": "WVB3741"
+                }
+            }
+        },
+        {
+            "id": "135",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6400_T640002_7",
+                    "startTime": "16:21:38",
+                    "startDate": "20250130",
+                    "routeId": "T6400"
+                },
+                "position": {
+                    "latitude": 3.08212089538574,
+                    "longitude": 101.660903930664,
+                    "bearing": 171,
+                    "speed": 0
+                },
+                "timestamp": "1738226232",
+                "vehicle": {
+                    "id": "SF2113394",
+                    "licensePlate": "SF2113394"
+                }
+            }
+        },
+        {
+            "id": "136",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4020_S402002_1",
+                    "startTime": "16:02:41",
+                    "startDate": "20250130",
+                    "routeId": "S4020"
+                },
+                "position": {
+                    "latitude": 3.07563304901123,
+                    "longitude": 101.559989929199,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WQB3109",
+                    "licensePlate": "WQB3109"
+                }
+            }
+        },
+        {
+            "id": "137",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4050_S405002_3",
+                    "startTime": "14:22:25",
+                    "startDate": "20250130",
+                    "routeId": "S4050"
+                },
+                "position": {
+                    "latitude": 3.11436700820923,
+                    "longitude": 101.528823852539,
+                    "bearing": 149,
+                    "speed": 25.9300003051758
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WB2749T",
+                    "licensePlate": "WB2749T"
+                }
+            }
+        },
+        {
+            "id": "138",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7520_U752001_7",
+                    "startTime": "16:06:16",
+                    "startDate": "20250130",
+                    "routeId": "U7520"
+                },
+                "position": {
+                    "latitude": 3.00296688079834,
+                    "longitude": 101.560676574707,
+                    "bearing": 181,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226296",
+                "vehicle": {
+                    "id": "WVF1352",
+                    "licensePlate": "WVF1352"
+                }
+            }
+        },
+        {
+            "id": "139",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "16:24:08",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.13129997253418,
+                    "longitude": 101.771499633789,
+                    "bearing": 1,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "VFA5163",
+                    "licensePlate": "VFA5163"
+                }
+            }
+        },
+        {
+            "id": "140",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T3510_T351002_1",
+                    "startTime": "15:59:49",
+                    "startDate": "20250130",
+                    "routeId": "T3510"
+                },
+                "position": {
+                    "latitude": 3.11199998855591,
+                    "longitude": 101.758171081543,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226269",
+                "vehicle": {
+                    "id": "WVP2487",
+                    "licensePlate": "WVP2487"
+                }
+            }
+        },
+        {
+            "id": "141",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6400_T640002_7",
+                    "startTime": "16:02:42",
+                    "startDate": "20250130",
+                    "routeId": "T6400"
+                },
+                "position": {
+                    "latitude": 3.08751702308655,
+                    "longitude": 101.641342163086,
+                    "bearing": 255,
+                    "speed": 9.26000022888184
+                },
+                "timestamp": "1738226292",
+                "vehicle": {
+                    "id": "WVN5492",
+                    "licensePlate": "WVN5492"
+                }
+            }
+        },
+        {
+            "id": "142",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2530_U253002_7",
+                    "startTime": "16:00:00",
+                    "startDate": "20250130",
+                    "routeId": "U2530"
+                },
+                "position": {
+                    "latitude": 3.15708303451538,
+                    "longitude": 101.750831604004,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226294",
+                "vehicle": {
+                    "id": "WVP2491",
+                    "licensePlate": "WVP2491"
+                }
+            }
+        },
+        {
+            "id": "143",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "16:37:30",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.1330029964447,
+                    "longitude": 101.760055541992,
+                    "bearing": 98.4000015258789,
+                    "speed": 54.6300010681152
+                },
+                "timestamp": "1738226293",
+                "vehicle": {
+                    "id": "VGL1376",
+                    "licensePlate": "VGL1376"
+                }
+            }
+        },
+        {
+            "id": "144",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U4200_U420002_4",
+                    "startTime": "16:00:04",
+                    "startDate": "20250130",
+                    "routeId": "U4200"
+                },
+                "position": {
+                    "latitude": 3.14811992645264,
+                    "longitude": 101.710906982422,
+                    "bearing": 304.700012207031,
+                    "speed": 0
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "VGG9481",
+                    "licensePlate": "VGG9481"
+                }
+            }
+        },
+        {
+            "id": "145",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0040_S004002_2",
+                    "startTime": "16:34:45",
+                    "startDate": "20250130",
+                    "routeId": "S0040"
+                },
+                "position": {
+                    "latitude": 3.19897389411926,
+                    "longitude": 101.776901245117,
+                    "bearing": 227.100006103516,
+                    "speed": 56.8600006103516
+                },
+                "timestamp": "1738226297",
+                "vehicle": {
+                    "id": "WVE5068",
+                    "licensePlate": "WVE5068"
+                }
+            }
+        },
+        {
+            "id": "146",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7720_U772001_12",
+                    "startTime": "16:20:24",
+                    "startDate": "20250130",
+                    "routeId": "U7720"
+                },
+                "position": {
+                    "latitude": 3.11684989929199,
+                    "longitude": 101.668357849121,
+                    "bearing": 271,
+                    "speed": 8.32999992370606
+                },
+                "timestamp": "1738226265",
+                "vehicle": {
+                    "id": "VFK4581",
+                    "licensePlate": "VFK4581"
+                }
+            }
+        },
+        {
+            "id": "147",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1710_U171002_8",
+                    "startTime": "16:21:56",
+                    "startDate": "20250130",
+                    "routeId": "U1710"
+                },
+                "position": {
+                    "latitude": 3.23313307762146,
+                    "longitude": 101.692008972168,
+                    "bearing": 269,
+                    "speed": 27.7800006866455
+                },
+                "timestamp": "1738226276",
+                "vehicle": {
+                    "id": "WNQ1653",
+                    "licensePlate": "WNQ1653"
+                }
+            }
+        },
+        {
+            "id": "148",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T4500_T450002_2",
+                    "startTime": "16:01:21",
+                    "startDate": "20250130",
+                    "routeId": "T4500"
+                },
+                "position": {
+                    "latitude": 2.97906994819641,
+                    "longitude": 101.822578430176,
+                    "bearing": 284.700012207031,
+                    "speed": 45.560001373291
+                },
+                "timestamp": "1738226261",
+                "vehicle": {
+                    "id": "WNP9275",
+                    "licensePlate": "WNP9275"
+                }
+            }
+        },
+        {
+            "id": "149",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P0010_P001001_12",
+                    "startTime": "16:41:00",
+                    "startDate": "20250130",
+                    "routeId": "P0010"
+                },
+                "position": {
+                    "latitude": 3.1036970615387,
+                    "longitude": 101.647430419922,
+                    "bearing": 98.6999969482422,
+                    "speed": 40.3699989318848
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WB4416E",
+                    "licensePlate": "WB4416E"
+                }
+            }
+        },
+        {
+            "id": "150",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5800_U580002_3",
+                    "startTime": "16:01:40",
+                    "startDate": "20250130",
+                    "routeId": "U5800"
+                },
+                "position": {
+                    "latitude": 3.08369302749634,
+                    "longitude": 101.709518432617,
+                    "bearing": 277.600006103516,
+                    "speed": 0
+                },
+                "timestamp": "1738226240",
+                "vehicle": {
+                    "id": "WVC3514",
+                    "licensePlate": "WVC3514"
+                }
+            }
+        },
+        {
+            "id": "151",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P1050_P105002_2",
+                    "startTime": "13:10:00",
+                    "startDate": "20250130",
+                    "routeId": "P1050"
+                },
+                "position": {
+                    "latitude": 2.9283230304718,
+                    "longitude": 101.681106567383,
+                    "bearing": 314.290008544922,
+                    "speed": 29.2600002288818
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WB5403U",
+                    "licensePlate": "WB5403U"
+                }
+            }
+        },
+        {
+            "id": "152",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2010_U201002_6",
+                    "startTime": "15:43:04",
+                    "startDate": "20250130",
+                    "routeId": "U2010"
+                },
+                "position": {
+                    "latitude": 3.18103289604187,
+                    "longitude": 101.692169189453,
+                    "bearing": 355,
+                    "speed": 16.6700000762939
+                },
+                "timestamp": "1738226284",
+                "vehicle": {
+                    "id": "WUX5618",
+                    "licensePlate": "WUX5618"
+                }
+            }
+        },
+        {
+            "id": "153",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1710_U171001_7",
+                    "startTime": "15:37:53",
+                    "startDate": "20250130",
+                    "routeId": "U1710"
+                },
+                "position": {
+                    "latitude": 3.2511830329895,
+                    "longitude": 101.689826965332,
+                    "bearing": 274,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226273",
+                "vehicle": {
+                    "id": "WVC2524",
+                    "licensePlate": "WVC2524"
+                }
+            }
+        },
+        {
+            "id": "154",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6400_U640001_5",
+                    "startTime": "16:24:34",
+                    "startDate": "20250130",
+                    "routeId": "U6400"
+                },
+                "position": {
+                    "latitude": 3.12379693984985,
+                    "longitude": 101.682792663574,
+                    "bearing": 230.699996948242,
+                    "speed": 41.1100006103516
+                },
+                "timestamp": "1738226290",
+                "vehicle": {
+                    "id": "VFB2440",
+                    "licensePlate": "VFB2440"
+                }
+            }
+        },
+        {
+            "id": "155",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S0070_S007002_3",
+                    "startTime": "15:01:32",
+                    "startDate": "20250130",
+                    "routeId": "S0070"
+                },
+                "position": {
+                    "latitude": 3.23118305206299,
+                    "longitude": 101.723831176758,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WPY7751",
+                    "licensePlate": "WPY7751"
+                }
+            }
+        },
+        {
+            "id": "156",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7890_T789002_2",
+                    "startTime": "16:21:52",
+                    "startDate": "20250130",
+                    "routeId": "T7890"
+                },
+                "position": {
+                    "latitude": 3.10841202735901,
+                    "longitude": 101.666229248047,
+                    "bearing": 266.700012207031,
+                    "speed": 2.03999996185303
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WUW4733",
+                    "licensePlate": "WUW4733"
+                }
+            }
+        },
+        {
+            "id": "157",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2200_U220001_4",
+                    "startTime": "16:22:24",
+                    "startDate": "20250130",
+                    "routeId": "U2200"
+                },
+                "position": {
+                    "latitude": 3.16041707992554,
+                    "longitude": 101.695167541504,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WVC6421",
+                    "licensePlate": "WVC6421"
+                }
+            }
+        },
+        {
+            "id": "158",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U5800_U580002_4",
+                    "startTime": "16:20:00",
+                    "startDate": "20250130",
+                    "routeId": "U5800"
+                },
+                "position": {
+                    "latitude": 3.10496711730957,
+                    "longitude": 101.706008911133,
+                    "bearing": 44,
+                    "speed": 42.5999984741211
+                },
+                "timestamp": "1738226279",
+                "vehicle": {
+                    "id": "WB2225C",
+                    "licensePlate": "WB2225C"
+                }
+            }
+        },
+        {
+            "id": "159",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7510_U751002_9",
+                    "startTime": "16:30:08",
+                    "startDate": "20250130",
+                    "routeId": "U7510"
+                },
+                "position": {
+                    "latitude": 3.0632860660553,
+                    "longitude": 101.526123046875,
+                    "bearing": 86.8000030517578,
+                    "speed": 8.52000045776367
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "W5174V",
+                    "licensePlate": "W5174V"
+                }
+            }
+        },
+        {
+            "id": "160",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7830_U783002_7",
+                    "startTime": "16:30:21",
+                    "startDate": "20250130",
+                    "routeId": "U7830"
+                },
+                "position": {
+                    "latitude": 3.06968307495117,
+                    "longitude": 101.613670349121,
+                    "bearing": 178,
+                    "speed": 57.4099998474121
+                },
+                "timestamp": "1738226261",
+                "vehicle": {
+                    "id": "WVA2966",
+                    "licensePlate": "WVA2966"
+                }
+            }
+        },
+        {
+            "id": "161",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1900_U190001_6",
+                    "startTime": "16:30:04",
+                    "startDate": "20250130",
+                    "routeId": "U1900"
+                },
+                "position": {
+                    "latitude": 3.15108299255371,
+                    "longitude": 101.693161010742,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226284",
+                "vehicle": {
+                    "id": "WVA4143",
+                    "licensePlate": "WVA4143"
+                }
+            }
+        },
+        {
+            "id": "162",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4030_S403002_6",
+                    "startTime": "16:25:20",
+                    "startDate": "20250130",
+                    "routeId": "S4030"
+                },
+                "position": {
+                    "latitude": 3.05269694328308,
+                    "longitude": 101.528274536133,
+                    "bearing": 315.790008544922,
+                    "speed": 17.2199993133545
+                },
+                "timestamp": "1738226296",
+                "vehicle": {
+                    "id": "WVE5821",
+                    "licensePlate": "WVE5821"
+                }
+            }
+        },
+        {
+            "id": "163",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7700_U770002_2",
+                    "startTime": "16:28:54",
+                    "startDate": "20250130",
+                    "routeId": "U7700"
+                },
+                "position": {
+                    "latitude": 3.05504703521729,
+                    "longitude": 101.591941833496,
+                    "bearing": 359.100006103516,
+                    "speed": 42.7799987792969
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "WQB7795",
+                    "licensePlate": "WQB7795"
+                }
+            }
+        },
+        {
+            "id": "164",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S2030_S203002_4",
+                    "startTime": "16:21:55",
+                    "startDate": "20250130",
+                    "routeId": "S2030"
+                },
+                "position": {
+                    "latitude": 3.0647668838501,
+                    "longitude": 101.623336791992,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226275",
+                "vehicle": {
+                    "id": "WB8441H",
+                    "licensePlate": "WB8441H"
+                }
+            }
+        },
+        {
+            "id": "165",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1040_S104002_0",
+                    "startTime": "16:30:19",
+                    "startDate": "20250130",
+                    "routeId": "S1040"
+                },
+                "position": {
+                    "latitude": 3.14224004745483,
+                    "longitude": 101.780128479004,
+                    "bearing": 174.5,
+                    "speed": 0
+                },
+                "timestamp": "1738226266",
+                "vehicle": {
+                    "id": "WVP2518",
+                    "licensePlate": "WVP2518"
+                }
+            }
+        },
+        {
+            "id": "166",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2010_T201001_9",
+                    "startTime": "16:22:31",
+                    "startDate": "20250130",
+                    "routeId": "T2010"
+                },
+                "position": {
+                    "latitude": 3.24301695823669,
+                    "longitude": 101.705177307129,
+                    "bearing": 271,
+                    "speed": 24.0799999237061
+                },
+                "timestamp": "1738226281",
+                "vehicle": {
+                    "id": "SF21136",
+                    "licensePlate": "SF21136"
+                }
+            }
+        },
+        {
+            "id": "167",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4050_S405002_0",
+                    "startTime": "09:10:37",
+                    "startDate": "20250130",
+                    "routeId": "S4050"
+                },
+                "position": {
+                    "latitude": 3.08471703529358,
+                    "longitude": 101.548828125,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226269",
+                "vehicle": {
+                    "id": "WB7413B",
+                    "licensePlate": "WB7413B"
+                }
+            }
+        },
+        {
+            "id": "168",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6000_U600001_13",
+                    "startTime": "15:50:45",
+                    "startDate": "20250130",
+                    "routeId": "U6000"
+                },
+                "position": {
+                    "latitude": 2.99039506912231,
+                    "longitude": 101.616485595703,
+                    "bearing": 268.899993896484,
+                    "speed": 20.5599994659424
+                },
+                "timestamp": "1738226222",
+                "vehicle": {
+                    "id": "VGJ8305",
+                    "licensePlate": "VGJ8305"
+                }
+            }
+        },
+        {
+            "id": "169",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4040_S404002_1",
+                    "startTime": "16:32:35",
+                    "startDate": "20250130",
+                    "routeId": "S4040"
+                },
+                "position": {
+                    "latitude": 3.06003308296204,
+                    "longitude": 101.502830505371,
+                    "bearing": 357,
+                    "speed": 33.3400001525879
+                },
+                "timestamp": "1738226285",
+                "vehicle": {
+                    "id": "WB3284N",
+                    "licensePlate": "WB3284N"
+                }
+            }
+        },
+        {
+            "id": "170",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T6000_T600002_2",
+                    "startTime": "16:30:13",
+                    "startDate": "20250130",
+                    "routeId": "T6000"
+                },
+                "position": {
+                    "latitude": 3.0297999382019,
+                    "longitude": 101.619842529297,
+                    "bearing": 158,
+                    "speed": 9.26000022888184
+                },
+                "timestamp": "1738226263",
+                "vehicle": {
+                    "id": "WB1024K",
+                    "licensePlate": "WB1024K"
+                }
+            }
+        },
+        {
+            "id": "171",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1060_S106002_1",
+                    "startTime": "08:43:14",
+                    "startDate": "20250130",
+                    "routeId": "S1060"
+                },
+                "position": {
+                    "latitude": 2.88316702842712,
+                    "longitude": 101.794822692871,
+                    "bearing": 122,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226292",
+                "vehicle": {
+                    "id": "WB3075T",
+                    "licensePlate": "WB3075T"
+                }
+            }
+        },
+        {
+            "id": "172",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4020_S402002_1",
+                    "startTime": "15:40:58",
+                    "startDate": "20250130",
+                    "routeId": "S4020"
+                },
+                "position": {
+                    "latitude": 3.07678294181824,
+                    "longitude": 101.546340942383,
+                    "bearing": 359,
+                    "speed": 38.8899993896484
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WB2592Q",
+                    "licensePlate": "WB2592Q"
+                }
+            }
+        },
+        {
+            "id": "173",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S3030_S303002_7",
+                    "startTime": "16:45:00",
+                    "startDate": "20250130",
+                    "routeId": "S3030"
+                },
+                "position": {
+                    "latitude": 3.01030707359314,
+                    "longitude": 101.469512939453,
+                    "bearing": 289.700012207031,
+                    "speed": 19.2600002288818
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WVB6987",
+                    "licensePlate": "WVB6987"
+                }
+            }
+        },
+        {
+            "id": "174",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U7720_U772002_14",
+                    "startTime": "16:30:21",
+                    "startDate": "20250130",
+                    "routeId": "U7720"
+                },
+                "position": {
+                    "latitude": 3.16891694068909,
+                    "longitude": 101.534248352051,
+                    "bearing": 193.600006103516,
+                    "speed": 18.5200004577637
+                },
+                "timestamp": "1738226295",
+                "vehicle": {
+                    "id": "WNV5691",
+                    "licensePlate": "WNV5691"
+                }
+            }
+        },
+        {
+            "id": "175",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2200_U220001_4",
+                    "startTime": "15:57:02",
+                    "startDate": "20250130",
+                    "routeId": "U2200"
+                },
+                "position": {
+                    "latitude": 3.17875003814697,
+                    "longitude": 101.755157470703,
+                    "bearing": 26,
+                    "speed": 7.40999984741211
+                },
+                "timestamp": "1738226282",
+                "vehicle": {
+                    "id": "WUY9577",
+                    "licensePlate": "WUY9577"
+                }
+            }
+        },
+        {
+            "id": "176",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6520_U652002_2",
+                    "startTime": "16:19:24",
+                    "startDate": "20250130",
+                    "routeId": "U6520"
+                },
+                "position": {
+                    "latitude": 3.08922410011292,
+                    "longitude": 101.680892944336,
+                    "bearing": 8.80000019073486,
+                    "speed": 15.9300003051758
+                },
+                "timestamp": "1738226284",
+                "vehicle": {
+                    "id": "WPA8190",
+                    "licensePlate": "WPA8190"
+                }
+            }
+        },
+        {
+            "id": "177",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T3500_T350002_4",
+                    "startTime": "16:25:38",
+                    "startDate": "20250130",
+                    "routeId": "T3500"
+                },
+                "position": {
+                    "latitude": 3.11856698989868,
+                    "longitude": 101.768997192383,
+                    "bearing": 40,
+                    "speed": 46.2999992370606
+                },
+                "timestamp": "1738226288",
+                "vehicle": {
+                    "id": "WVC6453",
+                    "licensePlate": "WVC6453"
+                }
+            }
+        },
+        {
+            "id": "178",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T7800_T780002_3",
+                    "startTime": "16:22:57",
+                    "startDate": "20250130",
+                    "routeId": "T7800"
+                },
+                "position": {
+                    "latitude": 3.13197207450867,
+                    "longitude": 101.600601196289,
+                    "bearing": 281.790008544922,
+                    "speed": 22.0400009155273
+                },
+                "timestamp": "1738226287",
+                "vehicle": {
+                    "id": "WVD2353",
+                    "licensePlate": "WVD2353"
+                }
+            }
+        },
+        {
+            "id": "179",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1170_S117002_1",
+                    "startTime": "15:35:26",
+                    "startDate": "20250130",
+                    "routeId": "S1170"
+                },
+                "position": {
+                    "latitude": 2.96245002746582,
+                    "longitude": 101.778495788574,
+                    "bearing": 77,
+                    "speed": 37.0400009155273
+                },
+                "timestamp": "1738226272",
+                "vehicle": {
+                    "id": "WB9037F",
+                    "licensePlate": "WB9037F"
+                }
+            }
+        },
+        {
+            "id": "180",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U8210_U821002_3",
+                    "startTime": "15:41:07",
+                    "startDate": "20250130",
+                    "routeId": "U8210"
+                },
+                "position": {
+                    "latitude": 3.10723304748535,
+                    "longitude": 101.671844482422,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "WVA4156",
+                    "licensePlate": "WVA4156"
+                }
+            }
+        },
+        {
+            "id": "181",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4020_S402002_1",
+                    "startTime": "16:23:00",
+                    "startDate": "20250130",
+                    "routeId": "S4020"
+                },
+                "position": {
+                    "latitude": 3.07553291320801,
+                    "longitude": 101.548164367676,
+                    "bearing": 85,
+                    "speed": 35.189998626709
+                },
+                "timestamp": "1738226280",
+                "vehicle": {
+                    "id": "WB3234N",
+                    "licensePlate": "WB3234N"
+                }
+            }
+        },
+        {
+            "id": "182",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_T2220_T222002_3",
+                    "startTime": "16:00:17",
+                    "startDate": "20250130",
+                    "routeId": "T2220"
+                },
+                "position": {
+                    "latitude": 3.19896697998047,
+                    "longitude": 101.737663269043,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226266",
+                "vehicle": {
+                    "id": "WVJ8227",
+                    "licensePlate": "WVJ8227"
+                }
+            }
+        },
+        {
+            "id": "183",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1730_U173001_4",
+                    "startTime": "15:18:54",
+                    "startDate": "20250130",
+                    "routeId": "U1730"
+                },
+                "position": {
+                    "latitude": 3.26272010803223,
+                    "longitude": 101.678153991699,
+                    "bearing": 53.7000007629395,
+                    "speed": 0
+                },
+                "timestamp": "1738226274",
+                "vehicle": {
+                    "id": "WNY9974",
+                    "licensePlate": "WNY9974"
+                }
+            }
+        },
+        {
+            "id": "184",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1510_U151001_4",
+                    "startTime": "16:00:15",
+                    "startDate": "20250130",
+                    "routeId": "U1510"
+                },
+                "position": {
+                    "latitude": 3.20316410064697,
+                    "longitude": 101.670166015625,
+                    "bearing": 2.40000009536743,
+                    "speed": 5.19000005722046
+                },
+                "timestamp": "1738226256",
+                "vehicle": {
+                    "id": "W2675T",
+                    "licensePlate": "W2675T"
+                }
+            }
+        },
+        {
+            "id": "185",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2020_U202002_6",
+                    "startTime": "16:00:28",
+                    "startDate": "20250130",
+                    "routeId": "U2020"
+                },
+                "position": {
+                    "latitude": 3.195317029953,
+                    "longitude": 101.705177307129,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226278",
+                "vehicle": {
+                    "id": "WVB4163",
+                    "licensePlate": "WVB4163"
+                }
+            }
+        },
+        {
+            "id": "186",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2500_U250001_18",
+                    "startTime": "15:57:13",
+                    "startDate": "20250130",
+                    "routeId": "U2500"
+                },
+                "position": {
+                    "latitude": 3.20945000648499,
+                    "longitude": 101.731834411621,
+                    "bearing": 322,
+                    "speed": 22.2199993133545
+                },
+                "timestamp": "1738226263",
+                "vehicle": {
+                    "id": "WVL614",
+                    "licensePlate": "WVL614"
+                }
+            }
+        },
+        {
+            "id": "187",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_P1060_P106002_3",
+                    "startTime": "13:39:09",
+                    "startDate": "20250130",
+                    "routeId": "P1060"
+                },
+                "position": {
+                    "latitude": 2.94129991531372,
+                    "longitude": 101.71199798584,
+                    "bearing": 121,
+                    "speed": 29.6299991607666
+                },
+                "timestamp": "1738226283",
+                "vehicle": {
+                    "id": "WB9172J",
+                    "licensePlate": "WB9172J"
+                }
+            }
+        },
+        {
+            "id": "188",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U8020_U802002_9",
+                    "startTime": "15:41:07",
+                    "startDate": "20250130",
+                    "routeId": "U8020"
+                },
+                "position": {
+                    "latitude": 3.15841698646545,
+                    "longitude": 101.593162536621,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226287",
+                "vehicle": {
+                    "id": "WVN5547",
+                    "licensePlate": "WVN5547"
+                }
+            }
+        },
+        {
+            "id": "189",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S4060_S406002_2",
+                    "startTime": "16:25:59",
+                    "startDate": "20250130",
+                    "routeId": "S4060"
+                },
+                "position": {
+                    "latitude": 3.02408289909363,
+                    "longitude": 101.541893005371,
+                    "bearing": 139.600006103516,
+                    "speed": 2.96000003814697
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WVD3246",
+                    "licensePlate": "WVD3246"
+                }
+            }
+        },
+        {
+            "id": "190",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1080_S108002_0",
+                    "startTime": "16:22:43",
+                    "startDate": "20250130",
+                    "routeId": "S1080"
+                },
+                "position": {
+                    "latitude": 3.02326703071594,
+                    "longitude": 101.716506958008,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226293",
+                "vehicle": {
+                    "id": "WPB1445",
+                    "licensePlate": "WPB1445"
+                }
+            }
+        },
+        {
+            "id": "191",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U1700_U170002_3",
+                    "startTime": "15:46:32",
+                    "startDate": "20250130",
+                    "routeId": "U1700"
+                },
+                "position": {
+                    "latitude": 3.17851400375366,
+                    "longitude": 101.700225830078,
+                    "bearing": 35.9000015258789,
+                    "speed": 26.4799995422363
+                },
+                "timestamp": "1738226286",
+                "vehicle": {
+                    "id": "WVB3950",
+                    "licensePlate": "WVB3950"
+                }
+            }
+        },
+        {
+            "id": "192",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U6020_U602002_0",
+                    "startTime": "16:26:26",
+                    "startDate": "20250130",
+                    "routeId": "U6020"
+                },
+                "position": {
+                    "latitude": 2.99984693527222,
+                    "longitude": 101.596565246582,
+                    "bearing": 39.5,
+                    "speed": 0
+                },
+                "timestamp": "1738226239",
+                "vehicle": {
+                    "id": "WVJ1043",
+                    "licensePlate": "WVJ1043"
+                }
+            }
+        },
+        {
+            "id": "193",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U3000_U300002_6",
+                    "startTime": "15:14:30",
+                    "startDate": "20250130",
+                    "routeId": "U3000"
+                },
+                "position": {
+                    "latitude": 3.16081190109253,
+                    "longitude": 101.736427307129,
+                    "bearing": 81.4000015258789,
+                    "speed": 26.1100006103516
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "VEL9768",
+                    "licensePlate": "VEL9768"
+                }
+            }
+        },
+        {
+            "id": "194",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_S1040_S104002_0",
+                    "startTime": "16:00:27",
+                    "startDate": "20250130",
+                    "routeId": "S1040"
+                },
+                "position": {
+                    "latitude": 3.13408303260803,
+                    "longitude": 101.769660949707,
+                    "bearing": 0,
+                    "speed": 0
+                },
+                "timestamp": "1738226277",
+                "vehicle": {
+                    "id": "WVN7821",
+                    "licensePlate": "WVN7821"
+                }
+            }
+        },
+        {
+            "id": "195",
+            "vehicle": {
+                "trip": {
+                    "tripId": "weekday_U2510_U251002_1",
+                    "startTime": "15:16:59",
+                    "startDate": "20250130",
+                    "routeId": "U2510"
+                },
+                "position": {
+                    "latitude": 3.18938207626343,
+                    "longitude": 101.737075805664,
+                    "bearing": 167.199996948242,
+                    "speed": 18.7099990844727
+                },
+                "timestamp": "1738226291",
+                "vehicle": {
+                    "id": "WVD4189",
+                    "licensePlate": "WVD4189"
+                }
+            }
+        }
+    ]
+}

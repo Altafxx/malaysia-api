@@ -1,0 +1,43 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,shape_id
+AG,MonFri,AGL_MonFri_0,From Ampang to Sentul Timur,0,shp_AG_0
+AG,Sat,AGL_Sat_0,From Ampang to Sentul Timur,0,shp_AG_0
+AG,Sun,AGL_Sun_0,From Ampang to Sentul Timur,0,shp_AG_0
+AG,MonFri,AGL_MonFri_1,From Sentul Timur to Ampang,1,shp_AG_1
+AG,Sat,AGL_Sat_1,From Sentul Timur to Ampang,1,shp_AG_1
+AG,Sun,AGL_Sun_1,From Sentul Timur to Ampang,1,shp_AG_1
+KJ,MonFri,KJL_MonFri_0,From Putra Heights to Gombak,0,shp_KJ_0
+KJ,Sat,KJL_Sat_0,From Putra Heights to Gombak,0,shp_KJ_0
+KJ,Sun,KJL_Sun_0,From Putra Heights to Gombak,0,shp_KJ_0
+KJ,MonFri,KJL_MonFri_1,From Gombak to Putra Heights,1,shp_KJ_1
+KJ,Sat,KJL_Sat_1,From Gombak to Putra Heights,1,shp_KJ_1
+KJ,Sun,KJL_Sun_1,From Gombak to Putra Heights,1,shp_KJ_1
+PH,MonFri,SPL_MonFri_0,From Putra Heights to Sentul Timur,0,shp_PH_0
+PH,Sat,SPL_Sat_0,From Putra Heights to Sentul Timur,0,shp_PH_0
+PH,Sun,SPL_Sun_0,From Putra Heights to Sentul Timur,0,shp_PH_0
+PH,MonFri,SPL_MonFri_1,From Sentul Timur to Putra Heights,1,shp_PH_1
+PH,Sat,SPL_Sat_1,From Sentul Timur to Putra Heights,1,shp_PH_1
+PH,Sun,SPL_Sun_1,From Sentul Timur to Putra Heights,1,shp_PH_1
+KGL,MonFri,KGL_MonFri_0,From Kwasa Damansara to Kajang,0,shp_MRT_0
+KGL,Sat,KGL_Sat_0,From Kwasa Damansara to Kajang,0,shp_MRT_0
+KGL,Sun,KGL_Sun_0,From Kwasa Damansara to Kajang,0,shp_MRT_0
+KGL,MonFri,KGL_MonFri_1,From Kajang to Kwasa Damansara,1,shp_MRT_1
+KGL,Sat,KGL_Sat_1,From Kajang to Kwasa Damansara,1,shp_MRT_1
+KGL,Sun,KGL_Sun_1,From Kajang to Kwasa Damansara,1,shp_MRT_1
+PYL,MonFri,PYL_MonFri_0,From Kwasa Damansara to Putrajaya,0,shp_PYL_0
+PYL,Sat,PYL_Sat_0,From Kwasa Damansara to Putrajaya,0,shp_PYL_0
+PYL,Sun,PYL_Sun_0,From Kwasa Damansara to Putrajaya,0,shp_PYL_0
+PYL,MonFri,PYL_MonFri_1,From Putrajaya to Kwasa Damansara,1,shp_PYL_1
+PYL,Sat,PYL_Sat_1,From Putrajaya to Kwasa Damansara,1,shp_PYL_1
+PYL,Sun,PYL_Sun_1,From Putrajaya to Kwasa Damansara,1,shp_PYL_1
+MR,MonFri,MRL_MonFri_0,From KL Sentral to Titiwangsa,0,shp_MR_0
+MR,Sat,MRL_Sat_0,From KL Sentral to Titiwangsa,0,shp_MR_0
+MR,Sun,MRL_Sun_0,From KL Sentral to Titiwangsa,0,shp_MR_0
+MR,MonFri,MRL_MonFri_1,From Titiwangsa to KL Sentral,1,shp_MR_1
+MR,Sat,MRL_Sat_1,From Titiwangsa to KL Sentral,1,shp_MR_1
+MR,Sun,MRL_Sun_1,From Titiwangsa to KL Sentral,1,shp_MR_1
+BRT,MonFri,BRT_MonFri_0,From Sunway-Setia Jaya to USJ 7,0,shp_BRT_0
+BRT,Sat,BRT_Sat_0,From Sunway-Setia Jaya to USJ 7,0,shp_BRT_0
+BRT,Sun,BRT_Sun_0,From Sunway-Setia Jaya to USJ 7,0,shp_BRT_0
+BRT,MonFri,BRT_MonFri_1,From USJ 7 to Sunway-Setia Jaya,1,shp_BRT_1
+BRT,Sat,BRT_Sat_1,From USJ 7 to Sunway-Setia Jaya,1,shp_BRT_1
+BRT,Sun,BRT_Sun_1,From USJ 7 to Sunway-Setia Jaya,1,shp_BRT_1

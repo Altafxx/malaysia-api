@@ -1,0 +1,1676 @@
+{
+    "tripUpdates": [
+        {
+            "id": "60a628c0-0bd1-43fc-ba9c-7e3fa6cfd2ec",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T22CWL_12420_0_P2_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T22",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49706697463989,
+                    "longitude": 103.744186401367
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSG5652"
+                }
+            }
+        },
+        {
+            "id": "f40deb39-3e58-4352-99a3-df27734675d9",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P101CWL_11404_1_P1_ALLDAY_2_6",
+                    "startDate": "20250130",
+                    "routeId": "P101",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49500405788422,
+                    "longitude": 103.743408203125
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN4410"
+                }
+            }
+        },
+        {
+            "id": "6cc7dca3-1e69-4164-b072-4afa273cd002",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P201CWL_11578_0_SM1_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P201",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.54361295700073,
+                    "longitude": 103.58332824707
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN517"
+                }
+            }
+        },
+        {
+            "id": "84cbc0cb-fa4c-4cc8-b32c-eb20139a6bb1",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T33CWL_12424_0_P5_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T33",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49725496768951,
+                    "longitude": 103.658996582031
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSL6478"
+                }
+            }
+        },
+        {
+            "id": "5d6e5369-9e52-4c89-b64f-7506053c322a",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12421_1_P2_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.54884397983551,
+                    "longitude": 103.644874572754
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM7134"
+                }
+            }
+        },
+        {
+            "id": "ca525524-337d-4a3f-931a-83c70758905a",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12421_1_P1_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.56022799015045,
+                    "longitude": 103.620971679688
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN4786"
+                }
+            }
+        },
+        {
+            "id": "fe985c15-9684-4e76-b6ec-ed6c9878b8c3",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_F100CWL_12409_1_P2_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "F100",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.48824799060822,
+                    "longitude": 103.758850097656
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWG6029"
+                }
+            }
+        },
+        {
+            "id": "3d82cde1-ff0b-47b0-a250-4f3736915076",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12422_0_P9_ALLDAY_2_1",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.56574201583862,
+                    "longitude": 103.612007141113
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM7142"
+                }
+            }
+        },
+        {
+            "id": "c8b6316d-d915-4586-bddc-c3e66b9166bc",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P101CWL_11403_0_SS1_ALLDAY_1_7",
+                    "startDate": "20250130",
+                    "routeId": "P101",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.4648300409317,
+                    "longitude": 103.75707244873
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN7055"
+                }
+            }
+        },
+        {
+            "id": "e9edcb96-1032-44ea-81b5-8ac1065a4e71",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_104CWL_12344_0_A2_ALLDAY_1_5",
+                    "startDate": "20250130",
+                    "routeId": "104",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 3.16426396369934,
+                    "longitude": 101.698280334473
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "VDJ8719"
+                }
+            }
+        },
+        {
+            "id": "7fcde489-6380-41bc-9bab-2cc441c924fc",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T20CWL_12428_0_P5_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T20",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.50897002220154,
+                    "longitude": 103.837600708008
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "SS9768Y"
+                }
+            }
+        },
+        {
+            "id": "1e540a1d-3181-459d-997c-ffe8a3a18ab3",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P214CWL_11586_0_SM1_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P214",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.50826704502106,
+                    "longitude": 103.689544677734
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSG6384"
+                }
+            }
+        },
+        {
+            "id": "44c21b91-0e80-4caf-bb5f-30899e3d9f20",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T32CWL_12257_1_P5_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T32",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46343696117401,
+                    "longitude": 103.764976501465
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVX1027"
+                }
+            }
+        },
+        {
+            "id": "9f503fd3-fa87-431f-9bd8-bf6a61ab2941",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T32CWL_12258_0_P7_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T32",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49059104919434,
+                    "longitude": 103.710525512695
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSV1140"
+                }
+            }
+        },
+        {
+            "id": "a86b90db-4307-4fce-a2f9-dfc61ad7c070",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12356_1_P1_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.55771100521088,
+                    "longitude": 103.801078796387
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSG5644"
+                }
+            }
+        },
+        {
+            "id": "9ab6e143-148d-4241-a114-76ff74aebbe2",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T11CWL_12414_0_P8_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T11",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.52241897583008,
+                    "longitude": 103.765586853027
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM7135"
+                }
+            }
+        },
+        {
+            "id": "f68603f0-42da-4582-bfa4-6e997867ebec",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_CW4GCWL_12310_0_P2_ALLDAY_1_6",
+                    "startDate": "20250130",
+                    "routeId": "CW4G",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.44830501079559,
+                    "longitude": 103.598419189453
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSK2535"
+                }
+            }
+        },
+        {
+            "id": "f72ed97d-c7e6-42cb-be5e-c1129fb2a598",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_52TCWL_10273_0_SM1_PUBLICHOLIDAYSINGAPORE_2_5",
+                    "startDate": "20250130",
+                    "routeId": "52T",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49101495742798,
+                    "longitude": 103.585243225098
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWH9612"
+                }
+            }
+        },
+        {
+            "id": "3ad77003-fe3b-4eda-b173-9612a3f14259",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_F300CWL_12411_1_P1_ALLDAY_1_5",
+                    "startDate": "20250130",
+                    "routeId": "F300",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.66259396076202,
+                    "longitude": 103.598815917969
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "PPF1115"
+                }
+            }
+        },
+        {
+            "id": "0553843c-670f-4f5a-a853-d61373112e39",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_120CWL_11381_0_A2_ALLDAY_1_7",
+                    "startDate": "20250130",
+                    "routeId": "120",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 3.16727709770203,
+                    "longitude": 101.698089599609
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "VJ6916"
+                }
+            }
+        },
+        {
+            "id": "7a534a24-2214-4b0a-8c23-ffa8a9a985eb",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_JPO1CWL_12482_1_A1_ALLDAY_1_4",
+                    "startDate": "20250130",
+                    "routeId": "JPO1",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.50853502750397,
+                    "longitude": 103.689140319824
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JRU9425"
+                }
+            }
+        },
+        {
+            "id": "9af96622-013a-41c7-b44b-728ab3a08c42",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12421_1_P5_ALLDAY_1_1",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.53547394275665,
+                    "longitude": 103.628204345703
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWA2367"
+                }
+            }
+        },
+        {
+            "id": "a5254637-8855-4deb-b6bc-056dc4661486",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T22CWL_12420_0_P3_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T22",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.48709905147553,
+                    "longitude": 103.882186889648
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSP1379"
+                }
+            }
+        },
+        {
+            "id": "eeefbf79-7afe-417e-b52f-65342b062b44",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_F300CWL_12412_0_P2_ALLDAY_2_4",
+                    "startDate": "20250130",
+                    "routeId": "F300",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.65586495399475,
+                    "longitude": 103.57218170166
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTM5058"
+                }
+            }
+        },
+        {
+            "id": "74f21620-f0e8-4cc0-86ee-ff0d1567251b",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12263_1_P8_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46360099315643,
+                    "longitude": 103.76488494873
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWC3792"
+                }
+            }
+        },
+        {
+            "id": "62b5f898-7d5f-4ece-acc0-491fecee4657",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T33CWL_12423_1_P6_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T33",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.47800004482269,
+                    "longitude": 103.650505065918
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSK7328"
+                }
+            }
+        },
+        {
+            "id": "fdea2e14-9638-4c69-b169-3e313504ff9d",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12356_1_P3_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46369397640228,
+                    "longitude": 103.765090942383
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM2386"
+                }
+            }
+        },
+        {
+            "id": "f7973f7b-f5e3-47fc-ad5b-cd54ecbd68c4",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P102CWL_11964_0_SM1_ALLDAY_2_10",
+                    "startDate": "20250130",
+                    "routeId": "P102",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49946105480194,
+                    "longitude": 103.77725982666
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSX5987"
+                }
+            }
+        },
+        {
+            "id": "2c9176e4-6a1d-4b5b-8ddf-fe0109d3d2a7",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12422_0_P8_ALLDAY_2_1",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.53274405002594,
+                    "longitude": 103.625793457031
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSP1386"
+                }
+            }
+        },
+        {
+            "id": "66968c0b-2506-432e-ba23-bce525981c1f",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_F100CWL_12409_1_P3_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "F100",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46328103542328,
+                    "longitude": 103.765106201172
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWG5132"
+                }
+            }
+        },
+        {
+            "id": "8c2e4d92-b12a-41ad-aa78-8be04bc48cf0",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P701CWL_11409_0_A7_MONSAT_2_4",
+                    "startDate": "20250130",
+                    "routeId": "P701",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 3.14602494239807,
+                    "longitude": 101.696823120117
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JQY2423"
+                }
+            }
+        },
+        {
+            "id": "df775a78-6a19-4132-9866-81cb90134741",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12263_1_P7_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.50242900848389,
+                    "longitude": 103.693641662598
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWB5941"
+                }
+            }
+        },
+        {
+            "id": "9774c4ac-4296-458b-a400-abfd44e87dea",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T22CWL_12419_1_P1_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T22",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49603497982025,
+                    "longitude": 103.77734375
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSF7802"
+                }
+            }
+        },
+        {
+            "id": "8cf9ffd4-7880-4f50-b9b9-d9a88d195d4f",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T14CWL_12417_1_A4_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "T14",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46950101852417,
+                    "longitude": 103.751037597656
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVT1254"
+                }
+            }
+        },
+        {
+            "id": "67a7281b-a9a0-494c-91a7-c8c5f1193f28",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T13CWL_12415_1_P3_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "T13",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49792504310608,
+                    "longitude": 103.748153686523
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTM6062"
+                }
+            }
+        },
+        {
+            "id": "1448ec5e-7ca7-4a23-bcda-4c263abbebf6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T14CWL_12418_0_A2_ALLDAY_1_4",
+                    "startDate": "20250130",
+                    "routeId": "T14",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.54379796981812,
+                    "longitude": 103.7919921875
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWG5133"
+                }
+            }
+        },
+        {
+            "id": "a4ec6c0c-3e1b-4d9b-8cbd-11cefa3e5de9",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T31CWL_12421_1_P3_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T31",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.45755004882813,
+                    "longitude": 103.766563415527
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN521"
+                }
+            }
+        },
+        {
+            "id": "3815a491-d87a-401e-9de4-5c93d648b25a",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P211CWL_11579_1_SM2_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P211",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.54100799560547,
+                    "longitude": 103.628562927246
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTD3345"
+                }
+            }
+        },
+        {
+            "id": "3000c11a-ed0e-4f13-8033-91d56c96b039",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12357_0_P7_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.67432594299316,
+                    "longitude": 103.852066040039
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSH2609"
+                }
+            }
+        },
+        {
+            "id": "b5d4f49f-ed00-4ca0-ae2d-ba175cb30ff7",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T32CWL_12258_0_P1_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T32",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.50280201435089,
+                    "longitude": 103.648658752441
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM7139"
+                }
+            }
+        },
+        {
+            "id": "8f449871-246a-45a1-afa3-5b38550bcf8d",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_AA1CWL_12313_0_A1_ALLDAY_1_6",
+                    "startDate": "20250130",
+                    "routeId": "AA1",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.57660901546478,
+                    "longitude": 103.658187866211
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JXD5068"
+                }
+            }
+        },
+        {
+            "id": "7dce70cc-73ef-49ef-ba61-6d693432728c",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T44CWL_12426_0_P1_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T44",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.463986992836,
+                    "longitude": 103.652618408203
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "PPF1113"
+                }
+            }
+        },
+        {
+            "id": "71911a4e-e561-4fa3-bcce-16b0b147fda0",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T40CWL_12273_0_P6_ALLDAY_2_1",
+                    "startDate": "20250130",
+                    "routeId": "T40",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.51279902458191,
+                    "longitude": 103.633354187012
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTR5658"
+                }
+            }
+        },
+        {
+            "id": "a220cc50-f60e-42ae-b572-6b1363f3ee39",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P412CWL_11588_1_SM1_ALLDAY_2_6",
+                    "startDate": "20250130",
+                    "routeId": "P412",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.66714096069336,
+                    "longitude": 103.576499938965
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JQQ4273"
+                }
+            }
+        },
+        {
+            "id": "0c7e5717-24a2-47b3-9c8f-7016aff8a5c8",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P203CWL_11377_1_SM1_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P203",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49937701225281,
+                    "longitude": 103.655708312988
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSG709"
+                }
+            }
+        },
+        {
+            "id": "bdf73689-8c37-44bd-9c68-ef443742ab0b",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_PE004CWL_12141_1_SM1_ALLDAY_2_1",
+                    "startDate": "20250130",
+                    "routeId": "PE004",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.68641996383667,
+                    "longitude": 103.993659973145
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSJ6534"
+                }
+            }
+        },
+        {
+            "id": "7213f94f-a43f-4397-a4fd-ba60566e1de9",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T33CWL_12424_0_P4_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T33",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.4810049533844,
+                    "longitude": 103.662239074707
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM2500"
+                }
+            }
+        },
+        {
+            "id": "6bcdbcd0-de63-4e8b-b2a0-b8a1eff1f3d0",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12356_1_P2_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49550604820251,
+                    "longitude": 103.743309020996
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVM2377"
+                }
+            }
+        },
+        {
+            "id": "b88ef900-febb-4d9c-9994-8364dc6b4160",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_8CWL_11392_0_P2_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "8",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.91983795166016,
+                    "longitude": 103.182342529297
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JQT514"
+                }
+            }
+        },
+        {
+            "id": "4c53240d-b85d-411e-a577-240cc342f2b6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_100CWL_12339_1_A2_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "100",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 3.3291609287262,
+                    "longitude": 101.258590698242
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "BPV6719"
+                }
+            }
+        },
+        {
+            "id": "357f9691-8d3c-4176-bcd1-3c93175fb672",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P102CWL_11963_1_SM2_ALLDAY_1_10",
+                    "startDate": "20250130",
+                    "routeId": "P102",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.45786702632904,
+                    "longitude": 103.766532897949
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSQ9022"
+                }
+            }
+        },
+        {
+            "id": "66aecf44-5139-4b3f-a575-291f23ac9153",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T11CWL_12413_1_P5_ALLDAY_1_1",
+                    "startDate": "20250130",
+                    "routeId": "T11",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46342897415161,
+                    "longitude": 103.765083312988
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWA5348"
+                }
+            }
+        },
+        {
+            "id": "f3a227dd-db78-410b-9ca7-36262763af58",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_CW7LCWL_12373_1_SS1_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "CW7L",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.42180800437927,
+                    "longitude": 103.616439819336
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWU859"
+                }
+            }
+        },
+        {
+            "id": "a8a34413-339b-4202-9699-f0627f60aa9f",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_CTCWL_11336_0_A1_ALLDAY_1_9",
+                    "startDate": "20250130",
+                    "routeId": "CT",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49349200725555,
+                    "longitude": 103.774620056152
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JRY5144"
+                }
+            }
+        },
+        {
+            "id": "ad74aacd-e904-4356-b4e9-a122911251dc",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T13CWL_12416_0_P1_ALLDAY_1_4",
+                    "startDate": "20250130",
+                    "routeId": "T13",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.46129500865936,
+                    "longitude": 103.757255554199
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTP2227"
+                }
+            }
+        },
+        {
+            "id": "593bc88c-5c70-4c7c-a564-d4ee72ef3c10",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_F200CWL_12410_1_A2_ALLDAY_1_6",
+                    "startDate": "20250130",
+                    "routeId": "F200",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.50352203845978,
+                    "longitude": 103.877838134766
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTQ5355"
+                }
+            }
+        },
+        {
+            "id": "4fa67ada-c4a8-4470-b9f3-4a0f7452f024",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T20CWL_12427_1_P1_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T20",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.48821103572845,
+                    "longitude": 103.766593933105
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "SS9858Y"
+                }
+            }
+        },
+        {
+            "id": "66e6a625-f90c-4cd9-8b7e-4c9053b73238",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P701CWL_11409_0_A5_MONSAT_2_4",
+                    "startDate": "20250130",
+                    "routeId": "P701",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 3.01241302490234,
+                    "longitude": 101.410133361816
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JQY2428"
+                }
+            }
+        },
+        {
+            "id": "e3d0b6f8-2336-47b5-81f0-3f608e92e6f5",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12264_0_P3_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.66240203380585,
+                    "longitude": 103.598999023438
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSL6472"
+                }
+            }
+        },
+        {
+            "id": "699eea18-8a0e-47af-a5cd-a1ec13eddcf6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12356_1_P10_ALLDAY_1_1",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.6572870016098,
+                    "longitude": 103.8427734375
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSC8037"
+                }
+            }
+        },
+        {
+            "id": "0c3323b3-11b7-4b18-b2b1-6f5d02555a56",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T11CWL_12413_1_P6_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T11",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46344900131226,
+                    "longitude": 103.764999389648
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVY6694"
+                }
+            }
+        },
+        {
+            "id": "b9527817-269a-4b88-85a6-cdca245c0bdc",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_FC1CWL_12397_0_A1_ALLDAY_1_15",
+                    "startDate": "20250130",
+                    "routeId": "FC1",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.3345730304718,
+                    "longitude": 103.591369628906
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JRX7945"
+                }
+            }
+        },
+        {
+            "id": "b4dbf5c7-6483-40f9-928c-f156715e8245",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T32CWL_12257_1_P3_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T32",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49259698390961,
+                    "longitude": 103.64079284668
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "VCP5519"
+                }
+            }
+        },
+        {
+            "id": "688c5d40-58b9-4365-b8c7-fe45555eb87a",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T706CWL_11723_0_SM1_ALLDAY_2_8",
+                    "startDate": "20250130",
+                    "routeId": "T706",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 2.92455506324768,
+                    "longitude": 101.368606567383
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JRU2134"
+                }
+            }
+        },
+        {
+            "id": "e457dbc4-d33d-4ce6-8c2f-980fd8011027",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P701CWL_11408_1_A10_MONSAT_1_4",
+                    "startDate": "20250130",
+                    "routeId": "P701",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 3.05121994018555,
+                    "longitude": 101.449867248535
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JQU4763"
+                }
+            }
+        },
+        {
+            "id": "20076b34-d238-4b2a-941c-a72f231bd4a7",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T44CWL_12425_1_P3_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T44",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.4818400144577,
+                    "longitude": 103.65763092041
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTK6065"
+                }
+            }
+        },
+        {
+            "id": "e61c2fbc-2b0e-439b-b351-52252dfd7392",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P203CWL_11376_0_SM2_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P203",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.50008201599121,
+                    "longitude": 103.650352478027
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTD3414"
+                }
+            }
+        },
+        {
+            "id": "bcba189e-fae6-4df0-84c5-65d2ff0753e1",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P101CWL_11403_0_SS2_ALLDAY_1_7",
+                    "startDate": "20250130",
+                    "routeId": "P101",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.49438405036926,
+                    "longitude": 103.742233276367
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSN5814"
+                }
+            }
+        },
+        {
+            "id": "bd782500-343c-40eb-9928-5733642f91aa",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T42CWL_12270_1_P1_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "T42",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.37582302093506,
+                    "longitude": 103.630241394043
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSY3352"
+                }
+            }
+        },
+        {
+            "id": "0a008a43-4348-4bb4-af2f-160def283e4c",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T40CWL_12272_1_P3_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T40",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.50955998897553,
+                    "longitude": 103.64119720459
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JTD9926"
+                }
+            }
+        },
+        {
+            "id": "2eede344-e9fa-4edc-80c3-df9e7a6a6244",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12264_0_P2_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.59784603118896,
+                    "longitude": 103.645645141602
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWF6909"
+                }
+            }
+        },
+        {
+            "id": "9b50cab7-3f0c-4a4c-b4b1-4c1467a73f97",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_CW7LCWL_12372_0_P1_ALLDAY_1_6",
+                    "startDate": "20250130",
+                    "routeId": "CW7L",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.39798402786255,
+                    "longitude": 103.627937316895
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JRX7947"
+                }
+            }
+        },
+        {
+            "id": "e23e0781-ca10-431f-a57d-e17cd8244a4e",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T40CWL_12272_1_P4_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T40",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49445497989655,
+                    "longitude": 103.742515563965
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSY5539"
+                }
+            }
+        },
+        {
+            "id": "9036804c-68c4-453a-87d3-2bb408df7e79",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_100CWL_12339_1_A1_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "100",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 3.14632797241211,
+                    "longitude": 101.698379516602
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "VE1416"
+                }
+            }
+        },
+        {
+            "id": "7f94ab7e-7139-43bd-80cc-4c5bcdf13b04",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P103CWL_11962_0_SM2_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P103",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.50432598590851,
+                    "longitude": 103.763862609863
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSJ7542"
+                }
+            }
+        },
+        {
+            "id": "c470aa6b-8190-435d-b91d-9970b608c120",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_PE005CWL_12139_0_SS1_ALLDAY_2_4",
+                    "startDate": "20250130",
+                    "routeId": "PE005",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.45924699306488,
+                    "longitude": 104.281684875488
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSU4727"
+                }
+            }
+        },
+        {
+            "id": "91cfda6a-49e9-49de-85d6-494bc10ff0bd",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T32CWL_12257_1_P4_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T32",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.52226495742798,
+                    "longitude": 103.679588317871
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSL6469"
+                }
+            }
+        },
+        {
+            "id": "9b182358-947f-4e83-a249-e6c7feb63aa1",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_P103CWL_11961_1_SM1_ALLDAY_2_7",
+                    "startDate": "20250130",
+                    "routeId": "P103",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.50980699062347,
+                    "longitude": 103.751914978027
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSM3203"
+                }
+            }
+        },
+        {
+            "id": "8d7b7d96-9b09-4396-9d42-6d423b17a895",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T10CWL_12357_0_P6_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T10",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.59807002544403,
+                    "longitude": 103.822563171387
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSG5645"
+                }
+            }
+        },
+        {
+            "id": "54d3e891-a59e-4ad8-b433-f477091ba9a9",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T11CWL_12414_0_P7_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T11",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.46357297897339,
+                    "longitude": 103.75520324707
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JVY6703"
+                }
+            }
+        },
+        {
+            "id": "2f0c2aff-a4d6-409b-a8a0-8822057dda9e",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T20CWL_12428_0_P4_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T20",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.48752200603485,
+                    "longitude": 103.766479492188
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "SS9757Y"
+                }
+            }
+        },
+        {
+            "id": "04d7ca8c-e36b-4388-b4e2-13230ba95074",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12263_1_P6_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.57931804656982,
+                    "longitude": 103.65650177002
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "VDK8019"
+                }
+            }
+        },
+        {
+            "id": "ba249f75-e863-45cd-9232-3e2001dfc978",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_AA1CWL_12312_1_A2_ALLDAY_1_6",
+                    "startDate": "20250130",
+                    "routeId": "AA1",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.48609602451324,
+                    "longitude": 103.71745300293
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JXD5071"
+                }
+            }
+        },
+        {
+            "id": "b4f2f6d9-ebdb-43ce-aa58-a27a4b67e127",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T11CWL_12413_1_P4_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T11",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.56239402294159,
+                    "longitude": 103.75846862793
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWA2362"
+                }
+            }
+        },
+        {
+            "id": "834395c0-0907-4c53-87ad-ff63ff4a6939",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T30CWL_12264_0_P1_ALLDAY_2_2",
+                    "startDate": "20250130",
+                    "routeId": "T30",
+                    "directionId": 0
+                },
+                "position": {
+                    "latitude": 1.48795294761658,
+                    "longitude": 103.714263916016
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JWB5930"
+                }
+            }
+        },
+        {
+            "id": "f91b576f-2324-437c-bf02-082a90f82fe6",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T20CWL_12427_1_P2_ALLDAY_1_3",
+                    "startDate": "20250130",
+                    "routeId": "T20",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.46370899677277,
+                    "longitude": 103.764961242676
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "SS7596Y"
+                }
+            }
+        },
+        {
+            "id": "efcb93eb-6b9c-4609-aacf-d7cab7142b39",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T20CWL_12427_1_P8_ALLDAY_1_2",
+                    "startDate": "20250130",
+                    "routeId": "T20",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.52591800689697,
+                    "longitude": 103.81706237793
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "SS8569Y"
+                }
+            }
+        },
+        {
+            "id": "14efee46-c468-4319-9554-b971a6c89c08",
+            "vehicle": {
+                "trip": {
+                    "tripId": "0002_T33CWL_12423_1_P1_ALLDAY_2_3",
+                    "startDate": "20250130",
+                    "routeId": "T33",
+                    "directionId": 1
+                },
+                "position": {
+                    "latitude": 1.49590194225311,
+                    "longitude": 103.702323913574
+                },
+                "timestamp": "1738235944",
+                "vehicle": {
+                    "id": "JSL6477"
+                }
+            }
+        }
+    ]
+}

@@ -1,70 +1,108 @@
-import Terminal from "@/components/terminal"
-import Link from "next/link"
+"use client"
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Nova_Square } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Link as LinkScroll } from 'react-scroll';
 
-export default function Home() {
+
+const textFont = Nova_Square({
+  weight: ['400'],
+  subsets: ['latin'],
+});
+
+export default function Page() {
   return (
-    <div>
-      <h1>Malaysia API</h1>
-      <hr /><br />
-
-      <h2>Overview</h2>
-      <p>Malaysia API is an open-source project built with Next.js that aims to centralize and provide easy access to various open data from the government of Malaysia. The project combines data from different sources, offering a unified platform for developers, researchers, and the public to access valuable information seamlessly.</p>
-      <br />
-
-      <h2>Features</h2>
-      <ul>
-        <li><b>Consolidated Data:</b> Malaysia API brings together open data from various sectors of the Malaysian government, making it convenient for users to access a wide range of information in one place.</li>
-        <li><b>Developer-Friendly:</b> Built with Next.js, the project provides a developer-friendly environment for contributors to enhance and extend its capabilities.</li>
-      </ul>
-      <br />
-
-      <h2>NPM Packages Being Used</h2>
-      <ol>
-        <li>
-          <b><Link href='https://www.npmjs.com/package/mykad'>mykad:</Link></b> A package for working with Malaysian identification card (MyKad) information.</li>
-      </ol>
-      <br />
-
-      <h2>GitHub Repository</h2>
-      <ol>
-        <li><b><Link href='https://github.com/lomotech/jajahan'>jajahan</Link></b> by <b><Link href='https://github.com/lomotech'>lomotech</Link></b> - Jajahan adalah senarai alternatif untuk negeri, daerah, mukim, dun, bahagian, parlimen di dalam Malaysia. Tujuan asal adalah untuk digunakan di dalam sistem sebagai fix data yang tidak perlu masuk ke database kerana pertukarannya amat sedikit mengikut masa.</li>
-      </ol>
-      <br />
-
-      <h2>Open Data Sources</h2>
-      <ol>
-        <li><b><Link href='https://developer.data.gov.my'>Data Terbuka Sektor Awam:</Link></b> Explore public sector open data from the Malaysian government at <b><i><Link href='https://developer.data.gov.my'>developer.data.gov.my.</Link></i></b></li>
-        <li><b><Link href='http://sddsa.mampu.gov.my'>Data Dictionary MAMPU:</Link></b> Access the data dictionary provided by MAMPU (Malaysian Administrative Modernisation and Management Planning Unit) at <b><i><Link href='http://sddsa.mampu.gov.my'>sddsa.mampu.gov.my.</Link></i></b></li>
-        <li><b><Link href='https://malaysiapostcode.com/'>Malaysia Postcode:</Link></b> Provides Malaysia postcode lookup and free database download at <b><i><Link href='https://malaysiapostcode.com/'>malaysiapostcode.com.</Link></i></b></li>
-      </ol>
-      <br />
-
-      <h2>Getting Started</h2>
-      <ol>
-        <li>Clone the repository:</li>
-        <Terminal text={["git clone https://github.com/Altafxx/malaysia-api.git"]} />
-        <li>Install dependencies:</li>
-        <Terminal text={["cd malaysia-api", "npm install"]} />
-        <li>Run the development server:</li>
-        <Terminal text={["npm run dev"]} />
-        <li>Open your browser and visit <b><i><Link href='http://localhost:3000'>http://localhost:3000</Link></i></b> to explore Malaysia API.</li>
-      </ol>
-      <br />
-
-      {/* <h2>Contribution Guidelines</h2>
-      <p>We welcome and encourage contributions from the community. If you would like to contribute, please follow our <b><i><Link href='https://github.com/Altafxx/malaysia-api/blob/main/CONTRIBUTING.md'>contribution guidelines</Link></i></b>.</p>
-      <br /> */}
-
-      <h2>Issues and Feedback</h2>
-      <p>If you encounter any issues or have feedback, please <b><i><Link href='https://github.com/Altafxx/malaysia-api/issues'>open an issue</Link></i></b>.</p>
-      <br />
-
-      {/* <h2>License</h2>
-      <p>This project is licensed under the <b><i><Link href='https://github.com/Altafxx/malaysia-api/blob/main/LICENSE'></Link></i></b>MIT License.</p>
-      <br /> */}
-      <hr /><br />
-
-      <p>Thank you for your interest in Malaysia API! We hope this project serves as a valuable resource for accessing Malaysian government data.</p>
-    </div>
+    <main className="flex flex-col min-h-screen justify-center bg-background/60 dark:bg-background/80 items-center">
+      <Image src="/hero.jpg" alt="hero" width={1920} height={1080} className='flex fixed top-0 -z-10 min-h-screen min-w-screen object-cover' />
+      <div className="flex flex-col text-center justify-center min-h-screen space-y-8 w-full">
+        <div className='space-y-4'>
+          <h1 className={`text-7xl line-clamp-2 md:text-9xl ${textFont.className}`}>Nakhoda API</h1>
+          <p className="text-foreground/50 text-md md:text-lg italic">Centralize access to Malaysia&apos;s open data</p>
+        </div>
+        <div className="space-x-4 select-none">
+          <Button asChild className="py-6 w-40 rounded-full bg-blue-900 transition-all hover:bg-blue-800/80 hover:cursor-pointer">
+            <LinkScroll to="feature" smooth={true} duration={500}> Explore </LinkScroll>
+          </Button>
+          <Button asChild variant="outline" className="py-6 w-40 bg-blue-900/20 dark:bg-blue-900/10 hover:bg-black/5 outline outline-1 outline-blue-800/50 rounded-full">
+            <Link href="/docs">Docs</Link>
+          </Button>
+        </div>
+      </div>
+      <div id="feature" className="min-h-screen text-center space-y-8 flex flex-col justify-center py-12">
+        <h2 className="text-4xl font-medium">Features</h2>
+        <div className='grid grid-cols-1 md:grid-cols-3 px-4 md:px-48 gap-8'>
+          <Card className='hover:scale-105 transition-all'>
+            <CardHeader>
+              <CardTitle>
+                Realtime Transportation
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Realtime update for KTMB, MyBas Johor, Rapid Bus KL, Rapid Bus Kuantan and Rapid Bus Penang</CardDescription>
+            </CardContent>
+          </Card>
+          <Card className='hover:scale-105 transition-all'>
+            <CardHeader>
+              <CardTitle>
+                MyKad Parser
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Validate, parse, generate, and format Malaysian Identity Card (MyKad) numbers</CardDescription>
+            </CardContent>
+          </Card>
+          <Card className='hover:scale-105 transition-all'>
+            <CardHeader>
+              <CardTitle>
+                Ethnic
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Long list of ethnic diversity in Malaysia</CardDescription>
+            </CardContent>
+          </Card>
+          <Card className='hover:scale-105 transition-all'>
+            <CardHeader>
+              <CardTitle>
+                Postcode
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Detailed list of Malaysia&apos;s postcode, street name, district, area and state</CardDescription>
+            </CardContent>
+          </Card>
+          <Card className='relative overflow-clip hover:scale-105 transition-all'>
+            <div className='absolute bg-card/70 min-w-full min-h-full top-0 left-0 text-center content-center z-10'>
+              <div>Coming Soon!</div>
+            </div>
+            <CardHeader className='blur-sm select-none'>
+              <CardTitle>
+                Stations
+              </CardTitle>
+            </CardHeader>
+            <CardContent className='blur-sm select-none'>
+              <CardDescription>Listing of airports, bus stop, MRT stations, LRT stations, Monorel stations, KTM stations and Beam station</CardDescription>
+            </CardContent>
+          </Card>
+          <Card className='relative overflow-clip hover:scale-105 transition-all'>
+            <div className='absolute bg-card/70 min-w-full min-h-full top-0 left-0 text-center content-center z-10'>
+              <div>Coming Soon!</div>
+            </div>
+            <CardHeader className='blur-sm select-none'>
+              <CardTitle>
+                Public Holidays
+              </CardTitle>
+            </CardHeader>
+            <CardContent className='blur-sm select-none'>
+              <CardDescription>Public holidays listing in Malaysia on state and national level</CardDescription>
+            </CardContent>
+          </Card>
+        </div>
+        <ul className="text-md">
+        </ul>
+      </div>
+    </main>
   )
 }

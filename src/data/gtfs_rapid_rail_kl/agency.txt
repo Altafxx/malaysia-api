@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_phone,agency_lang
+rapidrail,rapidrail,http://www.myrapid.com.my,Asia/Kuala_Lumpur,60378852585,en

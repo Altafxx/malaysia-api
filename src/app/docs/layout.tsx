@@ -1,25 +1,18 @@
-import { DocsLayout } from 'fumadocs-ui/layout';
-import type { ReactNode } from 'react';
-import { docsOptions } from '@/app/layout.config';
-import 'fumadocs-ui/style.css';
+import '@/styles/globals.css';
 import { RootProvider } from 'fumadocs-ui/provider';
 import { Inter } from 'next/font/google';
+import type { ReactNode } from 'react';
 
 const inter = Inter({
-    subsets: ['latin'],
+    subsets: ['latin']
 });
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
         <html lang="en" className={inter.className} suppressHydrationWarning>
-            <body>
-                <RootProvider>
-                    <DocsLayout {...docsOptions}>{children}</DocsLayout>
-                </RootProvider >
+            <body className="flex min-h-screen flex-col">
+                <RootProvider>{children}</RootProvider>
             </body>
-        </html >
-    )
+        </html>
+    );
 }
-
-
-

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.4.1",
     "@radix-ui/react-slot": "^1.1.1",
     "@types/mdx": "^2.0.13",
     "class-variance-authority": "^0.7.1",
@@ -33,6 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
+    "prisma": "^6.4.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

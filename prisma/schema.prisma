@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Batch {
+  id            String       @id @default(cuid())
+  createdAt     DateTime     @default(now())
+  vehicleTypeID String
+  vehicleType   VehicleType  @relation(fields: [vehicleTypeID], references: [id])
+  TripUpdate    TripUpdate[]
+}
+
+model TripUpdate {
+  id         String   @id @default(cuid())
+  timestamp  String
+  tripID     String
+  trip       Trip     @relation(fields: [tripID], references: [id])
+  positionID String
+  position   Position @relation(fields: [positionID], references: [id])
+  vehicleID  String
+  vehicle    Vehicle  @relation(fields: [vehicleID], references: [id])
+  batchID    String?
+  batch      Batch?   @relation(fields: [batchID], references: [id])
+  createdAt  DateTime @default(now())
+}
+
+model Trip {
+  id          String       @id @default(cuid())
+  refID       String // The original ID from FeedEntity.entity[x].vehicle.trip.tripId
+  startDate   String?
+  startTime   String?
+  routeID     String?
+  directionID Int?
+  tripUpdates TripUpdate[]
+}
+
+model Position {
+  id         String       @id @default(cuid())
+  latitude   Float
+  longitude  Float
+  bearing    Int?
+  speed      Float?
+  TripUpdate TripUpdate[]
+}
+
+model Vehicle {
+  id            String       @id @default(cuid())
+  label         String       @unique // The label of the vehicle (if available)
+  vehicleTypeID String
+  vehicleType   VehicleType  @relation(fields: [vehicleTypeID], references: [id])
+  TripUpdate    TripUpdate[]
+  createdAt     DateTime     @default(now())
+}
+
+model VehicleType {
+  id      String    @id @default(cuid())
+  name    String    @unique
+  Vehicle Vehicle[]
+  Batch   Batch[]
+}

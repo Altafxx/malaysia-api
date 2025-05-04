@@ -30,19 +30,21 @@ export default function Page() {
           </Button>
         </div>
       </div>
-      <div id="feature" className="min-h-screen text-center space-y-8 flex flex-col justify-center py-12">
+      <div id="feature" className="min-h-screen text-center space-y-8 flex flex-col justify-center py-12 max-w-7xl">
         <h2 className="text-4xl font-medium">Features</h2>
-        <div className='grid grid-cols-1 md:grid-cols-3 px-4 md:px-48 gap-8'>
-          <Card className='hover:scale-105 transition-all'>
-            <CardHeader>
-              <CardTitle>
-                Realtime Transportation
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription>Realtime update for KTMB, MyBas Johor, Rapid Bus KL, Rapid Bus Kuantan and Rapid Bus Penang</CardDescription>
-            </CardContent>
-          </Card>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 gap-8'>
+          <Link href="/public-transports">
+            <Card className='hover:scale-105 transition-all'>
+              <CardHeader>
+                <CardTitle>
+                  Realtime Transportation
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>Realtime update for KTMB, MyBas Johor, Rapid Bus KL, Rapid Bus Kuantan and Rapid Bus Penang</CardDescription>
+              </CardContent>
+            </Card>
+          </Link>
           <Card className='hover:scale-105 transition-all'>
             <CardHeader>
               <CardTitle>

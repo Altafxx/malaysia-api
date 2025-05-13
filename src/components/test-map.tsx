@@ -4,7 +4,7 @@ import { LatLngExpression, LatLngTuple } from 'leaflet'
 import dynamic from 'next/dynamic'
 import { useMemo } from 'react'
 
-export default function TestMap({ marker, zoom = 19 }: { marker?: { position: LatLngExpression | LatLngTuple, label: string }[], zoom?: number }) {
+export default function TestMap({ marker, zoom = 19 }: { marker?: { position: LatLngExpression | LatLngTuple, label: string, vehicleId?: string }[], zoom?: number }) {
     const Map = useMemo(() => dynamic(
         () => import('@/components/map'),
         {
@@ -21,7 +21,7 @@ export default function TestMap({ marker, zoom = 19 }: { marker?: { position: La
     return (
         <>
             <div className="bg-white-700 mx-auto my-5 w-[98%] h-[480px]">
-                <Map marker={marker} zoom={zoom} />
+                <Map markers={marker} zoom={zoom} />
             </div>
         </>
     )

@@ -1,18 +1,30 @@
 import { db } from '../src/lib/db-client'
-import vehicleDetailSeeder from './seeder/seed-rapid-bus-kl-label'
 import vehicleTypeSeeder from './seeder/seed-vehicle-type'
-
+import seedSampleData from './seeder/seed-sample-data'
 
 async function main() {
     await db.$connect()
 
-    const vehicleType = await vehicleTypeSeeder()
+    try {
+        // Check if we already have vehicle types
+        const existingVehicleTypes = await db.vehicleType.count();
 
-    // const vehicleDetail = await vehicleDetailSeeder()
+        // Only seed vehicle types if we don't have any
+        if (existingVehicleTypes === 0) {
+            console.log("Seeding vehicle types...")
+            const vehicleType = await vehicleTypeSeeder()
+            console.log({ vehicleType })
+        } else {
+            console.log(`Using ${existingVehicleTypes} existing vehicle types`)
+        }
 
-
-
-    console.log({ vehicleType })
+        // Seed sample data for testing (our updated function will check if data already exists)
+        console.log("Checking sample data...")
+        const sampleData = await seedSampleData()
+        console.log("Sample data process completed:", sampleData)
+    } catch (error) {
+        console.error("Error during seeding:", error)
+    }
 }
 
 main()

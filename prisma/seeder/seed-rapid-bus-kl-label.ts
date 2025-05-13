@@ -1,5 +1,5 @@
 import { db } from "../../src/lib/db-client"
-import rapidBusKLPlate from "@/data/plate-number/rapid-bus-kl"
+import rapidBusKLPlate from "../../src/data/plate-number/rapid-bus-kl"
 
 
 export default async function vehicleSeeder() {
